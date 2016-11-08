@@ -1,0 +1,36 @@
+</td>
+          </tr>
+        </table></td>
+    </tr>
+  </table>
+  <table width="750" border="0" cellspacing="0" cellpadding="0">
+    <tr> 
+      <td width="150" valign="bottom">&nbsp;</td>
+      <td width="619"> <table width="281" border="0" align="center" cellpadding="3" cellspacing="0">
+          <tr align="center"> 
+            <td><a href="../erotic.php" class="link">Contents Page</a></td>
+            <td width="25%"><a href="../forums/" class="link">Forums</a></td>
+            <td colspan="2"><a href="../links.htm" class="link">Links</a></td>
+          </tr>
+        </table></td>
+    </tr>
+  </table>
+  <table width="750" border="0" cellspacing="2" cellpadding="8">
+    <tr> 
+      <td bgcolor="f1f1f1"><table width="100%" border="1" cellspacing="0" cellpadding="3" bordercolor="#FFCC00">
+          <tr> 
+            <td bgcolor="#FFFFFF"> <p class="small"><font color="#999999">All 
+                HTML/Images copyright Pixies-Place. No Reproduction of any kind 
+                without permission.<br>
+                Any Comments to <a href="mailto:webmaster@pixies-place.com" class="small">webmaster@pixies-place.com</a></font></p></td>
+          </tr>
+        </table></td>
+    </tr>
+  </table>
+</div></td>
+  </tr>
+</table>
+
+</BODY>
+
+</html>

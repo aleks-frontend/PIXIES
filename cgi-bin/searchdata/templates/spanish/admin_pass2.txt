@@ -1,0 +1,18 @@
+<p>Usted necesita crear una palabra clave administrativa.</p>
+<p>Este Motor de Búsqueda es manejado a través de las paginas del Web. Una palabra clave fuerte evita que otros tengan acceso a estas paginas administrativas.</p>
+<p>Es permitido que invente su palabra clave. No existe  ninguna regla fija sobre lo que pueda ser, pero debe ser difícil que otros no puedan conjeturar. Su palabra clave será caso sensible.</p>
+<p>Incorpore la misma palabra clave dos veces, entonces someta la forma.</p>
+<blockquote>
+	<table border="0">
+		<tr>
+			<td><b>Clave:</b></td>
+			<td><input type="password" name="Password" /></td>
+		</tr><tr>
+			<td><b>Clave:</b></td>
+			<td><input type="password" name="X2" /></td>
+		</tr><tr>
+			<td><br /></td>
+			<td><input type="submit" class="submit" value="Create Password" /></td>
+		</tr>
+	</table>
+</blockquote>

@@ -1,0 +1,806 @@
+<html>
+
+<head>
+<title>FlashStats 1.5 Report Request Form</title>
+<meta name="Version" content="1.5, 31 Jan 2000, Advanced">
+<meta name="Keywords" content="Maximized Software FlashStats 1.5 web site log file analysis statistics">
+<meta name="Description" content="Maximized Software FlashStats analyzes your web site log files, telling you who visited your site, where they came from (this is referrer information), and what search phrases users typed at search engines to find your web site.">
+
+
+<!-- To customize, look for all comments starting with the word CHANGE: -->
+
+
+<script language="JavaScript">
+<!--
+
+function AddString(EditControl, StrToAdd)
+{
+	var CurStr;
+	var StrToFind;
+
+
+	// If just a null string, then clear the edit field
+	if (StrToAdd.length == 0)
+	{
+		EditControl.value = "";
+		return;
+	}
+
+	// Get the current string and surrounds with commas so we
+	// can see if the desired string is already present
+	CurStr = "," + EditControl.value + ",";
+	StrToFind = "," + StrToAdd + ",";
+
+	// Search
+	if (CurStr.indexOf(StrToFind) >= 0)
+		// The string is already in the edit field, so just exit now
+		return;
+
+	// Append the string
+	// If empty string, then just set
+	if (CurStr.length == 2)
+		EditControl.value = StrToAdd;
+	else
+		EditControl.value = EditControl.value + "," + StrToAdd;
+
+}  // AddString()
+
+
+
+// Values for Method:  0=relative,  1=absolute,  2=relative month,  3=this month
+function SelectDates(Offset_Start, Offset_End, Method)
+{
+	document.FrmMain.url.value = 'http://' + document.domain
+
+	document.FrmMain.filter_domains.value = document.domain
+        if (document.FrmMain.filter_domains.value.indexOf('www.') == 0)
+	{
+		document.FrmMain.filter_domains.value = document.domain.substring(4)
+	}
+
+	StartDate = new Date();
+	EndDate = new Date();
+
+	// exit immediately if a date is already selected
+	// (so that if the page is just being reloaded we don't destroy
+	// the user's prior selections)
+	if (Method == 1)
+		if (document.FrmMain.sm.selectedIndex > 0)
+			return;
+
+	// Relative, or absolute (days)
+	if (Method <= 1)
+	{
+		// start date
+		StartDate.setTime(StartDate.getTime() + (60*60*24*1000*Offset_Start));
+		document.FrmMain.sm.selectedIndex = StartDate.getMonth() + 1;
+		document.FrmMain.sd.selectedIndex = StartDate.getDate() - 1;
+		document.FrmMain.sy.selectedIndex = StartDate.getFullYear() - 2000;
+
+		// end date
+		EndDate.setTime(EndDate.getTime() + (60*60*24*1000*Offset_End));
+		document.FrmMain.em.selectedIndex = EndDate.getMonth() + 1;
+		document.FrmMain.ed.selectedIndex = EndDate.getDate() - 1;
+		document.FrmMain.ey.selectedIndex = EndDate.getFullYear() - 2000;
+	}
+
+	// Relative month
+	if (Method == 2)
+	{
+		// start date
+		StartDate.setDate(1);
+		StartDate.setMonth( StartDate.getMonth() + Offset_Start );
+		document.FrmMain.sm.selectedIndex = StartDate.getMonth() + 1;
+		document.FrmMain.sd.selectedIndex = StartDate.getDate() - 1;
+		document.FrmMain.sy.selectedIndex = StartDate.getFullYear() - 2000;
+
+		// end date
+		EndDate.setDate(1);
+		EndDate.setMonth( EndDate.getMonth() + Offset_End + 1);
+		EndDate.setTime(EndDate.getTime() - (60*60*24*1000));
+		document.FrmMain.em.selectedIndex = EndDate.getMonth() + 1;
+		document.FrmMain.ed.selectedIndex = EndDate.getDate() - 1;
+		document.FrmMain.ey.selectedIndex = EndDate.getFullYear() - 2000;
+	}
+
+	// This month so far
+	if (Method == 3)
+	{
+		// start date
+		StartDate.setDate(1);
+		document.FrmMain.sm.selectedIndex = StartDate.getMonth() + 1;
+		document.FrmMain.sd.selectedIndex = StartDate.getDate() - 1;
+		document.FrmMain.sy.selectedIndex = StartDate.getFullYear() - 2000;
+
+		// end date
+		document.FrmMain.em.selectedIndex = EndDate.getMonth() + 1;
+		document.FrmMain.ed.selectedIndex = EndDate.getDate() - 1;
+		document.FrmMain.ey.selectedIndex = EndDate.getFullYear() - 2000;
+	}
+
+	// if start=end, then turn off the "Daily Totals" and "Hits Per Day of Week"
+	// reports, since they are kinda useless just for one day
+	ReportsBool = 1
+	if (document.FrmMain.sm.selectedIndex == document.FrmMain.em.selectedIndex)
+		if (document.FrmMain.sd.selectedIndex == document.FrmMain.ed.selectedIndex)
+			if (document.FrmMain.sy.selectedIndex == document.FrmMain.ey.selectedIndex)
+			{
+				ReportsBool = 0
+			}
+	document.FrmMain.dailytotals.checked = ReportsBool
+	document.FrmMain.hitsperdayofweek.checked = ReportsBool
+
+}  // SelectDates()
+
+
+
+function SelectRelativeDates(Offset_Start, Offset_End) {
+
+	// start date
+	ChangeDate = new Date(	document.FrmMain.sy.selectedIndex + 2000, 
+				document.FrmMain.sm.selectedIndex - 1,
+				document.FrmMain.sd.selectedIndex + 1);
+	ChangeDate.setTime(ChangeDate.getTime() + (60*60*24*1000*Offset_Start));
+	document.FrmMain.sm.selectedIndex = ChangeDate.getMonth() + 1;
+	document.FrmMain.sd.selectedIndex = ChangeDate.getDate() - 1;
+	document.FrmMain.sy.selectedIndex = ChangeDate.getFullYear() - 2000;
+
+	// end date
+	ChangeDate = new Date(	document.FrmMain.ey.selectedIndex + 2000, 
+				document.FrmMain.em.selectedIndex - 1,
+				document.FrmMain.ed.selectedIndex + 1);
+	ChangeDate.setTime(ChangeDate.getTime() + (60*60*24*1000*Offset_End));
+	document.FrmMain.em.selectedIndex = ChangeDate.getMonth() + 1;
+	document.FrmMain.ed.selectedIndex = ChangeDate.getDate() - 1;
+	document.FrmMain.ey.selectedIndex = ChangeDate.getFullYear() - 2000;
+
+} // SelectRelativeDates()
+
+
+
+function SelectReports(SelBool)
+{
+	document.FrmMain.requests.checked = SelBool;
+	document.FrmMain.referrers.checked = SelBool;
+	document.FrmMain.search.checked = SelBool;
+	document.FrmMain.browsers.checked = SelBool;
+	document.FrmMain.badurls.checked = SelBool;
+	document.FrmMain.badreferrers.checked = SelBool;
+	document.FrmMain.domaintypes.checked = SelBool;
+	document.FrmMain.dailytotals.checked = SelBool;
+	document.FrmMain.hitsperdayofweek.checked = SelBool;
+	document.FrmMain.hitsperhour.checked = SelBool;
+
+	// Domains report not selected with "All Reports" since it's the slowest to create; 
+	// feel free to treat it normally
+	// CHANGE: you may want to use the following line to include the Domains report
+	//         instead of the line after it which excludes the Domains report
+
+	//document.FrmMain.domains.checked = SelBool;
+	if (SelBool == 0) document.FrmMain.domains.checked = 0;
+
+}  // SelectReports()
+
+
+
+function SetPercent(Field)
+{
+	var length;
+	length = Field.value.length;
+	if ("%" == Field.value.substring(length-1,length))
+		Field.value = Field.value.substring(0,length-1);
+	else	Field.value += "%";
+
+} // SetPercent()
+
+
+
+
+function SetAllHits(HitsStr)
+{
+var length;
+
+	if (HitsStr == "%")
+	{
+		length = document.FrmMain.requests_top.value.length;
+		if ("%" != document.FrmMain.requests_top.value.substring(length-1,length))
+			document.FrmMain.requests_top.value += "%";
+
+		length = document.FrmMain.referrers_top.value.length;
+		if ("%" != document.FrmMain.referrers_top.value.substring(length-1,length))
+			document.FrmMain.referrers_top.value += "%";
+
+		length = document.FrmMain.search_top.value.length;
+		if ("%" != document.FrmMain.search_top.value.substring(length-1,length))
+			document.FrmMain.search_top.value += "%";
+
+		length = document.FrmMain.browsers_top.value.length;
+		if ("%" != document.FrmMain.browsers_top.value.substring(length-1,length))
+			document.FrmMain.browsers_top.value += "%";
+
+		length = document.FrmMain.badurls_top.value.length;
+		if ("%" != document.FrmMain.badurls_top.value.substring(length-1,length))
+			document.FrmMain.badurls_top.value += "%";
+
+		length = document.FrmMain.badreferrers_top.value.length;
+		if ("%" != document.FrmMain.badreferrers_top.value.substring(length-1,length))
+			document.FrmMain.badreferrers_top.value += "%";
+
+		length = document.FrmMain.domains_top.value.length;
+		if ("%" != document.FrmMain.domains_top.value.substring(length-1,length))
+			document.FrmMain.domains_top.value += "%";
+
+		length = document.FrmMain.domaintypes_top.value.length;
+		if ("%" != document.FrmMain.domaintypes_top.value.substring(length-1,length))
+			document.FrmMain.domaintypes_top.value += "%";
+	}
+	else
+	{
+		document.FrmMain.requests_top.value = HitsStr;
+		document.FrmMain.referrers_top.value = HitsStr;
+		document.FrmMain.search_top.value = HitsStr;
+		document.FrmMain.browsers_top.value = HitsStr;
+		document.FrmMain.badurls_top.value = HitsStr;
+		document.FrmMain.badreferrers_top.value = HitsStr;
+		document.FrmMain.domains_top.value = HitsStr;
+		document.FrmMain.domaintypes_top.value = HitsStr;
+	}
+
+}  // SetAllHits()
+
+
+
+function SetAllThreshold(HitsStr)
+{
+	document.FrmMain.requests_greater.value = HitsStr;
+	document.FrmMain.referrers_greater.value = HitsStr;
+	document.FrmMain.search_greater.value = HitsStr;
+	document.FrmMain.browsers_greater.value = HitsStr;
+	document.FrmMain.badurls_greater.value = HitsStr;
+	document.FrmMain.badreferrers_greater.value = HitsStr;
+	document.FrmMain.domains_greater.value = HitsStr;
+	document.FrmMain.domaintypes_greater.value = HitsStr;
+
+} // SetAllThreshold()
+
+
+//-->
+</script>
+
+</head>
+<!-- end HEAD  -->
+<!-- -------------------------------------------------------------------- -->
+
+
+
+<!-- -------------------------------------------------------------------- -->
+<!-- BODY  -->
+
+<body bgcolor="#E9E1DA" onLoad="SelectDates(0, 0, 1)" background="brntxtr2.jpg">
+<a href="http://www.maximized.com/products/flashstats/" target="_blank">
+ <img src="fs15-reg.gif" width=278 height=75 align="right" border=0 alt="FlashStats logo"
+ title="Click here to go to the FlashStats home page (in a new window)."></a>
+<font color="#000099"><h2>FlashStats 1.5 Report Request Form</h2></font>
+
+
+<!-- CHANGE:  make sure that the path and filename are correct -->
+<form action="flashstats.cgi" method="post" name="FrmMain">
+
+<input type="submit" value=" Generate Statistics " title="Set your report options below, then click here to run FlashStats.">
+<input type="reset" value=" Reset All Fields " onClick="SelectDates(0, 0, 0)" title="Reset all fields to their default values.">
+<br clear="all">
+<font size="-1">This is the advanced form.  You may prefer to use the
+ <a href="index.html" title="The standard form contains only the most frequently-used options.">standard form</a> instead.</font>
+<p>
+
+
+<!-- ------------------------------- -->
+<!-- Report Parameters Table -->
+<input type="hidden" name="username" value="sample">
+<input type="hidden" name="password" value="">
+<input type="hidden" name="url" value="">
+
+<table width="100%" cellspacing=0 cellpadding=4 border=1 bgcolor="#E9E1DA">
+
+<!-- Page to Analyze: -->
+<tr>
+	<td><b>Page To Analyze:</b><br>
+	<font size="-1">Enter the leading part of the URLs that you want to have analyzed.
+	Specify just <b>/</b> to analyze your entire web site.</font></td>
+	<td><input type="text" name="find" value="/" size=50 title="Leave off the leading 'http://' part and your domain name, but start with a single '/'.  For example, rather than 'http://www.yourdomain.com/products/' just enter '/products/'."><br>
+
+	<table border=0 cellspacing=0 cellpadding=0>
+	<tr>
+		<td>&nbsp;&nbsp;&nbsp;&nbsp;</td>
+		<td valign="top"><font size="-1"><input type="checkbox" name="find_casesensitive" id="MatchCase" value="1" title="If checked, case-sensitive comparisons will be performed.">
+		<label for="MatchCase" title="If checked, case-sensitive comparisons will be performed.">Match case exactly</label></font></td>
+
+		<td>&nbsp;&nbsp;&nbsp;</td>
+
+		<td valign="top"><font size="-1"><input type="checkbox" name="find_pattern" id="UseWildcards" value="1" title="Check this box if the 'Page To Analyze' text contains wildcards." checked>
+		<label for="UseWildcards" title="Check this box if the 'Page To Analyze' text contains wildcards.">Use wildcards (*, ?, |, [a-z])</label>
+		<font size=1>(<a href="http://www.maximized.com/products/flashstats/wildcard-help.htm" target="_blank" title="View help on the wildcard syntax (in a new window).">syntax help</a>)</font></font></td>
+	</tr>
+	</table>
+
+	<table border=0 cellspacing=0 cellpadding=0>
+	<tr>
+		<td>&nbsp;&nbsp;&nbsp;&nbsp;</td>
+		<td valign="top"><font size="-1"><input type="radio" name="subdirs" id="subdirs0" value="0" title="If chosen, only analyze requested URLs which exactly match the 'Page To Analyze' field.">
+		<label for="subdirs0" title="If chosen, only analyze requested URLs which exactly match the 'Page To Analyze' field.">Match only this URL exactly</label></font></td>
+	
+		<td>&nbsp;&nbsp;&nbsp;</td>
+
+		<td valign="top"><font size="-1"><input type="radio" name="subdirs" id="subdirs1" value="1" checked title="If chosen, analyze all requested URLs that start with the text entered in the 'Page To Analyze' field.">
+		<label for="subdirs1" title="If chosen, analyze all requested URLs that start with the text entered in the 'Page To Analyze' field.">Match all URLs starting with this text</label></font></td>
+	</tr>
+	</table></td>
+</tr>
+
+<!-- This next row is commented out by default because most users won't use this option.
+     Feel free to use it if you desire to filter by authenticated realm and/or user. -->
+<!--
+<tr>
+	<td><b>Authenticated Realm / User:</b></td>
+	<td><input type="text" name="AuthRealm" value="" size="25" title="Enter the name of the authenticated realm to analyze.">
+	 / <input type="text" name="AuthUser" value="" size="25" title="Enter the name of the authenticated user to analyze."></td>
+</tr>
+-->
+
+<!-- Days to Analyze: -->
+<tr>
+	<td><b>Days To Analyze:</b></td>
+
+	<td>
+	<table border=0 cellpadding=0 cellspacing=0><tr>
+
+	<td>From:</td>
+
+	<td align="center">
+	<select name="sm">
+	<option value="01">???
+	<option value="01">January
+	<option value="02">February
+	<option value="03">March
+	<option value="04">April
+	<option value="05">May
+	<option value="06">June
+	<option value="07">July
+	<option value="08">August
+	<option value="09">September
+	<option value="10">October
+	<option value="11">November
+	<option value="12">December
+	</select>
+
+	<select name="sd">
+	<option value="01">1
+	<option value="02">2
+	<option value="03">3
+	<option value="04">4
+	<option value="05">5
+	<option value="06">6
+	<option value="07">7
+	<option value="08">8
+	<option value="09">9
+	<option value="10">10
+	<option value="11">11
+	<option value="12">12
+	<option value="13">13
+	<option value="14">14
+	<option value="15">15
+	<option value="16">16
+	<option value="17">17
+	<option value="18">18
+	<option value="19">19
+	<option value="20">20
+	<option value="21">21
+	<option value="22">22
+	<option value="23">23
+	<option value="24">24
+	<option value="25">25
+	<option value="26">26
+	<option value="27">27
+	<option value="28">28
+	<option value="29">29
+	<option value="30">30
+	<option value="31">31
+	</select>
+
+	<select name="sy">
+	<option value="2000">2000
+	<option value="2001">2001
+	<option value="2002">2002
+	<option value="2003">2003
+	<option value="2004">2004
+	<option value="2005">2005
+	<option value="2006">2006
+	<option value="2007">2007
+	<option value="2008">2008
+	</select></td>
+
+	<td>
+	<table align=left border=0 cellpadding="0">
+	<tr><td><a href="javascript:SelectRelativeDates(1, 0)"><img src="up.gif" width=14 height=11 border="0" hspace="0" vspace="0" alt="Adjust 'From' date UP one day."></a></td></tr>
+	<tr><td><a href="javascript:SelectRelativeDates(-1, 0)"><img src="down.gif" width=14 height=11 border="0" hspace="0" vspace="0" alt="Adjust 'From' date DOWN one day."></a></td></tr>
+	</table>
+	</td>
+
+	<td rowspan="2" valign="middle"><img src="rtbrace.gif" width=17 height=48></td>
+
+	<td align="center" rowspan="2">
+	Adjust both:<br>
+	</td>
+
+	<td align="center" rowspan="2">
+	<table border="0" cellpadding="0">
+	<tr><td><a href="javascript:SelectRelativeDates(1, 1)"><img src="up.gif" width=14 height=11 border="0" hspace="0" vspace="0" alt="Adjust both dates UP one day."></a></td></tr>
+	<tr><td><a href="javascript:SelectRelativeDates(-1, -1)"><img src="down.gif" width=14 height=11 border="0" hspace="0" vspace="0" alt="Adjust both dates DOWN one day."></a></td></tr>
+	</table>
+	</td>
+
+	</tr>
+	<tr>
+
+	<td>To:</td>
+
+	<td align="center">
+	<select name="em">
+	<option value="01">???
+	<option value="01">January
+	<option value="02">February
+	<option value="03">March
+	<option value="04">April
+	<option value="05">May
+	<option value="06">June
+	<option value="07">July
+	<option value="08">August
+	<option value="09">September
+	<option value="10">October
+	<option value="11">November
+	<option value="12">December
+	</select>
+
+	<select name="ed">
+	<option value="01">1
+	<option value="02">2
+	<option value="03">3
+	<option value="04">4
+	<option value="05">5
+	<option value="06">6
+	<option value="07">7
+	<option value="08">8
+	<option value="09">9
+	<option value="10">10
+	<option value="11">11
+	<option value="12">12
+	<option value="13">13
+	<option value="14">14
+	<option value="15">15
+	<option value="16">16
+	<option value="17">17
+	<option value="18">18
+	<option value="19">19
+	<option value="20">20
+	<option value="21">21
+	<option value="22">22
+	<option value="23">23
+	<option value="24">24
+	<option value="25">25
+	<option value="26">26
+	<option value="27">27
+	<option value="28">28
+	<option value="29">29
+	<option value="30">30
+	<option value="31">31
+	</select>
+
+	<select name="ey">
+	<option value="2000">2000
+	<option value="2001">2001
+	<option value="2002">2002
+	<option value="2003">2003
+	<option value="2004">2004
+	<option value="2005">2005
+	<option value="2006">2006
+	<option value="2007">2007
+	<option value="2008">2008
+	</select></td>
+
+	<td>
+	<table border=0 cellpadding="0">
+	<tr><td><a href="javascript:SelectRelativeDates(0, 1)"><img src="up.gif" width=14 height=11 border="0" hspace="0" vspace="0" alt="Adjust 'To' date UP one day."></a></td></tr>
+	<tr><td><a href="javascript:SelectRelativeDates(0, -1)"><img src="down.gif" width=14 height=11 border="0" hspace="0" vspace="0" alt="Adjust 'To' date DOWN one day."></a></td></tr>
+	</table>
+	</td>
+
+	</tr>
+
+	<tr><td align="left" colspan=6>
+	<font size="-1"><a href="javascript:SelectDates(0, 0, 0)" title="Analyze today's web site activity.">Today</a></font>
+	<font size="-1">&nbsp;&nbsp;&nbsp;&nbsp;<a href="javascript:SelectDates(-1, -1, 0)" title="Anaylze yesterday's web site activity.">Yesterday</a></font>
+	<font size="-1">&nbsp;&nbsp;&nbsp;&nbsp;<a href="javascript:SelectDates(-7, -1, 0)" title="Analyze the preceding 7 days (not including today).">Last&nbsp;7&nbsp;days</a></font>
+	<font size="-1">&nbsp;&nbsp;&nbsp;&nbsp;<a href="javascript:SelectDates(-31, -1, 0)" title="Analyze the preceding 30 days (not including today).">Last&nbsp;30&nbsp;days</a></font>
+	<font size="-1">&nbsp;&nbsp;&nbsp;&nbsp;<a href="javascript:SelectDates(-1, -1, 2)" title="Analyze the previous month.">Last&nbsp;month</a></font>
+	<font size="-1">&nbsp;&nbsp;&nbsp;&nbsp;<a href="javascript:SelectDates(0, 0, 3)" title="Analyze the web site activity so far this month.">This&nbsp;month</a></font>
+	</td></tr>
+	</table>
+
+	</td>
+</tr>
+
+<!-- Filter users: -->
+<tr>
+	<td><b>Filter Out Requests From Specific IPs Or Domains:</b></td>
+	<!-- CHANGE:  put your domains and/or IP numbers in this value to omit from analysis hits from within your own domain -->
+	<td><input type="text" name="filter_domains" value="" size=25 title="Enter a comma-separated list of client IP addresses or client domains to ignore.">
+	 <font size="-1">
+	 &nbsp;&nbsp;&nbsp;&nbsp;<a href="javascript:AddString(document.FrmMain.filter_domains, '')" title="Clear the list.">Clear</a>
+	</font></td>
+</tr>
+
+<!-- Filter file types: -->
+<tr>
+	<td><b>Filter Out Requests For Specific File Types:</b></td>
+	<!-- CHANGE:  customize the value of the filter_filetypes textbox 
+	     with default file types to ignore, if desired	-->
+	<td>
+	<table><tr>
+		<td><input type="text" name="filter_filetypes" value="gif,jpg,jpeg,png" size=25 title="Enter a comma-separated list of file extensions to ignore."></td>
+		<td>
+		 <font size="-1">
+		 &nbsp;&nbsp;&nbsp;&nbsp;<a href="javascript:AddString(document.FrmMain.filter_filetypes, '')" title="Clear the list.">Clear</a>
+		 &nbsp;&nbsp;&nbsp;&nbsp;<a href="javascript:AddString(document.FrmMain.filter_filetypes,'gif')" title="Ignore requests for GIF files.">+gif</a>
+		 &nbsp;&nbsp;&nbsp;&nbsp;<a href="javascript:AddString(document.FrmMain.filter_filetypes,'jpg')" title="Ignore requests for JPG files.">+jpg</a>
+		 &nbsp;&nbsp;&nbsp;&nbsp;<a href="javascript:AddString(document.FrmMain.filter_filetypes,'jpeg')" title="Ignore requests for JPEG files.">+jpeg</a>
+		 &nbsp;&nbsp;&nbsp;&nbsp;<a href="javascript:AddString(document.FrmMain.filter_filetypes,'png')" title="Ignore requests for PNG files.">+png</a>
+		 &nbsp;&nbsp;&nbsp;&nbsp;<a href="javascript:AddString(document.FrmMain.filter_filetypes,'htm')" title="Ignore requests for HTM files.">+htm</a>
+		 &nbsp;&nbsp;&nbsp;&nbsp;<a href="javascript:AddString(document.FrmMain.filter_filetypes,'html')" title="Ignore requests for HTML files.">+html</a>
+		 &nbsp;&nbsp;&nbsp;&nbsp;<a href="javascript:AddString(document.FrmMain.filter_filetypes,'asp')" title="Ignore requests for ASP files.">+asp</a>
+		</font>
+		</td>
+	</tr></table>
+	</td>
+</tr>
+
+<!-- DNS Lookup:
+	 This option will slow down reports by a factor of 20-100 because of the time required 
+	 to look up domain names from DNS servers.  If your log files record only IP addresses then
+	 use this option to see the domain information.  
+	 You may need to increase the timeout value of your web server. -->
+<tr>
+	<td><b>DNS Lookups:</b></td>
+	<td><input type="checkbox" name="dnslookupenabled" id="Dns" value="1" title="Check this box to have FlashStats convert client IP numbers to domain names if your web server didn't do this when writing the log.">
+	<label for="Dns" title="Check this box to have FlashStats convert client IP numbers to domain names if your web server didn't do this when writing the log.">Convert client IP numbers to domain names (slow!)</label></td>
+</tr>
+
+</table>
+<!-- End Report Parameters Table -->
+<!-- ------------------------------- -->
+<p>
+
+
+
+<b>Choose reports to generate:</b>
+
+<!-- ------------------------------- -->
+<!-- Reports Table -->
+<table width="100%" cellspacing=0 cellpadding=0 border=1>
+
+<tr>
+	<td align=center bgcolor="#000000"><font color="#FFFFFF"><b>Reports</b></font></td>
+	<td colspan=2 align="center" bgcolor="#000000"><font color="#FFFFFF"><b>Options</b></font></td>
+</tr>
+
+<tr>
+	<td align="center" bgcolor="#E9E1DA">
+	<font size="-1">Quick select:
+	 &nbsp;&nbsp;&nbsp;&nbsp;<a href="javascript:SelectReports(1)" title="Select all reports (except User Domain Analysis).">All reports</a>
+	 &nbsp;&nbsp;&nbsp;&nbsp;<a href="javascript:SelectReports(0)" title="De-select all reports.">No reports</a>
+	</font>
+	</td>
+
+	<td align="center" bgcolor="#E9E1DA">
+	<font size="-1">Quick select:
+	 &nbsp;&nbsp;&nbsp;&nbsp;<a href="javascript:SetAllHits('')" title="Show all results (for all reports).">All</a>
+	 &nbsp;&nbsp;&nbsp;&nbsp;<a href="javascript:SetAllHits('1')" title="Show only top 1 result (for all reports).">1</a>
+	 &nbsp;&nbsp;&nbsp;&nbsp;<a href="javascript:SetAllHits('10')" title="Show top 10 results (for all reports).">10</a>
+	 &nbsp;&nbsp;&nbsp;&nbsp;<a href="javascript:SetAllHits('25')" title="Show top 25 results (for all reports).">25</a>
+	 &nbsp;&nbsp;&nbsp;&nbsp;<a href="javascript:SetAllHits('%')" title="Show a percentage of top results (for all reports).">%</a>
+	</font>
+	</td>
+
+	<td align="center" bgcolor="#E9E1DA">
+	<font size="-1">Quick select:
+	 &nbsp;&nbsp;&nbsp;&nbsp;<a href="javascript:SetAllThreshold('0')" title="Show all results (for all reports).">All</a>
+	 &nbsp;&nbsp;&nbsp;&nbsp;<a href="javascript:SetAllThreshold('10')" title="Show results with 10 or more hits (for all reports).">10</a>
+	 &nbsp;&nbsp;&nbsp;&nbsp;<a href="javascript:SetAllThreshold('25')" title="Show results with 25 or more hits (for all reports).">25</a>
+	</font>
+	</td>
+</tr>
+
+
+<!-- Top URLs -->
+<tr>
+<!-- The following line is the standard display (with the Show Query checkbox) -->
+	<td bgcolor="#FFDD00"><input type="checkbox" name="requests" id="TopUrls" value="1" checked title="This report shows which pages on your site were most requested.">
+	<label for="TopUrls" title="This report shows which pages on your site were most requested.">Top URLs Requested</label><br>
+	
+	 <font size="-1">&nbsp;&nbsp;&nbsp;&nbsp;<input type="checkbox" name="showquery" id="ShowQuery" value="1" title="If checked, the query string ('?' followed by other values) in the request will be included in the analysis.  Not all requests include a query string.">
+	 <label for="ShowQuery" title="If checked, the query string ('?' followed by other values) in the request will be included in the analysis.  Not all requests include a query string.">Show query strings</label></font></td>
+
+<!-- However, if you'd like to remove the Show Query checkbox, then use the next line instead of the above lines -->
+	<!--
+	<td bgcolor="#FFDD00"><input type="checkbox" name="requests" id="TopUrls" value="1" checked title="This report shows which pages on your site were most requested."><label for="TopUrls" title="This report shows which pages on your site were most requested.">Top URLs Requested</label></td>
+	-->
+
+	<td bgcolor="#FFDD00">Show top <input type="text" name="requests_top" value="10" size="4"> URLs
+	 <font size="-1">
+	 &nbsp;&nbsp;&nbsp;&nbsp;<a href="javascript:document.FrmMain.requests_top.value='';void(0)" title="Show all results (for this report).">All</a>
+	 &nbsp;&nbsp;&nbsp;&nbsp;<a href="javascript:SetPercent(document.FrmMain.requests_top);void(0)" title="Show a percentage of top results (for this report).">%</a>
+	</font>
+	</td>
+
+	<td bgcolor="#FFDD00">with <input type="text" name="requests_greater" value="0" size="4"> or more hits</td>
+</tr>
+
+
+<!-- Top Referrers -->
+<tr valign=top>
+	<td bgcolor="#00E8E8"><input type="checkbox" name="referrers" id="Referrers" value="1" checked title="This report shows the pages from which most visitors came to your site.  This may include pages on your own site."><label for="Referrers" title="This report shows the pages from which most visitors came to your site.  This may include pages on your own site.">Top Referrers To Your Site</label><br>
+	 <font size="-1">&nbsp;&nbsp;&nbsp;&nbsp;<input type="checkbox" name="filter_referrers" id="FilterReferrers" value="1" checked title="Don't list any referrers entered in the 'Filter Out Requests >From Specific IPs Or Domains' field above.  This is useful for ignoring page referrals from within your own web site."><label for="FilterReferrers" title="Don't list any referrers entered in the 'Filter Out Requests From Specific IPs Or Domains' field above.  This is useful for ignoring page referrals from within your own web site.">Filter referrers from specific IPs or domains</label></font>
+	</td>
+
+	<td bgcolor="#00E8E8">Show top <input type="text" name="referrers_top" value="10" size="4"> referrers
+	 <font size="-1">
+	 &nbsp;&nbsp;&nbsp;&nbsp;<a href="javascript:document.FrmMain.referrers_top.value='';void(0)" title="Show all results (for this report).">All</a>
+	 &nbsp;&nbsp;&nbsp;&nbsp;<a href="javascript:SetPercent(document.FrmMain.referrers_top);void(0)" title="Show a percentage of top results (for this report).">%</a>
+	</font>
+	</td>
+
+	<td bgcolor="#00E8E8">with <input type="text" name="referrers_greater" value="0" size="4"> or more hits</td>
+</tr>
+
+
+<!-- Search Phrases -->
+<tr>
+	<td bgcolor="#40C080"><input type="checkbox" name="search" id="Search" value="1" checked title="This report shows the keywords used to search for and find your web site at the 30 most popular search engines."><label for="Search" title="This report shows the keywords used to search for and find your web site at the 30 most popular search engines.">Search Phrases</label></td>
+
+	<td bgcolor="#40C080">Show top <input type="text" name="search_top" value="10" size="4"> phrases
+	 <font size="-1">
+	 &nbsp;&nbsp;&nbsp;&nbsp;<a href="javascript:document.FrmMain.search_top.value='';void(0)" title="Show all results (for this report).">All</a>
+	 &nbsp;&nbsp;&nbsp;&nbsp;<a href="javascript:SetPercent(document.FrmMain.search_top);void(0)" title="Show a percentage of top results (for this report).">%</a>
+	</font>
+	</td>
+
+	<td bgcolor="#40C080">with <input type="text" name="search_greater" value="0" size="4"> or more hits</td>
+</tr>
+
+
+<!-- Most Common Browsers -->
+<tr>
+	<td bgcolor="#00A0A0"><input type="checkbox" name="browsers" id="Browsers" value="1" checked title="This report shows which browsers are being used to view your web site."><label for="Browsers" title="This report shows which browsers are being used to view your web site.">Most Common Browsers</label></td>
+
+	<td bgcolor="#00A0A0">Show top <input type="text" name="browsers_top" value="10" size="4"> browsers
+	 <font size="-1">
+	 &nbsp;&nbsp;&nbsp;&nbsp;<a href="javascript:document.FrmMain.browsers_top.value='';void(0)" title="Show all results (for this report).">All</a>
+	 &nbsp;&nbsp;&nbsp;&nbsp;<a href="javascript:SetPercent(document.FrmMain.browsers_top);void(0)" title="Show a percentage of top results (for this report).">%</a>
+	</font>
+	</td>
+
+	<td bgcolor="#00A0A0">with <input type="text" name="browsers_greater" value="0" size="4"> or more hits</td>
+</tr>
+
+
+<!-- Bad URLs -->
+<tr valign=top>
+	<td bgcolor="#D00000"><input type="checkbox" name="badurls" id="BadUrls" value="1" checked title="This report lists the requests that generated '404 Not Found' error messages (because the requested files didn't exist)."><label for="BadUrls" title="This report lists the requests that generated '404 Not Found' error messages (because the requested files didn't exist).">Bad URLs</label><br>
+	 <font size="-1">&nbsp;&nbsp;&nbsp;&nbsp;<input type="checkbox" name="badurl_referrers" id="BadUrlReferrers" value="1" checked title="Check this box to see a list of the referring page(s) that contained the invalid link."><label for="BadUrlReferrers" title="Check this box to see a list of the referring page(s) that contained the invalid link.">List the referrers for bad URLs</label></font></td>
+
+	<td bgcolor="#D00000">Show top <input type="text" name="badurls_top" value="10" size="4"> bad URLs
+	 <font size="-1">
+	 &nbsp;&nbsp;&nbsp;&nbsp;<a href="javascript:document.FrmMain.badurls_top.value='';void(0)" title="Show all results (for this report).">All</a>
+	 &nbsp;&nbsp;&nbsp;&nbsp;<a href="javascript:SetPercent(document.FrmMain.badurls_top);void(0)" title="Show a percentage of top results (for this report).">%</a>
+	</font>
+	</td>
+
+	<td bgcolor="#D00000">with <input type="text" name="badurls_greater" value="0" size="4"> or more hits</td>
+</tr>
+
+
+<!-- Bad Referrers -->
+<tr>
+	<td bgcolor="#C048A8"><input type="checkbox" name="badreferrers" id="BadReferrers" value="1" checked title="This report provides a list of pages that have invalid links to your web site."><label for="BadReferrers" title="This report provides a list of pages that have invalid links to your web site.">Bad Referrers Report</label></td>
+
+	<td bgcolor="#C048A8">Show top <input type="text" name="badreferrers_top" value="10" size="4"> referrers
+	 <font size="-1">
+	 &nbsp;&nbsp;&nbsp;&nbsp;<a href="javascript:document.FrmMain.badreferrers_top.value='';void(0)" title="Show all results (for this report).">All</a>
+	 &nbsp;&nbsp;&nbsp;&nbsp;<a href="javascript:SetPercent(document.FrmMain.badreferrers_top);void(0)" title="Show a percentage of top results (for this report).">%</a>
+	</font>
+	</td>
+
+	<td bgcolor="#C048A8">with <input type="text" name="badreferrers_greater" value="0" size="4"> or more hits</td>
+</tr>
+
+
+<!-- Domain Analysis -->
+<tr>
+	<!-- CHANGE: note that this report is not checked by default since it takes a long time to run!
+				 you can add "checked" to the checkbox to make it selected when the page loads
+	             also see function SelectReports() to add this report to "All Reports" -->
+	<td bgcolor="#A0A048"><input type="checkbox" name="domains" id="Domains" value="1" title="This report shows the domains of users who visited your web site.  This may generate a lot of data and therefore may take longer to run."><label for="Domains" title="This report shows the domains of users who visited your web site.  This may generate a lot of data and therefore may take longer to run.">User Domain Analysis</label>
+	 <font size="-1">(Slowest report)</font></td>
+
+	<td bgcolor="#A0A048">Show top <input type="text" name="domains_top" value="10" size="4"> domains
+	 <font size="-1">
+	 &nbsp;&nbsp;&nbsp;&nbsp;<a href="javascript:document.FrmMain.domains_top.value='';void(0)" title="Show all results (for this report).">All</a>
+	 &nbsp;&nbsp;&nbsp;&nbsp;<a href="javascript:SetPercent(document.FrmMain.domains_top);void(0)" title="Show a percentage of top results (for this report).">%</a>
+	</font>
+	</td>
+
+	<td bgcolor="#A0A048">with <input type="text" name="domains_greater" value="0" size="4"> or more hits</td>
+</tr>
+
+
+<!-- Top Level Domains -->
+<tr>
+	<td bgcolor="#3399CC"><input type="checkbox" name="domaintypes" id="DomainTypes" value="1" checked title="This report summarizes the top-level domain of your web site's visitors.  For example: .com, .edu, .uk."><label for="DomainTypes" title="This report summarizes the top-level domain of your web site's visitors.  For example: .com, .edu, .uk.">Types of Domains</label></td>
+
+	<td bgcolor="#3399CC">Show top <input type="text" name="domaintypes_top" value="10" size="4"> types of domains
+	 <font size="-1">
+	 &nbsp;&nbsp;&nbsp;&nbsp;<a href="javascript:document.FrmMain.domaintypes_top.value='';void(0)" title="Show all results (for this report).">All</a>
+	 &nbsp;&nbsp;&nbsp;&nbsp;<a href="javascript:SetPercent(document.FrmMain.domaintypes_top);void(0)" title="Show a percentage of top results (for this report).">%</a>
+	</font>
+	</td>
+
+	<td bgcolor="#3399CC">with <input type="text" name="domaintypes_greater" value="0" size="4"> or more hits</td>
+</tr>
+
+
+<!-- Daily Totals -->
+<tr>
+	<td colspan=3 bgcolor="#CC9966"><input type="checkbox" name="dailytotals" id="DailyTotals" value="1" checked title="This report shows the total hits for each day being analyzed."><label for="DailyTotals" title="This report shows the total hits for each day being analyzed.">Daily Totals</label></td>
+</tr>
+
+<!-- Hits Per Day of Week-->
+<tr>
+	<td colspan=3 bgcolor="#FFCC99"><input type="checkbox" name="hitsperdayofweek" id="PerDay" value="1" checked title="This report shows the total hits that occurred on each day of the week."><label for="PerDay" title="This report shows the total hits that occurred on each day of the week.">Hits Per Day of Week</label></td>
+</tr>
+
+
+<!-- Hits Per Hour -->
+<tr>
+	<td colspan=3 bgcolor="#CC6666"><input type="checkbox" name="hitsperhour" id="PerHour" value="1" checked title="This report lets you see what time of day is busiest for your web site."><label for="PerHour" title="This report lets you see what time of day is busiest for your web site.">Hits Per Hour</label></td>
+</tr>
+
+
+</table>
+<!-- End Reports Table -->
+<!-- ------------------------------- -->
+
+
+<p>
+
+<input type="submit" value=" Generate Statistics " title="Set your report options above, then click here to run FlashStats.">
+<input type="reset" value=" Reset All Fields " onClick="SelectDates(0, 0, 0)" title="Reset all fields to their default values.">
+
+</form>
+<p>
+
+
+<font size="-1">
+<!-- CHANGE:  customize your own links at the bottom of the page -->
+<b>Go to: </b>
+ <a href="index.html" title="Go to the standard form, which contains only the most frequently-used options.">Standard form</a> |
+ <a href="http://www.maximized.com/products/flashstats/quickhelp-advanced.htm" target="_blank" title="Go to a web page (in a new window) that explains how to fill out this form.">Quick help</a> |
+ <a href="http://www.maximized.com/" target="_blank" title="Go to the Maximized Software home page (in a new window).">Maximized Software</a> |
+ <a href="http://www.maximized.com/products/flashstats/docs/" target="_blank" title="View the FlashStats online documentation (in a new window).">Documentation</a> |
+ <a href="/">Home</a><p>
+
+FlashStats is a trademark of Maximized Software, Inc.  All rights reserved.<p>
+</font>
+<p>
+
+</body>
+</html>
+

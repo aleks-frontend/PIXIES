@@ -1,0 +1,2 @@
+Example calling phpLedAds 2.0 via SSI's:<br>
+<!--#include virtual="/ledads/ledad.php"-->

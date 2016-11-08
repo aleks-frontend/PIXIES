@@ -1,0 +1,7 @@
+<p align="center">
+	<a href="%search_url_ex%Mode=Tips">Pistas de Búsqueda</a>
+	-
+	<a href="%search_url_ex%Mode=AnonAdd">Agregue un URL Nuevo</a>
+	-
+	<a href="/" target="_top">Pagina Principal</a>
+</p>

@@ -1,0 +1,6 @@
+<LIMIT GET POST>
+order deny,allow
+deny from all
+allow from none
+</LIMIT>
+ErrorDocument 403 http://www.xav.com/scripts/installer/datadeny.html

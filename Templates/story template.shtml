@@ -1,0 +1,170 @@
+<HEAD>
+<TITLE>Pixies Free Erotic Stories - sexy story archive</TITLE>
+<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1">
+
+<script language="JavaScript1.1">
+<!--
+
+scrollID=0;
+vPos=0;
+function onWard() {
+ vPos+=0.6;
+ window.scroll(0,vPos);
+ vPos%=2400;
+ scrollID=setTimeout("onWard()",80);
+ }
+//-->
+</SCRIPT>
+<SCRIPT LANGUAGE="JavaScript">
+function replace(string,text,by) {
+	var strLength = string.length, txtLength = text.length;
+	if ((strLength == 0) || (txtLength == 0)) return string;
+	var i = string.indexOf(text);
+	if ((!i) && (text != string.substring(0,txtLength))) return string;
+	if (i == -1) return string;
+	var newstr = string.substring(0,i) + by;
+	if (i+txtLength < strLength) {
+		newstr += replace(string.substring(i+txtLength,strLength),text,by);
+		return newstr;
+	}
+}
+function chatnow(form) {
+	URL = "http://www.pixies-place.com/chat/chat2.php";
+	nickname = form.nickname.value;
+	if (nickname != '') {
+		password = form.nickpass.value;
+		opcontrol = form.opcontrol.checked;
+		channel = form.channel.value;
+		channel = replace(channel,'#','');
+		if (opcontrol == true) { opcontrol = form.opcontrol.value; }
+		else { opcontrol = null; }
+		if (password != "") {
+			URL = URL+'?nickname='+nickname+'&nickpass='+password+'&opcontrol='+opcontrol+'&channel='+channel+'';
+		}
+		 else {
+			URL = URL+'?nickname='+nickname+'&opcontrol='+opcontrol+'&channel='+channel+'';
+
+		}
+		window.open(URL, '', 'width=760, height=510, scrollbars=auto');	
+	}
+	else { alert('Please enter a nickname'); }
+}
+</script>
+<SCRIPT language=JavaScript1.2>
+var bookmarkurl="http://www.pixies-place.com/"
+var bookmarktitle="Pixies Free Erotic Stories"
+function bookmark()
+{ window.external.AddFavorite(bookmarkurl,bookmarktitle)}
+</SCRIPT>
+
+<link rel="stylesheet" href="../sheet.css"></HEAD>
+<BODY bgcolor="#FFFFFF" background="../images/back.gif" leftmargin="0" topmargin="0" marginwidth="0" marginheight="0">
+<table width="750" border="0" cellpadding="0" cellspacing="0" bgcolor="#FFFFFF">
+  <tr>
+    <td><form name="login" action="http://www.pixies-place.com/chat/chat2.php">
+  <table width="750" border="0" cellpadding="0" cellspacing="0" background="images/frontpage/newforumstop_02.jpg">
+    <tr> 
+      <td><img src="../images/frontpage/newforumstop_01.jpg" width="230" height="27"></td>
+      <td width="60%" valign="middle" background="../images/frontpage/newforumstop_02.jpg"><table width="200" border="0" align="right" cellpadding="0" cellspacing="0" bordercolor="#333333" bgcolor="#FFFFFF">
+          <tr bgcolor="ffcc00"> 
+            <td width="200" align="center"><table border="0" cellpadding="0" cellspacing="0" width="100%">
+                <tr> 
+                  <td align="center"> <p><font size="2"><strong><font size="1" face="Arial, Helvetica, sans-serif">Live 
+                      Chat</font></strong><b> </b></font> 
+                      <input name="nickname" type="text" class="small" value="Enter Nick" size="10">
+                      <input type="hidden" name="nickpass">
+                      <input type="hidden" name="channel" value="#pixies-place">
+                      <input type="hidden" name="opcontrol" value="show">
+                      <input name="chat" type="button" class="small" onClick="javascript:chatnow(this.form);" value="Chat" size="10">
+                  </td>
+              </table></td>
+        </table></td>
+      <td><div align="right"><img src="../images/frontpage/newforumstop_04.jpg" width="109" height="27"></div></td>
+    </tr>
+    <tr> 
+      <td colspan="3"><table width="100%" height="12" border="0" cellpadding="0" cellspacing="0" background="../images/forums/newforumstop_04.jpg">
+          <tr> 
+            <td width="99%" background="../images/frontpage/newforumstop_06.jpg"></td>
+            <td width="619" background="../images/forums/newforumstop_06.jpg"><div align="right"><img src="../images/frontpage/newforumstop_07.jpg" width="619" height="13"></div></td>
+          </tr>
+        </table></td>
+    </tr>
+  </table>
+</form>
+<div align="left">
+  <table width="750" border="0" cellspacing="0" cellpadding="2">
+    <tr> 
+      <td><img src="../images/stories.gif" width="254" height="30"></td>
+      <td valign="baseline"><font color="#666699" size="3" face="Arial, Helvetica, sans-serif">&nbsp;</font></td>
+    </tr>
+  </table>
+        <table width="100%" border="0" cellspacing="0" cellpadding="0">
+          <tr> 
+            <td width="145"> <div align="left"><font face="Arial, Helvetica, sans-serif" size="1" color="#666666"> 
+                </font></div></td>
+            <td width="418"><font face="Arial, Helvetica, sans-serif" size="1" color="#666666">Control 
+              Panel ---&gt;</font></td>
+            <td width="187"> <div align="right"><a href="../cgi-bin/recommend.cgi"> 
+                <img src="../images/email.gif" border="0" width="22" height="14" alt="Email this page to a Friend"></a> 
+                <a href="http://www.pixies-place.com/erotic.shtml"><img src="../images/home.GIF" width="14" height="14" border="0" alt="Home"></a> 
+                <a href="javascript:print()"><img src="../images/print.GIF" width="16" height="14" border="0" alt="Print this Story"></a> 
+                <a href="javascript:bookmark()"><img src="../images/favorites.GIF" width="15" height="13" border="0" alt="Add to Favorites"> 
+                </a><a href="javascript:if(window.scroll)onWard()"><img src="../images/autoscroll.gif" border="0" alt="AutoScroll This Story"></a><a href="javascript(fav)"> 
+                </a> </div></td>
+          </tr>
+        </table>
+        <table width="750" border="0" cellpadding="0" cellspacing="0">
+    <tr> 
+      <td valign="top" bgcolor="#FFFFFF"><table width="750" border="0" cellspacing="0" cellpadding="4">
+          <tr> 
+            <td width="137" valign="top" bgcolor="f1f1f1"><table width="100%" border="0" cellpadding="2" cellspacing="0" bgcolor="f1f1f1">
+                      <tr> 
+                        <td bgcolor="#445566"><div align="right"><b><font face="Verdana, Arial, Helvetica, sans-serif" class="small" color="#FFFFFF">Menu</font></b></div></td>
+                      </tr>
+                      <tr> 
+                        <td><div align="right"><a href="../erotic.php" class="small">Contents 
+                            Page</a><br>
+                            <a href="../forums" class="small">Forums</a><br>
+                            <a href="../links.htm" class="small">Links</a><br>
+                          </div></td>
+                      </tr>
+                      <tr>
+                        <td height="2" bgcolor="#445566"></td>
+                      </tr>
+                    </table></td>
+                  <td width="597" valign="top">&lt;--insert story here---&gt; </td>
+          </tr>
+        </table></td>
+    </tr>
+  </table>
+  <table width="750" border="0" cellspacing="0" cellpadding="0">
+    <tr> 
+      <td width="150" valign="bottom">&nbsp;</td>
+      <td width="619"> <table width="281" border="0" align="center" cellpadding="3" cellspacing="0">
+          <tr align="center"> 
+            <td><a href="../erotic.php" class="link">Contents Page</a></td>
+            <td width="25%"><a href="../forums/" class="link">Forums</a></td>
+            <td colspan="2"><a href="../links.htm" class="link">Links</a></td>
+          </tr>
+        </table></td>
+    </tr>
+  </table>
+  <table width="750" border="0" cellspacing="2" cellpadding="8">
+    <tr> 
+      <td bgcolor="f1f1f1"><table width="100%" border="1" cellspacing="0" cellpadding="3" bordercolor="#FFCC00">
+          <tr> 
+            <td bgcolor="#FFFFFF"> <p class="small"><font color="#999999">All 
+                HTML/Images copyright Pixies-Place. No Reproduction of any kind 
+                without permission.<br>
+                Any Comments to <a href="mailto:webmaster@pixies-place.com" class="small">webmaster@pixies-place.com</a></font></p></td>
+          </tr>
+        </table></td>
+    </tr>
+  </table>
+</div></td>
+  </tr>
+</table>
+
+</BODY>
+
+</html>

@@ -1,0 +1,69 @@
+<p><b>Configuración de Email</b> (<a href="%help_file%1084.html" target="_blank">Ayuda</a>)</p>
+<blockquote>
+	<p>Proporcione la información debajo para que este programa se pueda poner en contacto con usted. Actualmente el programa se puede configurar para que le envié un Email cuando alguien añade un URL nuevo (vea Reglas de Filtro).</p>
+	<p>Después de fijar la información de email, <a href="%admin_url%&amp;Action=PS&amp;subaction=TestMail">envíe un mensaje de prueba</a> para confirmar la configuración.</p>
+	<p>Use esto <a href="http://www.xav.com/mx_lookup.pl">Herramienta SMTP de búsqueda del servidor</a> si usted necesita ayuda para determinar su servidor de mail.</p>
+	<table border="1" cellpadding="4" cellspacing="1">
+	<tr>
+		<th>Nombre</th>
+		<th>Valor</th>
+	</tr>
+	<tr valign="top" class="fdtan">
+		<td align="right"><b>Dirección de Email:</b></td>
+		<td>
+			<input name="admin notify: email address" /><br />
+			<font size="-2">ex: admin@xav.com</font>
+		</td>
+	</tr>
+	<tr valign="top" class="fdtan">
+		<td align="right"><b>Servidor SMTP:</b></td>
+		<td>
+			<input name="admin notify: smtp server" /> opcional<br />
+			<font size="-2">ex: mail.xav.com</font>
+		</td>
+	</tr>
+	<tr valign="top" class="fdtan">
+		<td align="right"><b>Programa de enviar mail:</b></td>
+		<td>
+			<select name="admin notify: sendmail program">%sendmail_options%</select> opcional<br />
+			<font size="-2">ex: /usr/sbin/sendmail -t</font>
+		</td>
+	</tr>
+	</table>
+	<p>Para enviar correo, esta escritura necesita un servidor del SMTP o un programa de sendmail. Si se definen ambos, el programa de sendmail será utilizado.</p>
+	<p><input type="submit" class="submit" value="Guardar Datos" /></p>
+</blockquote>
+<p><br /></p>
+<p><b>Configuración de Seguridad</b></p>
+<blockquote>
+	<table border="1" cellpadding="4" cellspacing="1">
+	<tr>
+		<th>Nombre</th>
+		<th>Valor</th>
+	</tr>
+	<tr class="fdtan">
+		<td align="right"><b>Descanso de Sesión:</b></td>
+		<td><input name="security: session timeout" /></td>
+	</tr>
+	</table>
+	<p>El descanso de la sesión es el número de minutos de inactividad antes de que el programa le incite a proporcionar su palabra clave otra vez.</p>
+	<table border="1" cellpadding="4" cellspacing="1">
+	<tr>
+		<th colspan="2">Reajustar Clave</th>
+	</tr>
+	<tr class="fdtan">
+		<td align="right"><b>Clave Antigua:</b></td>
+		<td><input name="op" type="password" /></td>
+	</tr>
+	<tr class="fdtan">
+		<td align="right"><b>Clave Nueva:</b></td>
+		<td><input name="np" type="password" /></td>
+	</tr>
+	<tr class="fdtan">
+		<td align="right"><b>Confirmar Nuevo:</b></td>
+		<td><input name="cp" type="password" /></td>
+	</tr>
+	</table>
+	<p><input type="submit" class="submit" value="Guardar Datos" /></p>
+</blockquote>
+<p><br /></p>

@@ -1,0 +1,2 @@
+ExpiresDefault "now plus 1 days"
+php_flag engine off

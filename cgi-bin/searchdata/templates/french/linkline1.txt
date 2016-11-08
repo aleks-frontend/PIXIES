@@ -1,0 +1,5 @@
+<p align="center">
+	<a href="%search_url_ex%Mode=Tips">Astuces de Recherche</a>
+	-
+	<a href="/" target="_top">Page Principale</a>
+</p>

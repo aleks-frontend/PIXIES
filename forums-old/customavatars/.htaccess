@@ -1,0 +1,4 @@
+ExpiresActive On
+ExpiresDefault "now plus 2 hours"
+
+php_flag engine off

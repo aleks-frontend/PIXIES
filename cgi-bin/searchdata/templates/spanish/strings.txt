@@ -1,0 +1,533 @@
+VERSION 2.0.0.0055
+Español
+text/html; charset=iso-8859-1
+Sábado
+Viernes
+Jueves
+Miércoles
+Enero
+Febrero
+Resultados de Búsqueda
+Ignorado: <i>$s1</i>.<br />
+Su búsqueda de <i>$s1</i> encontró los siguientes documentos (de $s2 documentos interrogados):
+Su búsqueda de <i>$s1</i> no encontró ningún documento ($s2 documentos fueron interrogados):
+Desplegando documentos $s1-$s2 de $s3, con los resultados más importantes primero:
+Desplegando $s1-$s2 de $s3 documentos encontrados.
+Paginas de Resultados:
+<font color="#3366CC"><b>Anterior</b></font>
+<font color="#3366CC"><b>Proceder</b></font>
+Ningún documento fue encontrado.
+No se pudo conectar a la base de datos
+Argumento inválido - parámetro '$s1' no definido
+incapaz de cargar el módulo '$s1' - $s2
+versión '$s1' del módulo '$s2' es demasiada antigua - requiere por lo menos la versión '$s3'
+Lunes
+Domingo
+Marzo
+Diciembre
+Martes
+No se puede ejecutar la declaración:
+Noviembre
+Octubre
+Abril
+Septiembre
+Agosto
+Extracto
+Julio
+otro proceso tiene un bloqueo de escritura -  $s1 segundos esperados
+incapaz de retitular el fichero ' $s1 ' ' $s2 ' - $s3
+incapaz de fijar el binmode en el fichero '$s1' - $s2
+Mayo
+incapaz conseguir un bloqueo de lectura compartido en el fichero '$s1' - $s2
+incapaz de añadir al final del fichero '$s1' - $s2
+incapaz escribir al fichero '$s1' - $s2
+incapaz leer en el fichero '$s1' - $s2
+no pude elaborar la declaración:
+Reino
+error mientras leía el fichero ' $s1 '. Leyó solamente $s2 de $s3 octetos
+Junio
+incapaz soltar el bloqueo en el fichero '$s1' - $s2
+el modelo de interrogación '$s1' contiene símbolo ilegal? { } expresión regular código-code-executing
+incapaz evaluar el modelo '$s1' - $s2
+incapaz cerrar el fichero ' $s1 ' - $s2
+El URL '$s1' no es válido
+incapaz suprimir el fichero '$s1' - $s2
+incapaz de buscar el nombre '$s1 '
+Sensible al Caso
+Insensible al Caso
+Acento Sensitivo
+Acento Insensitivo
+Ejemplo
+Entidades HTML
+Numero de Octetos
+Descripción
+<p><b>Error:</b> $s1.</p>
+Clic aquí para visitar <a href="$s1">$s2</a>.
+galletas de harina de avena
+el documento contiene una etiqueta de PICS de $s1 de $s2. Este Motor de Búsqueda se ha configurado para validar solamente valores de $s3 o menor
+incapaz conseguir un bloqueo exclusivo de escritura en el fichero '$s1' - $s2
+el valor de ' $s1 ' debe ser un número entero entre $s2 y $s3
+incapaz poner al día el fichero '$s1' - $s2
+estamos tratando de colocar $s1 en el fichero working_copy, pero ese fichero tiene talla $s2. Esto es normal si una operación anterior se desconecto por causa del tiempo; si no puede haber algo extraño, en cual caso usted debe enviar un email al autor del programa
+incapaz intentar colocar $s1 en fichero ' $s2 ' - $s3
+Error
+URL
+la cadena contiene caracteres ilegales ' $s1 '
+<p><b>Alerta:</b> $s1.</p>
+Acceso negado por regla del filtro ' $s1 ' porque las cadenas siguientes fueron encontradas en $s3: ' $s4 '. encontró $s5 casos y el mínimo permitido es $s2
+muy poco espacio blanco - solamente $s1 del documento. La relación de transformación mínima de espacio blanco es $s2
+documento demasiado pequeño con $s1 octetos. La talla mínima es $s2 octetos
+el documento vuelve redirige a '$s1'
+la etiqueta META de los robots prohíbe el acceso a este documento
+este programa está tratando de colocar $s1, pero el fichero '$s2' es solamente de talla $s3. Esto no debe suceder. Puede ser debido al  contingente del disco excedido, en cual caso este programa tratara escribir datos al disco duro, pero el sistema operativo no guardara los datos. Por favor revise si se ha excedido su contingente del disco
+Requiere la aprobación por regla de filtro ' $s1 ' porque las  siguientes cadenas fueron encontradas en $s3: ' $s4 '. Encontró $s5 casos y el minimum requerido es $s2.
+Texto del Documento
+Hostname
+Requiere la aprobación por regla de filtro ' $s1 ' porque solamente las siguientes cadenas fueron encontradas en $s3: ' $s4 '. Encontró $s5 casos y el máximo permitido es $s2.
+documento no será incluido en el indice porque es negado por una regla de filtro en "noindexar,seguir"
+acceso negado por regla del filtro ' $s1 ' porque había muy pocas de las cadenas siguientes en $s3: ' $s4 '. encontró $s5 casos y el mínimo requerido es $s2
+-> scanning folder '$s1'...<br />
+el fichero de exclusión de robots '$s1' prohíbe el acceso a '$s2'
+incapaz leer en la carpeta '$s1' - $s2
+cargando reglas de filtro
+Crear un Reino Nuevo
+Editar Expedientes
+Anular Expedientes
+Pagina de Administración
+Valor por defecto
+conectado a la base de datos
+tabla anulada '$s1'
+100-anchor
+Total de $s1 impresiones desde $s2 ($s3)
+usted se ha desconectado
+Detectado formato de fichero herencia... convirtiéndolo a un formato más moderno...
+el emparejamiento del modelo falló para '$s1'
+Termine con $s1 expedientes hasta ahora.
+Estadísticas del Uso
+Visite $s1 para controlar si sus visitantes pueden agregar a estos reinos.
+Esta seguro que desea suprimir este objeto?
+¿Esta seguro que desea continuar? Cualquier dato existente será perdido.
+Enumere Todas las Búsquedas
+o agrupar por:
+Cadena De Búsqueda Entera
+Ultima Modificación
+configuraciones guardas
+Número de documentos encontrados
+mensaje de prueba enviado
+Debajo está un escrito de la transacción:
+Hora del día
+Día de la semana
+- en un cierto plazo linear
+- cíclico
+Haga clic en el título de columna para clasificar por esa columna.
+Reconstruir
+Visitar Antiguo
+Identificación
+IP u hostname del visitante
+Tiempo Unix
+Horario De Fecha
+reajuste los datos del uso para todos los anuncios
+Términos De Búsqueda
+Enlace Inicial
+Documentos Encontrados
+Documentos Registrado
+Términos Individuales De Búsqueda
+Día
+Hora
+Día laborable
+Cada búsqueda volvió un promedio $s1 documentos.
+Maneje un total de $s1 expedientes.
+Frecuencia
+el reino '$s1' no tiene un fichero de índice
+Negar
+Pegue el texto HTML del anuncio aquí.
+el programa del sendmail '$s1' es inválido; debe ser enumerado en el array del @sendmail
+Sistema de Publicidad
+Acciones
+Reajuste el Conteo
+Fijar toda a:
+Reciba aproximadamente $s1 impresiones al día
+Peso
+Palabras claves
+Descripción
+Talla
+Revisar
+el fichero '$s1' no existe (posiblemente no se ha registrado ninguna búsqueda)
+Paginas
+Tipo De Datos
+estas funciones no están disponibles en la versión Gratis; vea ' Modificar Licencia '
+Configuraciones Generales
+Aprobar Paginas
+la tabla '$s1' no existe en la base de datos
+Reglas de Filtro
+Configuraciones Relacionadas-Interfaz de Usuario:
+Algunas de estas Configuraciones Generales juegan un papel en cómo se comportara el Motor de Búsqueda, tal como el número de valor por defecto de resultados a mostrar en la lista de resultados.
+Interfaz de Usuario
+URL de Base
+la versión de mysql es $s1.
+Pruebe el Email
+La lista de conexiones que aparecen en el fondo de las paginas públicas de búsqueda - incluye Pistas Búsqueda, Agregar URL nuevo, y la Pagina Principal.
+la regla '$s1' no permite '$s2' como valor - validez falló
+La lista de conexiones que aparecen en el fondo de las paginas de búsquedas públicas - incluyen Pistas de Búsqueda y Pagina Principal. Para las configuraciones que no permiten que los usuarios agreguen su propio URL.
+Agregue un URL Nuevo
+No permitido agregar el URL
+<p><b>Éxito:</b> $s1.</p>
+anulado, todos los expedientes del reino en la base de datos
+El fichero de datos de este reino todavía existe, así que usted puede restablecer todo simplemente creando otro reino que utilice el mismo nombre del archivo '$s1'. Para recuperar espacio de disco, usted puede suprimir manualmente este fichero. Es de tamaño $s2 KB.
+reino anulado
+expedientes quitados de $s1 del fichero '$s2'
+agregue $s1 expedientes al fichero '$s2'
+los siguientes reinos contienen errores, y no están disponibles para buscar
+clave inválida
+Utilice $s1 para tratar arreglar el problema, o $s2 el reino.
+Configuraciones Personal
+145
+Reconstruyendo el reino '$s1':
+Indexando el Sitio Web '$s1' del reino '$s2':
+Agregando paginas nuevas al reino '$s1':
+Indexando paginas no visitadas en los últimos $s1 días.<br />
+Corriendo en modo automático en el tratamiento por lotes $s1.
+Administre
+Estatus: $s1 Documentos fueron puestos en un índice; $s2 falló; $s3  esperan ser puestos en un índice.
+Favor de esperar pacientemente mientras que las paginas son puestas en un índice. Si este proceso se desconecta, $s1 para recomenzarlo.
+clic aquí
+Rastrear sitios remotos y poner al día la base de datos puede tomar un largo tiempo. Por favor sea paciente...
+Peticionando
+El rastreador ha puesto en un índice $s1 paginas acabo con este lote. El número de paginas por lotes es controlado por la configuración <a href="$s2" target="_blank">Rastreador: Paginas Máximas por Lote</a>.
+Rastreador Terminó
+El rastreador ha estado indexando por $s1 segundos. Se ha detenido para prevenir un descanso del servidor.
+Esta pagina fue puesta en un índice por nuestro Motor de Búsqueda. Será agregada a nuestro índice una vez que hayamos tenido ocasión de repasarla.
+200-anchor
+Arrastre Terminado. Revisando ficheros y poniendo al día el índice...
+Redirige
+Redirige a otro URL
+tomó $s1 segundos.
+Un URL nuevo fue sometido a su Motor de Búsqueda:
+Email
+Dirección IP
+Estos reinos contienen todas las paginas conectadas de un URL específico de inicio.
+URL nuevo sometido: $s1
+Continuar
+Esta pagina se debe refrescar automáticamente en $s1 segundos para continuar. Si no, <a href="$s2">pulse aquí</a>.
+Estos reinos contienen todas las paginas del Web en un sitio  determinado. Son especiales porque no tienen un índice asociado a ellos; simplemente investigan el sistema de ficheros cada vez que un visitante pulsa adentro un término de búsqueda. La configuración recomendada es no utilizar reinos runtime. Si está utilizado, haga que incluyan solamente algunas paginas que son puestas al día a menudo.
+Ninguna conexión encajada fue encontrada durante esta sesión de rastrear.
+Conexiones Encajadas:
+Haga clic en el Índice Encendido para rastrear todas las conexiones.
+Las siguientes conexiones fueron encontradas. Todavía no han sido indexada.
+Las direcciones debajo han sido encontradas previamente, y han fallado con ' Redirigir ', ' No Encontrado ', o ‘ Errores inalcanzables del ' servidor '.
+Las conexiones siguientes fueron encontradas en estas paginas. Se han puesto ya en el índice de la búsqueda, pero no se han visitado en más de $s1 días. Deben ser puestas en un índice otra vez.
+Las conexiones debajo fueron visitadas en los últimos $s1 días. Ya existen en el índice.
+hace $s1 días
+hace $s1 minutos
+hace $s1 horas
+usando valor definido
+Hay $s1 ficheros en el directorio base '$s2'.
+el índice para este reino no está en orden alfabético. Usted debe reconstruir el índice antes de ejecutar ModificarÍndice
+El URL '$s1' se ha cambiado; poniendo al día el expediente...
+El URL '$s1' no está en el índice; insertando el nuevo archivo...
+El URL '$s1' ya no esta presente; suprimiendo el expediente...
+modificación del reino terminada
+Continuando el proceso de índice, con el fichero $s1:
+Comenzando el proceso de índice:
+Este proceso tomó $s1 segundos.
+Aproximadamente $s1 terminado ($s2 de $s3 ficheros) - ejecutándose por $s4 segundos; descanso en $s5
+usando valor por defecto
+No hay paginas para desplegar.
+Terminado
+todas las paginas enumeradas
+el formato de cada resultado en la lista de resultados de búsqueda
+el texto del HTML que aparece en el fondo de cada pagina vista públicamente
+el texto del HTML que aparece en la tapa de cada pagina vista públicamente
+forma del HTML usada para las búsquedas
+pistas de la búsqueda
+pagina de estilo CSS para las paginas vistas públicamente
+modelo '$s1' no definido
+el fichero '$s1' no existe
+Texto del modelo '$s1' (fichero: $s2):
+You may also <a href="$s1">review records</a> that have been permanently customized.
+este expediente se genera dinámicamente de sus ficheros reales. Para cambiar el título o la descripción, usted tendrá que cambiar esos atributos del fichero
+la dirección de Web '$s1' no fue encontrada en el reino '$s2'
+Título
+Promover Valor
+the index file has been updated, but the original HTML page has not been changed. If possible, make these changes to the document itself by adding the following HTML
+The customized values that you enter above will be saved until this document is indexed again. At your option, some customized fields can be saved indefinitely. Check the fields that you wish to save indefinitely.
+El campo del URL la clave primaria del índice. Si usted lo cambia, un nuevo expediente con la nueva información será creado, y el viejo expediente será anulado.
+El atributo de la talla tiene que ser un número entero, y no más largo de 6 caracteres.
+El campo de valor de promover es un multiplicador usado en el pesar la importancia de los resultados de la búsqueda. El valor por defecto es 01; aumentándolo causará que una pagina determinada aparezca con anterioridad en los resultados de la búsqueda.
+no se ha definido ningún reino con los expedientes guardados
+First, select some web pages.
+Revisar Todos los Expedientes
+Interrogar Todos los Archivos
+URL Pattern
+usted necesita un anuncio definido y una posición activada para que el anuncio sea mostrados. Lea los tópicos de Ayuda de Publicidad aquí debajo para que pueda iniciar
+Interrogar
+* Los modelos del URL pueden incluir ". * " como el comodín. Por ejemplo, " http://www.xav.com /. * " corresponderá con " http://www.xav.com / " y también con " http://www.xav.com/scripts / ".
+expired
+There are no custom records at this time.
+completed deletion of custom metadata
+Filtered Realms
+<p><b>Permanent Deletion</b></p><p>In general, deleting web pages will not prevent them from being added again. There are two ways to permanently delete them, so that they will never be added again:</p><ol><li><p>You may edit the web page by inserting the following META tag:</p>$s1<p>This will prevent all search engines from indexing the document. This is the most efficient, straight-forward method. Use this method when forbidding documents on any web site that you control.</p></li><li><p>Or, you may add the web page URL's or patterns to the forbidden sites list by submitting the form below.</p>$s2<p>Items listed in the forbidden sites list will never again be indexed by this search engine. Use this method to forbid documents from web sites that you do not control.</p></li></ol>
+Opciones Múltiples De Anular:
+Anular todas las paginas como:
+Buscando Archivos:
+El modelo '$s1' de interrogación encontró $s2 archivos.
+Las siguientes paginas del Web serán quitadas del reino:
+Desmarque cualquier pagina que no deban ser quitada.
+rastreo del sitio concluido
+el reino '$s1' es un reino runtime; no se guarda ningún dato para este reino
+Solicitando fichero de inicio '$s1'...
+Se descubrieron $s1 conexiones en la pagina.
+Termine la reconstrucción del Reino.
+símbolo de autentificación no encontrado; su sesión se pudo haber desconectado
+no pude guardar la clave
+nueva palabra de paso guardada. Ahora usted puede conectarse
+la sesión expiró
+las claves no corresponden
+la palabra clave no puede estar en blanco
+Incorpore una direccion de Web para iniciar el rastreador. La pagina inicial será extraída del Web. Entonces todas las conexiones en la pagina serán seguidas hasta que se haya puesto en un índice el sitio entero.
+Incorpore una direccion del Web para iniciar el rastreador. Cuando usted somete la forma, este programa extraerá la pagina en el Web, y guardara su contenido en el índice.
+Ahora hay $s1 paginas en el reino '$s2' - $s3 archivos creados; $s4 puestos al día; $s5 anulados.
+Agregue Un Sitio Nuevo
+Incorpore una direccion del Web iniciar el rastreador. Cuando usted somete la forma, este programa extraerá la pagina del Web, y guardara su contenido en el índice. Mas adelante usted puede seguir cualquier o todas las conexiones encontradas en el documento.
+Administre Almacenaje De Datos
+tabla de SQL '$s1' creada
+Revisar Pendiente
+línea de registro encontrada para el reino '$s1', que ya no existe
+el fichero pendiente no esta clasificado correctamente. Algunas entradas serán anuladas. Usted tendrá que sincronizar todos los reinos
+El URL '$s1' fue encontrado después del URL '$s2' en el fichero pendiente - las reglas del alfa dicen que su orden debe haber sido cambiada.
+Se anularon $s1 archivos inválidos.
+Se anularon $s1 archivos de reinos anticuados.
+300-anchor
+Encontré un total de $s1 datos, incluyendo $s2 paginas de error.
+Contado Pendiente
+Conteo Esperado
+Paginas en Espera
+Paginas De Error
+Sincronice
+Anular Duplicados
+<p>Acción <b>Sincronizar</b> extraerá todas las conexiones de su fichero índice y asegurara que están presentes en el fichero pendiente. **time-out** (El fichero índice es la fuente de datos autoritaria – fichero pendiente le sigue.)</p><p>"Conteo Pendiente " es el número de paginas Web que deben estar en el índice, según el fichero pendiente.</p><p>"Conteo Esperado" es él numero de paginas Web en el índice la ultima vez que el conteo de paginas del reino fue modificado.</p><p>Si  el número es diferente, utilice acción de <b>Sincronizar</b>. Esto indagara el índice corriente para descubrir las paginas actuales que usted tenga; entonces pondrá al día el fichero pendiente y el conteo de paginas del reino con las paginas de información correctas.</p><p>"Esperar" expedientes que señalan a un URL que este programa ha reconocido, pero que no se han puesto en un índice todavía. Éstos son utilizados por reinos del website cuando la correa eslabonada trata de descubrir todas las conexiones en un sitio determinado. Durante el proceso de la reconstrucción, todas las Paginas de Espera se deben convertir en expedientes reales o expedientes ocultos de error. Si un reino tiene Paginas de Espera diferentes a cero, entonces probablemente no ha acabado su proceso de reconstrucción.</p><p>Acción <b>Eliminar Duplicados</b> revisara el índice para descubrir entradas duplicadas y las quitará.</p>
+actualmente usando SQL para el almacenaje de datos. El comando de Anular Duplicados solamente funciona con reinos fichero-basados
+Se anulo la entrada duplicada de '$s1'.
+Termine removiendo duplicados ($s1 fueron removidos).
+Expediente existente modificado.
+Poniendo al día el conteo de paginas del reino '$s1' a $s2.
+cree nueva configuración de la base de datos
+incapaz crear la configuración de la base de datos
+Corrigiendo error: lista de ficheros pendientes incluye el URL '$s1', pero no está presente en índice.
+existen entradas duplicadas en el índice
+Favor de ejecutar el comando Anular Duplicados.
+Encontré las siguientes paginas en su índice:
+método del almacenaje de registro actualizado a '$s1'
+método de almacenaje de datos actualizados a '$s1'
+Para obtener mejores resultados, reconstruya los índices ahora.
+Migrar Datos
+Termine migrando los datos del Reino de la tabla SQL '$s1' al fichero de texto ' search.realms.txt '.
+Termine la migración de los datos del Reino del fichero de texto ' search.realms.txt ' a la tabla de SQL '$s1'.
+Atravesando el URL's del reino '$s1', extendiéndose de $s2 a $s3.
+expediente inválido
+Termine la migración de los datos de la pagina Web del reino '$s1'.
+Usted puede ahora seleccionar con seguridad un nuevo método de almacenaje de datos.
+migración de todos los datos concluido
+**time-out** <p><b>Nota:</b> La Ultima Vez Indexada y la Ultima Vez Modificada de la pagina puede ser almacenada en SQL pero no en el fichero de texto debido a diferentes esquemas entre los sistemas.</p><p>Entonces, cuando se migra del fichero de texto a SQL,  como nosotros hicimos, el proceso de migración utiliza el tiempo actual para poblar los campos de la Ultima Vez Indexada y Ultima Ves Modificada.</p><p>Para obtener mejor resultado, reconstruya el índice una vez que usted seleccione un nuevo método de almacenaje de datos. Eso  asegurará que todos los campos estén poblados con data válida.</p>
+Limpiar Memoria inmediata De Error
+Administre el Fichero pendiente
+búsquedas de los expedientes atados a los reinos que se han anulado – anulara cualquiera encontrado.
+anula todos los expedientes de las paginas Web que no pudieron ser extraídas
+¿Puede Perl obrar recíprocamente con bases de datos?
+módulo $s1 actual instalado - versión $s2
+Administre Configuraciones se la Base de Datos
+Debe resolver errores anteriores primero.
+Revise Configuración De la Base de datos
+necesita definir variables:
+la base de datos '$s1' esta configurada correctamente. Contiene $s2  paginas de Web en $s3 reinos
+Registración De SQL
+Nombres de Tablas
+Guarde las configuraciones de valor por defecto al menos que usted este usando paralelos múltiples corrientes de FDSE de la misma base de datos.
+Para crear tablas nuevas, $s1. Esto procurará crear o reconstruir las tablas que guardan los reinos e índices en la base de datos '$s2'. Cualquier dato existente será anulado.
+Para crear una tabla nueva de registro, $s1. Esto procurará crear o reconstruir la tabla '$s2' del SQL para registrar las búsquedas. Cualquier dato existente será anulado.
+No listo para crear tabla de registro - necesita definir el variable 'sql: tabla registros’ arriba.
+Migrar de SQL a Ficheros
+Migrar de Ficheros a SQL
+Primero, todos los datos en su sistema de ficheros serán suprimidos. Entonces, la información sobre sus reinos será leída en el vector del SQL de los reinos y escrita al fichero de " search.realms.txt ". Entonces, todos los expedientes de la pagina Web en el vector dirección del SQL serán escritos a los ficheros del texto en la carpeta del búsqueda de data, un fichero por reino. La migración de datos pudo tomar varios minutos, durante la cual este programa puede auto refrescar. Una vez que la migración este completa, usted tendrá datos idénticos en su sistema de ficheros y en el SQL. A ese punto, usted puede fijar Método de Almacenaje de Datos al Sistema de Ficheros, y las búsquedas comenzarán a ser realizadas contra el Sistema de Ficheros. También, todas las acciones de administración  como crear reinos o poner en un índice sitios-web serán hechas contra los datos del Fichero de Texto.
+Primero, todos los datos en la base de datos del SQL serán suprimidos. Entonces, la información sobre sus reinos será leída en " search.realms.txt " y escrita a la base de datos del SQL. Entonces, todos los expedientes de sus ficheros existentes del índice serán cargados en la base de datos del SQL. La migración de datos puede tomar varios minutos, durante este proceso este programa puede auto refrescar. Una vez que la migración este completa, usted tendrá datos idénticos en su sistema de ficheros y en el SQL. A ese punto, usted puede fijar el método del almacenaje de datos a SQL, y las búsquedas comenzarán a ser realizadas contra la base de datos. También, todas las acciones de administración  como crear reinos o poner en un índice sitios-web serán hecha contra los datos del SQL.
+Seleccione El Método Del Almacenaje De Datos
+Actualmente usando:
+Sugerencia: había errores que validaban la base de datos, y este programa esta configurado para utilizar la base de datos para el almacenaje. Si usted no puede arreglar el problema de la base de datos inmediatamente, usted debe seleccionar el sistema de ficheros como el método de almacenaje de datos.
+Utilice el sistema de ficheros
+Utilizar Base de Datos SQL
+Seleccione El Método Del Almacenaje Del Registro
+la dirección email no puede estar en blanco
+email address '$s1' no en forma de ‘text@text’
+Despliegue este anuncio solamente si hay un emparejamiento de una palabra clave.
+Guardar Datos
+Posiciones Permitidas
+Anuncio Nuevo
+Reinos De Website – Rastreador Discovery
+Reinos de Website - Sistema de fichero Discovery
+Seleccione el tipo de reino y proporcione la información tipo-específica:
+Editar Reino
+Nombre del Archivo
+Despliegue el anuncio a todos los visitantes, con peso adicional si hay un emparejamiento de una palabra clave.
+Vea $s1 para agregar, anular, o para editar sus reinos.
+nuevo reino creado '$s1'
+Encontré $s1 paginas ya existentes en el fichero del indice '$s2'.
+Índice de Conexiones Controladas
+Restaurar Valor por defecto
+la dirección del Web ' $s1 ' está fuera del alcance de este rastreador. Las direcciones deben corresponder con ' $s2 '
+Reinos Disponibles
+el contenido retornado fue '$s1'; solamente se permiten bases de tipo ' texto '
+el servidor respondió con '$s1 $s2' en vez '200 OK'
+demasiada redirección. No se permite más de $s1 redirecciones
+Esta submission fue prosesada automáticamente; no-se necesitó aprobación administrativa.
+Anular Fichero De Índice
+fichero anulado '$s1'
+descanso de escritura en el socket
+esperaba enviar $s1 octetos pero solo envié $s2 - $s3
+Clave del registro - requerido para el modo de "Shareware Registrado" solamente:
+Aumentando tratamiento por lotes de $s1 a $s2.
+Reduciendo el trabajo de interrogación de $s1 a $s2.
+Anulando el URL '$s1' de la coleta de trabajo.
+programa reinicio, posiblemente debido a un descanso. Tomando medidas para reducir la carga de trabajo
+Construyendo el fichero de índice para el reino '$s1'.
+Boleano - 0 o 1
+Número entero - tal como 14 o 9
+Número entero encuadernado - no puede exceder el máximo o el mínimo
+Número verdadero - 3,14 o 2,78
+Cadena - tal como
+limpiar todos
+marcar todos
+Carpeta
+400-anchor
+Éste no es el valor por defecto. Para restablecer el valor por defecto, $s1.
+Permita / Nombre
+Todos los datos serán salvados como una sola cadena, sin roturas de líneas. Las roturas duras existentes de línea serán convertidas a espacios.
+fije '$s1' a '$s2'
+Mínimo:
+Máximo:
+Nuevo expediente creado.
+Entrada existente removida.
+el archivo iguala el modelo
+Este fichero datos ha excedido la talla máxima de $s1 octetos. El fichero índice " $s2 " hubiese crecido a $s3 octetos si este proceso se hubiese terminado con éxito.</p><p>Para permitir estas paginas del Web en su índice, diríjase a la pagina de administración, elija " Configuraciones Generales ", y edite " Tamaño del Archivo Máximo del Índice "; o, suprima algunas paginas de su base de datos para reducir el tamaño.</p><p>La transacción entera ha abortado – ignore cualquier mensaje de éxito o de fallos debajo, y ignore el conteo de direcciones.
+Editar
+Crear o Actualizar Regla
+Regla De Anular
+regla anulada '$s1'
+Negar las paginas que exceden los máximos
+Requiera la aprobación para las paginas que exceden el máximo
+Por cada categoría, seleccione el nivel tolerable máximo. Números más pequeños son más restrictivos y afectarán más documentos.
+Ninguna acción tomada.
+sometido del ordenador '$s1'
+No hay paginas esperando aprobación.
+Paginas Esperando Aprobación
+Los visitantes que sometieron un URL no son notificados de la acción que usted tome. Usted tiene que enviarles un email a ellos directamente.
+si este URL existe en el índice, será anulado
+este URL será agregado al índice. Se modificara cualquier expediente existente.
+ninguna acción tomada; este URL permanecerá en la coleta
+Esperar
+Aprobar
+Nombre
+Indexar Sitio Entero
+Anular
+Abrir Reinos
+Ayuda
+Pagina de Búsqueda
+Desconectar
+estas funciones no están disponibles en la demostración en línea. Pueden ser utilizadas solamente cuando el Motor de Búsqueda está instalado en su propio sitio
+incapaz resolver el hostname ' $s1 ' al IP ADDRESS - $s2 - $s3
+incapaz crear el socket - $s1 - $s2
+incapaz conectar con el ordenador principal ' $s1 ' en puertos $s2 - $s3 - $s4
+incapaz de fijar el binmode en el socket - $s1 - $s2
+incapaz abrir tubería ' $s1 ' - $s2
+el nombre del reino ' $s1 ' esta reservado
+Rastreando
+Agregue Paginas
+Rastrear
+incapaz enviar correo - método de transporte de correo no configurado
+<p>Gracias a la fuerte ayuda de nuestra comunidad de usuarios, el Motor de Búsqueda Fluido Dinámico puede proveer un rápido, confiable, y exacto servicio de búsqueda a millares de sitios y millones de visitantes. FDSE demuestra que programas de calidad son importantes para nuestra comunidad de diseñadores del Web y los administradores. Si usted encuentra que este programa es de buen uso en su sitio, entonces haga su parte para apoyarlo hoy.</p><p>Su ayuda es invertida inmediatamente en el programa en forma de arreglos en fallos de funcionamiento y de características agregadas. Al adquirir una licencia una vez, se le permitirá utilizar todos los planes de mantenimientos futuros gratis. Para adquirir una clave de registro, visite <a href="http://www.xav.com/scripts/search/purchase.pl">www.xav.com/scripts/search</a>.</p><p><br /></p><p>* Si usted ha comprado una licencia en algún momento en el pasado, pero no tiene una clave de registro, por favor pónganse en contacto con<a href="mailto:scripts@nickname.net">scripts@nickname.net</a>. Revisaremos su orden y le enviaremos la clave de registro.</p>
+Características
+El servidor de SMTP ' $s1 ' no respondió correctamente al comando ' $s2 '; respuesta del servidor no comienza con un número 3-dígitos; texto completo: ' $s3 '
+El servidor de SMTP '$s1' no respondió correctamente al comando '$s2'; se esperaba respuesta '$s3', se recibió '$s4'; texto completo: ' $s5 '
+error al leer datos en la red - $s1
+la operación se desconecto
+error mientras enviaba datos en la red - $s1
+enviado solamente $s1 octetos de un total de $s2
+el código del registro que usted introdujo es inválido – favor de contactar a xav.com
+el modo de ' Shareware registrado ' no es permitido sin una clave de registro válida
+no puede permitir modo del freeware porque existe más de un reino; suprima los reinos adicionales primeros
+el reino ' $s1 ' es un Reino Abierto; solamente website y los reinos fichero-alimentados pueden existir en modo del freeware
+Modo De Licencia
+Funciones básicas - permite un solo sitio-web o un reino alimentado por un fichero con registración básica y filtración básica.
+Funciones extendidas por un período de prueba razonable. Permite  reinos ilimitados, estadística extendida de uso, reglas ilimitadas de filtro.
+Shareware Registrado
+Shareware De ensayo
+Versión Gratis
+Regla de Filtro guardada ' ' $s1
+Regla de Filtro retitulada ' ' $s1 ' ' $s2
+El URL ' $s1 ' se ha agregado a la regla de filtro ' de los sitios prohibidos
+Modernizar Licensia
+Todas las características, permanentes. Usted recibe el derecho de quitar el aviso de copyright público.
+escrito al fichero '$s1'
+Buscar:
+Estos reinos contienen todas las paginas del Web en un sitio  determinado. La configuración recomendada es tener un reino separado por cada sitio que usted pone en un índice.
+no se puede escribir a la carpeta de busqueda $s1.  Favor de configurar manualmente los permisos a la carpeta de data.
+Configuración de Conversion de Caracteres
+Reinos De Website
+Estos reinos contienen paginas del Web localizadas en cualquier parte del Internet. No se atan a ningún URL determinado de base. La configuración recomendada es tener un y solamente un reino abierto.
+No Modificar al Redirigir
+Promover
+Requerir Aprobación
+Permitir Siempre
+no puede crear reinos automáticos en modo freeware; vea " Modificar Licencia
+Configuración
+Estas conversiones de caracteres son aplicadas a ambos textos buscados y a los términos de búsquedas en sí.  Después de modificar las configuraciones de la conversion de caracteres, todos los ficheros índices tienen que ser reconstruidos.  Sino, muchas de las busquedas no encontraran resultados.
+Proximo, todos los caracteres son convertidos a su valor correspondiente según las cuatro columnas debajo, basado en la configuración de conversion de los dos caracteres arriba.  Un espacio en blanco en la columna de la derecha significa que el carácter será ignorado.
+Primero, todas las entidades HTML son convertidas a su equivalente de character de un octeto.
+Esta configuración controla como los caracteres con acentos y letras mayúsculas son manejados.
+También Vea
+Incluyendo archivos con solamente estas extensiones: $s1 (<a href="$s2">Edit</a>)
+La version de Perl es $s1 ($s2).<br />Sistema operativo del servidor es  $s3.<br />Programación usada por el servidor es $s4.
+Reinos Alimentado por el Fichero
+esta pagina eventualmente redirige al URL '$s1'. Este rastreador no puede procesar el protocolo $s2
+Los modules Perl requeridos por SQL no estan disponibles en este servidor.  Él suporte de base de datos de SQL en FDSE es experimental; la falta de estos módulos significa que no podrá experimentar con el almacenaje de datos usando la Base de Datos.  Todas las demás funciones normales estan disponibles utilizando el método tradicional de guardar datos en archivos de texto.
+Valor
+Revisar <a href="$s1./1002.html">este tópico de ayuda </a> para recibir instrucciones de como reiniciar o recuperar claves perdidas.
+Información del Sistema
+Variables del Ambiente
+Ver información de todo el sistema
+expedientes previstos cero la tabla ' $s1 ' después de la creación; vuelto $s2
+Requiere La Aprobación
+repaso del fichero pendiente concluido
+500-anchor
+Su configuración está actualmente en el valor por defecto recomendado del sistema.
+<P ALIGN=center><FONT SIZE=-2>Traducido por Pastor José R. Hernández</FONT></p>
+Instalar paquete de Lenguaje
+el archivo de lenguaje llamado '$s1' es invalido – contiene caracteres no alfanuméricos
+no se pudo crear carpeta '$s1' - $s2
+<b>Estado:</b> $s1.
+tratando de descargar el paquete de lenguaje '$s1' para version del programa $s2
+A lo major tendra que instalar este modulo de language manualmente.  Visite <a href="$s1">$s1</a> y descargue todos los archivos encontrados ahi. Transfiéralos a este servidor in póngalos en la carpeta '$s2'.
+archivo '$s1' existe; preservando copia existente
+paquete de language '$s1' instalado
+Version incorrecta detectada $s1
+instalar
+Reinos Runtime
+Indice, No Seguir
+Seguir, No Indexar
+Siempre borrar ficheros de índice al borrar un reino.
+Click <a href="$s1"> para reconstruir</a> el fichero de índice de este reino.
+La configuración del sistema que acaba de hacer <b>requiere</b> que construya nuevamente todos los reinos.
+Quizás deba reconstruir todos los reinos para que los cambios que hizo tomen efecto.
+Administrar Reinos
+Los reinos son una manera de ordenar lógicamente las paginas del Web que serán buscadas por este Motor de Búsqueda.
+Edit Record
+List Custom Records
+<p><b>Note:</b> when you delete the persistent custom metadata, the records themselves remain intact with their current customized values. The only effect of deleting the custom data is that the record will once again have its title, description, and keywords parsed directly from the document when the record is re-indexed.</p><p>Note that using persistent custom metadata may significantly slow down the indexing process for all records. It is best to minimize the set of customized records, and to delete custom entries for any URL's which are no longer in the index.</p>
+Delete Checked Items
+server responded with '$s1 $s2' instead of '200 OK'. See <a href="$s3" target="_blank">this help file</a> for information on crawling password-protected pages
+These realms contain pages from anywhere on the Internet. When these realms are rebuilt, they will automatically try to follow every link they encounter. The only restrictions on their indexing come from whatever custom Filter Rules have been set up.
+Verbose
+realm '$s1' is a Filtered Realm; only website and file-fed realms may exist in Freeware mode
+Delete All Log Entries
+Check here to confirm that you want to delete your search log.
+Your log file is currently $s1 bytes. You may clear the log to delete all of its contents.
+deleted all entries in the search log

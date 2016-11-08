@@ -1,0 +1,293 @@
+<html>
+<head>
+<title>Pixies Chat Room</title>
+<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1">
+<SCRIPT LANGUAGE="JavaScript">
+function replace(string,text,by) {
+	var strLength = string.length, txtLength = text.length;
+	if ((strLength == 0) || (txtLength == 0)) return string;
+	var i = string.indexOf(text);
+	if ((!i) && (text != string.substring(0,txtLength))) return string;
+	if (i == -1) return string;
+	var newstr = string.substring(0,i) + by;
+	if (i+txtLength < strLength) {
+		newstr += replace(string.substring(i+txtLength,strLength),text,by);
+		return newstr;
+	}
+}
+function chatnow(form) {
+	URL = "http://www.pixies-place.com/forums/chat/chat.php";
+	nickname = form.nickname.value;
+opcontrol = "show";
+	if (nickname != '') {
+		password = form.nickpass.value;
+		opcontrol = form.opcontrol.value;
+		channel = form.channel.value;
+		channel = replace(channel,'#','');
+		if (password != "") {
+			URL = URL+'?nickname='+nickname+'&nickpass='+password+'&opcontrol='+opcontrol+'&channel='+channel+'';
+		}
+		 else {
+			URL = URL+'?nickname='+nickname+'&opcontrol='+opcontrol+'&channel='+channel+'';
+
+		}
+		window.open(URL, '', 'width=550, height=400, scrollbars=auto, resizable=yes');	
+	}
+	else { alert('Please enter a nickname'); }
+}
+</script>
+<link rel="stylesheet" href="../sheet.css"></head>
+<body bgcolor="#FFFFFF" background="../images/back.gif" leftmargin="0" topmargin="0" marginwidth="0" marginheight="0">
+<table width="750" border="0" cellpadding="0" cellspacing="0" bgcolor="#FFFFFF">
+  <tr> 
+    <td><form name="login" action="http://www.pixies-place.com/forums/chat/chat.php">
+        <table width="750" border="0" cellpadding="0" cellspacing="0" background="images/frontpage/newforumstop_02.jpg">
+          <tr> 
+            <td><img src="../images/frontpage/newforumstop_01.jpg" width="230" height="27"></td>
+            <td width="60%" valign="middle" background="../images/frontpage/newforumstop_02.jpg"><table width="200" border="0" align="right" cellpadding="0" cellspacing="0" bordercolor="#333333" bgcolor="#FFFFFF">
+                <tr bgcolor="ffcc00"> 
+                  <td width="200" align="center"><table border="0" cellpadding="0" cellspacing="0" width="100%">
+                      <tr> 
+                        <td align="center"> <p><font size="2"><strong><font size="1" face="Arial, Helvetica, sans-serif">Live 
+                            Chat</font></strong><b> </b></font> 
+                            <input name="nickname" type="text" class="small" value="Enter Nick" size="10">
+                            <input type="hidden" name="nickpass">
+                            <input type="hidden" name="channel" value="#pixies-place">
+                            <input type="hidden" name="opcontrol" value="show">
+                            <input name="chat" type="button" class="small" onClick="javascript:chatnow(this.form);" value="Chat" size="10">
+                        </td>
+                    </table></td>
+              </table></td>
+            <td><div align="right"><img src="../images/frontpage/newforumstop_04.jpg" width="109" height="27"></div></td>
+          </tr>
+          <tr> 
+            <td colspan="3"><table width="100%" height="12" border="0" cellpadding="0" cellspacing="0" background="../images/forums/newforumstop_04.jpg">
+                <tr> 
+                  <td width="99%" background="../images/frontpage/newforumstop_06.jpg"></td>
+                  <td width="619" background="../images/forums/newforumstop_06.jpg"><div align="right"><img src="../images/frontpage/newforumstop_07.jpg" width="619" height="13"></div></td>
+                </tr>
+              </table></td>
+          </tr>
+        </table>
+      </form>
+      <div align="left"> 
+        <table width="750" border="0" cellspacing="0" cellpadding="2">
+          <tr> 
+            <td width="254"><img src="../images/stories.gif" width="254" height="30"></td>
+            <td width="488"><div align="center"><font color="#666699" size="3" face="Arial, Helvetica, sans-serif">&nbsp;<strong>Chat 
+                Room</strong></font></div></td>
+          </tr>
+        </table>
+        <table width="750" border="0" cellpadding="0" cellspacing="0">
+          <tr> 
+            <td valign="top" bgcolor="#FFFFFF"><table width="750" border="0" cellspacing="0" cellpadding="4">
+                <tr> 
+                  <td width="137" valign="top" bgcolor="f1f1f1"><table width="100%" border="0" cellpadding="2" cellspacing="0" bgcolor="f1f1f1">
+                      <tr> 
+                        <td bgcolor="#445566"><div align="right"><b><font face="Verdana, Arial, Helvetica, sans-serif" class="small" color="#FFFFFF">Menu</font></b></div></td>
+                      </tr>
+                      <tr> 
+                        <td><div align="right"><a href="../erotic.php" class="small">Contents 
+                            Page</a><br>
+                            <a href="../forums" class="small">Forums</a><br>
+                            <a href="../links.htm" class="small">Links</a><br>
+                          </div></td>
+                      </tr>
+                      <tr> 
+                        <td height="2" bgcolor="#445566"></td>
+                      </tr>
+                    </table></td>
+                  <td width="597" valign="top"><table width="100%" border="0" cellspacing="0" cellpadding="10">
+                      <tr> 
+                        <td> <p>Opens chat in a new window so you can continue 
+                            to browse the site whilst you talk!</p>
+                          <p>Choose any nickname you wish, leave the password 
+                            field blank unless you have registered a nick (NB 
+                            this is <b>not</b> your forums password!) </p></td>
+                      </tr>
+                      <tr> 
+                        <td> <form name="login" action="http://www.pixies-place.com/forums/chat/chat.php">
+                <table width="171" border="0" cellspacing="0" cellpadding="1" align="center">
+                  <tr> 
+                    <td rowspan="5"> 
+                      <p>&nbsp;</p>
+                    </td>
+                    <td colspan="2">
+                      <p><font size="4"><b>Chat login:</b></font></p>
+                    </td>
+                  </tr>
+                  <tr> 
+                    <td> 
+                      <p> 
+                        <input type="text" name="nickname" size="12">
+                      </p>
+                    </td>
+                    <td> 
+                      <p>Nickname</p>
+                    </td>
+                  </tr>
+                  <tr> 
+                    <td> 
+                      <p> 
+                        <input type="password" name="nickpass" size="12">
+                      </p>
+                    </td>
+                    <td> 
+                      <p>Password</p>
+                    </td>
+                  </tr>
+                  <tr> 
+                    <td colspan="2"> 
+                   
+                        <input type="hidden" name="channel" size="12" value="#pixies-place">
+                       <input type="hidden" name="opcontrol" value="show">
+                     
+                    </td>
+                  </tr>
+                  <tr> 
+                    <td> 
+                      <p> 
+                        <input type="button" name="chat" value="Chat now" onClick="javascript:chatnow(this.form);">
+                      </p>
+                    </td>
+                    <td> 
+                      <p>&nbsp;</p>
+                    </td>
+                  </tr>
+                </table>
+                          </form>
+                          <p align="left"><a href="http://www.dynastynet.net/stats/pixies-place.html" target="_blank"><strong>Chat 
+                            Room Statistics!!!!</strong></a></p>
+                          <p align="left">Alternatively download our very own 
+                            PixiesmIRC!!!! - Just install this package, run and 
+                            chat away with lots of fun features. Many thanks to 
+                            Madmax67 for this ;)</p>
+                          <p align="left"><a href="http://idev.tcm-services.net/max/pixiemirc.exe">Click 
+                            here to download</a></p>
+                          <p align="left">or <a href="http://idev.tcm-services.net/max/pixiescript.exe">Click 
+                            here to download just the PixiesmIRC script</a> (if 
+                            you already have mIRC installed)</p>
+                          <p align="center">&nbsp; </p>
+                          <h1 align="left">Mirc Help / Chat Help:</h1>
+                          <p align="left"><strong>Java Chat Help:</strong></p>
+                          <p align="left">Firstly, when you click Chat anywhere 
+                            on the site a new window will pop-up - this is where 
+                            you will be chatting. A window will then pop-up asking 
+                            you to accept and install JIRC chat. Accept this and 
+                            you should be able to chat away. If not read on....</p>
+                          <p align="left">If you are clicking on the Chat button 
+                            anywhere on the site and you get a window pop-up but 
+                            then nothing else happens you need to make sure you 
+                            have JAVA installed on your machine. Since Windows 
+                            XP was release Microsoft decided to no longer include 
+                            their JAVA runner with Internet Explorer 6.</p>
+                          <p align="left">Currently you can download it from the 
+                            following link:</p>
+                          <p align="left"><a href="http://www.lichtensteig.ch/Downloads/msjavx86.exe">http://www.lichtensteig.ch/Downloads/msjavx86.exe</a> 
+                          </p>
+                          <p align="left">Once downloaded double click on the 
+                            downloaded file and install it. Once done you will 
+                            need to restart your computer. Once done you should 
+                            be able to chat with the rest of us!</p>
+                          <p align="left"><strong>Mirc Help:</strong></p>
+                          <p align="left">You can also access Pixies-Place chat 
+                            through any number of IRC programs, such as mIRC. 
+                            Read on for those who want to try that.<br>
+                            For those that already know about IRC:<br>
+                            Server: <strong>irc.dynastynet.net</strong><br>
+                            Channel: <strong>#pixies-place</strong></p>
+                          <p align="left"><strong>How to install and setup MIRC 
+                            so you can join the Pixies-place chatroom (or just 
+                            download PixiesIRC above!)<br>
+                            </strong>(thanks to Airhog for this guide)</p>
+                          <p>This guide will work for anyone running a pc. It 
+                            probably wont work for mac users, sorry but I dont 
+                            have a mac to go on.</p>
+                          <p>1. You need to download mirc too your harddrive. 
+                            You can get it from www.mirc.com select download from 
+                            the left hand menu, then select one of the links near 
+                            you to download it. Save the file to your harddrive.</p>
+                          <p>2. Find the file you just downloaded and run it. 
+                            Let it install to the default directory.</p>
+                          <p>3. Run the program. A box should come up with a guys 
+                            face asking you to register, close that box</p>
+                          <p>4. Go up too the file menu and selection options 
+                            from it. This should bring up a box with lots of choices.</p>
+                          <p>5. Select the Connect option in the left hand box. 
+                            This is close to what your screen should look like. 
+                            Go up too the Irc: network and select DynastyNet. 
+                            In the box below it select DynastyNet: Random server, 
+                            if it doesnt appear already.</p>
+                          <p>6. Now fill in the other boxes. You do not have too 
+                            supply your real name or your e-mail address. Those 
+                            items can be looked up by other users on the server, 
+                            so its a good idea if you do use a real e-mail address 
+                            that your not worried about getting spam.</p>
+                          <p>7. Once you have finished click on the connect box. 
+                            A window should pop up asking you which channel to 
+                            join. Type in #pixies-place and you should be connected.</p>
+                          <p>8. Now you probably want to register your nickname 
+                            so others can't use it. Type in this to register your 
+                            nickname /msg nickserv register &lt;password&gt; &lt;e-mail&gt; 
+                            Replace the password and e-mail and you nick should 
+                            now be registered.</p>
+                          <p>9. Now then, everytime you connect you will need 
+                            to indentify yourself, and join the channel, but we 
+                            can easily automate this. go back to the file menu, 
+                            and select options once again. This time click on 
+                            the pluis sign to bring up some more options. select 
+                            the perform option.</p>
+                          <p>10. Check the enable perform on connect box, then 
+                            click on the add button. A box should pop up. Find 
+                            the dynastynet from the list and click okay. The field 
+                            under network should now read Dynastynet. IF not just 
+                            select it from the list under network:</p>
+                          <p>11. in the big box at the bottom type in the following 
+                            on seperate lines.<br>
+                            /j #pixies-place<br>
+                            /msg nickserv identify &lt;password&gt;<br>
+                            Replace password with the password you used when identifing 
+                            your nickname.</p>
+                          <p>12. you should be all setup, try reconnecting to 
+                            the sever to make sure. you should auto-join the channel. 
+                            ALso look in the status window, it will near the top 
+                            left hand corner of the mirc window, and say dynastynet. 
+                            At the bottom it should say something like -NickServ- 
+                            Password accepted - you are now recognized. If it 
+                            says you password is rejected, then make sure you 
+                            got you password correct in step 9.</p></td>
+                      </tr>
+                    </table> </td>
+                </tr>
+              </table></td>
+          </tr>
+        </table>
+        <table width="750" border="0" cellspacing="0" cellpadding="0">
+          <tr> 
+            <td width="150" valign="bottom">&nbsp;</td>
+            <td width="619"> <table width="281" border="0" align="center" cellpadding="3" cellspacing="0">
+                <tr align="center"> 
+                  <td><a href="../erotic.php" class="link">Contents Page</a></td>
+                  <td width="25%"><a href="../forums/" class="link">Forums</a></td>
+                  <td colspan="2"><a href="../links.htm" class="link">Links</a></td>
+                </tr>
+              </table></td>
+          </tr>
+        </table>
+        <table width="750" border="0" cellspacing="2" cellpadding="8">
+          <tr> 
+            <td bgcolor="f1f1f1"><table width="100%" border="1" cellspacing="0" cellpadding="3" bordercolor="#FFCC00">
+                <tr> 
+                  <td bgcolor="#FFFFFF"> <p class="small"><font color="#999999">All 
+                      HTML/Images copyright Pixies-Place. No Reproduction of any 
+                      kind without permission.<br>
+                      Any Comments to <a href="mailto:webmaster@pixies-place.com" class="small">webmaster@pixies-place.com</a></font></p></td>
+                </tr>
+              </table></td>
+          </tr>
+        </table>
+      </div></td>
+  </tr>
+</table>
+</body>
+</html>

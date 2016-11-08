@@ -1,0 +1,533 @@
+VERSION 2.0.0.0055
+Romanian
+text/html; charset=iso-8859-2
+Sambata
+Vineri
+Joi
+Miercuri
+Ianuarie
+Februarie
+Rezultate Cautare
+Ignorat: <i>$s1</i>.<br />
+Cautarea ta dupa <i>$s1</i> a gasit urmatoarele documente (din $s2 documente cautate):
+Cautarea ta dupa <i>$s1</i> nu a gasit potriviri ($s2 documente au fost cautate):
+Afisand documentele $s1-$s2 din $s3, cu cele mai bune potriviri primele:
+Documentele $s1-$s2 din $s3 afisate.
+Pagini Rezultate:
+Precedent
+Urmator
+Nu au fost gasite documente.
+nu se poate face conectarea la baza de date
+argument invalid - parametru '$s1' nedefinit
+incapabil sa incarce modulul '$s1' - $s2
+modulul '$s1' versiunea '$s2' este prea vechi - necesar cel putin versiunea '$s3'
+Luni
+Duminica
+Martie
+Decembrie
+Marti
+nu poate fi executata declaratia:
+Noiembrie
+Ocombrie
+Aprilie
+Septembrie
+August
+Extragere
+Iulie
+un alt proces are scriere inchisa - asteptat $s1 secunde
+incapabil sa redenumeasca fisierul '$s1' to '$s2' - $s3
+incapabil sa seteze mod binar asupra fisierului '$s1' - $s2
+Mai
+incapabil sa obtina o blocare citit impartit (shared read lock) asupra fisierului '$s1' - $s2
+incapabil sa adauge fisierului '$s1' - $s2
+incapabil sa scrie in fisierul '$s1' - $s2
+incapabil sa citeasca din fisierul '$s1' - $s2
+nu poate fi pregatita declaratia:
+Domeniu
+eroare in timpul citirii fisierului '$s1'. Citit doar $s2 din $s3 byti
+Iunie
+incapabil sa cedeze inchidere (release lock) asupra fisierului '$s1' - $s2
+cercetare tipar (pattern) '$s1' contine expresie regulara executare-cod ?{} ilegala
+incapabil sa evalueze expresia (pattern) '$s1' - $s2
+incapabil sa inchida fisierul '$s1' - $s2
+URLul '$s1' nu are un format valid
+incapabil sa stearga fisierul '$s1' - $s2
+incapabil sa caute numele '$s1'
+Factor Senzitiv
+Factor Insenzitiv
+Accent Senzitiv
+Accent Insenzitiv
+Exemplu
+Entitati HTML
+Numar de Byti
+Descriere
+<p><b>Eroare:</b> $s1.</p>
+Click aici pentru a vizita <a href="$s1">$s2</a>.
+placinta cu mere
+documentul contine  $s1 semne PICS din $s2. Acest motor de cautare a fost configurat sa accepte doar valori de $s3 sau mai mici
+incapabil sa obtina blocare drept de scriere exclusiva asupra fisierului '$s1' - $s2
+valoarea lui '$s1' trebuie sa fie un intreg intre $s2 si $s3
+incapabil sa reinoiasca fisierul '$s1' - $s2
+cautam pana la pozitia $s1 in fisierul working_copy, dar acel fisier are o marime de $s2. Acest lucru este normal daca o operatiune anterioara a expirat; altfel inseamna ca ceva ciudat se intampla, caz in care at trebui sa trimiti un mail autorrului scriptului
+incapabil sa incerce sa caute pana la pozitia $s1 in fisierul '$s2' - $s3
+Eroare
+URL
+sirul contine caractere ilegale '$s1'
+<p><b>Atentiune:</b> $s1.</p>
+acces respins de catre regula de filtrare '$s1' deoarece urmatoarele siruri de caractere au fost gasite in $s3: '$s4'. Gasite $s5 instante iar minimul permis este de $s2
+spatii albe prea mici - doar $s1 din document. Procentul minim de spatii albe este de $s2
+document prea mic la $s1 byti. Marimea minima este de $s2 byti
+documentul redirectioneaza catre'$s1'
+META insemnele robotilor interzic accesul catre acest document
+acest program incearca caute pana la pozitia $s1, dar fisierul '$s2' este doar de marimea $s3. Acest lucru nu ar trebui sa se intample. Se poate datora unei depasiri a spatiului pe disk, caz in care acest program va incerca sa scrie datele pe hard disk, dar sistemul de operare nu le va salva. Te rog, verifica daca spatiul pe disk a fost depasit
+Necesita Aprobare dupa regula filtrare '$s1' deoarece urmatoarele siruri de caractere au fost gasite in $s3: '$s4'. Gasite $s5 instante iar minimul cerut este $s2.
+Document Text
+Numegazda
+Necesita Aprobare dupa regula filtrare '$s1' deoarece doar urmatoarele siruri de caractere au fost gasite in $s3: '$s4'. Gasite $s5 instante iar maximul permis este de $s2.
+document will not be included in the index because it is denied by a "noindex,follow" filter rule
+acces respins de catre regula de filtrare '$s1' deoarece au fost gasite prea putine dintre urmatoarele siruri de caractere in  $s3: '$s4'. Gasite $s5 instante iar minumul necesar este de $s2
+-> scanning folder '$s1'...<br />
+fisier excludere roboti '$s1' interzice accesul la '$s2'
+incapabil sa citeasca din directorul '$s1' - $s2
+incarcand reguli filtrare
+Creaza Domeniu Nou
+Editeaza Inregistrari
+Sterge Inregistrarile
+Pagina Administrator
+Valoare Initiala
+conectat la baza de date
+sters tabel '$s1'
+100-anchor
+Total $s1 impresii din data de $s2 ($s3)
+ai fost deconectat
+Detectata mostenire format fisier jurnal... convertire la formatul nou...
+potrivirea expresiei esuata pentru '$s1'
+Terminat cu  $s1 inregistrari pana acum.
+Statistici folosire
+Viziteaza $s1 pentru a verifica daca vizitatorii pot adauga in aceste domenii.
+Esti sigur ca vrei sa stergi acest obiect?
+Esti sigur ca vrei sa continui? Orice date existente vor fi pierdute.
+Listeaza Toate Cautarile
+sau grupeaza dupa:
+Intreg Sirul de Cautare
+Ultima Modificare
+setari salvate
+Numar de Documente Gasite
+mesaj test trimis
+Mai jos este o transcriere a tranzactiei:
+Ora zilei
+Ziua Saptamanii
+- linear in timp
+- ciclic
+Click in capatul unei coloane pentru a sorta in funcie de coloana respectiva.
+Reconstruieste
+Reviziteaza Vechi
+ID
+IPul vizitatorului sau Numelegazda
+UnixTime
+Timpul Zilei
+reseteaza data utilizare pentru toate reclamele
+Termeni Cautare
+Acces de Inceput
+Documente Gasite
+Documente Cautate
+Termeni de Cautare Individuali
+Zi
+Ora
+Zi saptamanala
+Fiecare cautare a furnizat o medie de $s1 documente.
+Procesat $s1 total inregistrari.
+Frecventa
+domeniul '$s1' nu are un fisier index
+Respinge
+Pune aici textul HTML de reclama.
+programul trimitemail (sendmail) '$s1' nu este valid; trebuie sa fie listat in locul @sendmail
+Sistem de Reclame
+Actiuni
+Reseteaza Numarator
+Setat toate la:
+Primite aproximativ $s1 impresii pe zi
+Greutate
+Cuvinte cheie
+Sumar
+Marime
+Revizuieste
+fisierul jurnal '$s1' nu exista (posibil sa nu existe cautari inregistrate inca)
+Pagini
+Tip Date
+aceasta functionalitate nu este disponibila in versiunea freeware; vezi ' Reinoieste Licenta'
+Setari Generale
+Aproba Paginile
+tabel '$s1' nu exista in baza de date
+Reguli Filtrare
+Interfata Utilizator-Setari Aferente:
+Cateva dintre aceste Setari Generale joaca un rol in modul in care motorul de cautare se comporta, precum numarul initial de accesari de aratat in lista de rezultate.
+Interfata utilizator
+URL de Baza
+versiunea mysql este $s1.
+Test Mail
+Lista de trimiteri ce apare la sfarsitul paginilor publice de cautare - include Ponturi Cautare, Adauga URL si Prima Pagina.
+regula '$s1' nu permite '$s2' ca valoare - validare esuata
+Lista de trimiteri ce apare la sfarsitul paginilor publice de cautare - include Ponturi Cautare si Prima Pagina. Pentru configurari ce nu permit utilizatorilor sa adauge propriul lor URL.
+Adauga URL Nou
+nepermisa adaugarea unui URL
+<p><b>Suces:</b> $s1.</p>
+sterse toate inregistrarile domeniilor din baza de datea
+Fisierul de date pentru acest domeniu inca exista, asa ca poti restaura orice prin simpla creare a unui alt domeniu ce foloseste acelasi nume de fisier '$s1'. Pentru a recupera spatiul de pe disk, poti sterge manual acest fisier. Are $s2 kb.
+domeniu sters
+indepartate $s1 inregistrari din fisierul '$s2'
+adaugate $s1 inregistrari in fisierul '$s2'
+urmatoarele domenii au erori, si nu sunt disponibile pentru cautare
+parola invalida
+Foloseste $s1 pentur a incerca rezolvarea problemei sau $s2 domeniul.
+Setari Personale
+180
+Reconstruind domeniul '$s1':
+Indexand situl web '$s1' pentru domeniul '$s2':
+Adaugand Pagini de Web domeniului '$s1':
+Paginile de indexare ce nu au fost vizitate in ultimele $s1 zile.<br />
+Ruland in mod automat in grupul $s1.
+Administreaza
+Status: $s1 documente indexate; $s2 esuate; $s3 asteptand sa fie indexate.
+Te rog asteapta rabdator in timp ce paginile sunt indexate. Daca acest proces expira, $s1 pentru a-l reporni.
+click aici
+Cercetarea siturilor catre care exista trimiteri si reactualizarea bazei de date poate dura un timp indelungat. Esti rugat sa ai rabdare...
+Solicitand
+cautatorul (the crawler) a indexat $s1 pagini de web si a terminat cu acest grup (batch). Numarul de pagini pe grup este controlat de catre setarea <a href="$s2" target="_blank">Crawler: Max Pagini pe Grup</a>.
+Tarare Incheiata
+cautatorul (the crawler) a fost indexat pentru $s1 secunde. S-a oprit pentru a preveni o expirare a serverului.
+Aceasta pagina a fost indexata de catre cautatorul (crawler) nostru. Va fi adauga in indexul noustru imediat ce am avut sansa de-al revizui.
+200-anchor
+Terminat cercetare amanuntita (crawling). Acum analizarea fisierelor si reactualizarea indexului...
+Redirectioneaza
+Redirectioneaza catre un alt URL
+a durat $s1 secunde.
+Un nou URL a fost subscris motorului de cautare:
+Email
+Adresa IP
+Aceste domenii contin toate paginile legate (linked) de URLul de pornire specificat.
+Nou URL subscris: $s1
+Continua
+Aceasta pagina ar trebui sa se reinitializeze automat in $s1 secunnde pentru a continua. Daca nu, <a href="$s2">click aici</a>.
+Aceste domenii contin toate paginile de web dintr-un sit anume. Sunt speciale pentru ca nu au un index asociat lor; ele simplu re-cauta sistemul de fisiere de fiecare data cand un vizitator tasteaza un termen in linia de cautare. Configuratia recomandata nu sa nu folosesti Domenii Runtime. Daca folosesti, fa-le sa includa doar cateva pagini care sunt reactualizate foarte des.
+NU au fost gasite trimiteri inserate in timplu aceste sesiuni de tarare (crawl).
+Trimiteri Inserate:
+Click pe Indexare Linkuri Bifate pentru a indexa (crawl) toate trimiterile (links) ce sunt bifate.
+Urmatoarele trimiteri au fost gasite. Inca nu au fost indexate.
+Adresa de mai jos a mai fost intalnita inainte si a esuat cu erorile 'Redirectioneaza', "Negasit' sau 'Server de Neatins'.
+Urmatoarele trimiteri au fost gasite in aceste pagini. Ele au fost deja introduse in indexul de cautare, dar nu au fost vizitate in mai mult de $s1 zile. Ar trebui sa fie indexate din nou.
+Trimiterile de mai jos au fost vizitate in ultimele $s1 zile. Exista deja in index.
+$s1 zile in urma
+$s1 minute in urma
+$s1 ore in urma
+folosind valoare specificata
+Sunt $s1 fisiere in directorul de baza '$s2'.
+indexul pentru acest domeniu nu este in ordine alfabetica. Trebuie sa reconstruiesti indexul inainte de a rula ReinoiesteIndex
+URLul '$s1' a fost schimbat; reinoire inregistrare...
+URLul '$s1' nu este in index; introducere inregistrare noua...
+URLul '$s1' nu mai este prezent; stergere inregistrare...
+reinoirea domeniului incheiata
+Continuare proces de indexare, cu fisierul $s1:
+Inceperea procesului de indexare:
+Acest proces a durat $s1 secunde.
+Despre $s1 terminat ($s2 din $s3 fisiere) - merge de $s4 secunde; expira in $s5
+folosind valoare initiala
+Nu exista pagini de afisat
+Terminat
+toate paginile listate
+formatul fiecarui acces rezultat in lista rezultatelor cautarii
+textul HTML ce apare in partea de jos a fiecarei pagini vizualizate-public
+textul HTML ce apare in partea de sus a fiecarei pagini vizualizate-public
+formularul HTML folosit pentru cautari
+ponturile de cautare
+CSS stylesheet pentru pagini vizualizate-public
+tiparul (template) '$s1' nu este definit
+fisierul '$s1' nu exista
+Textul tiparului (template) '$s1' (fisier: $s2):
+You may also <a href="$s1">review records</a> that have been permanently customized.
+aceasta inregistrare este generata dinamic din fisierele tale actuale. Pentru a schimba titlul descrierii, trebuie sa schimbi atributele respective in fisier
+adresa de web '$s1' nu a fost gasita in domeniul '$s2'
+Titlu
+valoare promotie
+the index file has been updated, but the original HTML page has not been changed. If possible, make these changes to the document itself by adding the following HTML
+The customized values that you enter above will be saved until this document is indexed again. At your option, some customized fields can be saved indefinitely. Check the fields that you wish to save indefinitely.
+Campul URL este principala cheie in index. Daca il schimbi, o noua inregistrare cu noua informatie va fi creata si vechea inregistrare va fi indepartata.
+Atributul Marime este un intreg, nu mai mare de 6 caractere lungime.
+Campul valoare Promoveaza este un multiplicator folosit in analizarea relevantei rezultatelor cautarii. Initial este 01; marind-o va cauza probabil ca o pagina de web anume sa apara in primele rezultate ale cautarii.
+nici un domeniu cu inregistrari inmagazinate nu a fost definit
+First, select some web pages.
+Rasfoieste Toate Inregistrarile
+Cerceteaza Toate Inregistrarile
+URL Pattern
+ai nevoie de cel putin o reclama definita si cel putin o pozitie definita pentru ca reclamele sa fie afisate. Citeste Topic Ajutor Reclame de mai jos pentru a incepe
+Cerceteaza
+* Tiparurile URL pot include ".*" ca si jokeri. De exemplu, "http://www.xav.com/.*" se va potrivi atat cu "http://www.xav.com/" precum si cu "http://www.xav.com/scripts/".
+expired
+There are no custom records at this time.
+completed deletion of custom metadata
+Filtered Realms
+<p><b>Permanent Deletion</b></p><p>In general, deleting web pages will not prevent them from being added again. There are two ways to permanently delete them, so that they will never be added again:</p><ol><li><p>You may edit the web page by inserting the following META tag:</p>$s1<p>This will prevent all search engines from indexing the document. This is the most efficient, straight-forward method. Use this method when forbidding documents on any web site that you control.</p></li><li><p>Or, you may add the web page URL's or patterns to the forbidden sites list by submitting the form below.</p>$s2<p>Items listed in the forbidden sites list will never again be indexed by this search engine. Use this method to forbid documents from web sites that you do not control.</p></li></ol>
+Optiuni Stergere Multiple:
+Sterge toate paginile precum:
+Cautand dupa Inregistrari:
+Cerceteaza expresia '$s1' gasite $s2 inregistrari.
+Urmatoarele pagini de web vor fi indepartate din domeniul:
+Debifeaza orice pagina de web ce nu trebuie indepartata.
+incheiata cercetare amanuntita (crawling) sitului
+domeniul '$s1' este un domeniu runtime; nu exista date salvate pentur acest domeniu
+Solicitand fisier de inceput'$s1'...
+Descoperite $s1 trimiteri in pagina.
+Terminat reconstructie domeniu.
+token de autentificare negasit; sesiunea ta se pera poate sa fi expirat
+parola nu a putut fi salvata
+noua parola salvata. Te poti conecta acum
+sesiune expirata
+parolele nu se potrivesc
+parola nu poate fi spatiu gol
+Introdu o adresa de web pentru a incepe indexarea (crawl). Pagina initiala va fi recuperata prin web. Apoi toate trimiterile (links) vor fi urmate, pana cand intreg situl va fi fost indexat.
+Introdu o adresa de web pentru a incepe indexarea (crawl). Cand subscri formularul, acest script va recupera pagina prin web si va salva continutul in index.
+Acum exista $s1 pagini de web in domeniul '$s2' - $s3 inregistrari create; $s4 reinoite; $s5 indepartate.
+Adauga Sit Nou
+Introdu o adresa de web pentru a incepe indexarea (crawl).  Cand subscri formularul, acest script va recupera pagina prin web si va salva continutul in index. Mai tarziu poti urma oricare sau toate trimiterile gasite in acest document.
+Administreaza Inmagazinarea Datelor
+creat tabel SQL '$s1'
+Revizuieste Asteptare
+linie inregistrare gasita pentru domeniu '$s1', care nu mai exista
+fisierul de asteptare nu este inmagazinat cum trebuie. Unele intrari vor fi sterse. Va trebui sa Sincronizezi toate domeniile
+Intalnit URL '$s1' dupa URL '$s2' in fisierul de asteptare - regulile alfa spun ca ordinea lor trebuie sa fi fost inversata.
+Indepartate $s1 inregistrari invalide.
+Indepartate $s1 inregistrari pentru expirate depasite.
+300-anchor
+Gasite $s1 inregistrari in total, incluzand $s2 pagini eroare inmagazinate(cached)
+Numar Asteptare
+Numaratoare Prevazuta
+Pagini Asteptare
+Eagini Eroare
+Sincronizeaza
+Indeparteaza Duplicate
+<p>Actiunea <b>Sincronizare</b> va extrage toate trimiterile (links) din fisierul index si se va asigura ca sunt prezente in fisierul de asteptare. (Fisierul index este sursa datelor autoritare - fisierul de asteptare il va urma.)</p><p>"Numar Asteptare" este numarul paginilor care ar fi trebuit sa se afle in index, conform fisierului de asteptare.</p><p>"Numar Asteptat" este numarul paginilor din index cand numaratoarea paginilor domeniului a fost reactualizata.</p><p>Daca numerele difera, foloseste actiunea <b>Sincronizare</b>. Aceasta va cerceta indexul actual pentru a afla ce pagini ai; apoi va reactualiza fisierul de asteptare si numaratoarea paginilor domeniului cu informatia corecta.</p><p>"Pagini Asteptare" sunt inregistrari ce tintesc un URL de care scriptul stie dar nu a fost inca indexat. Acestea sunt folosite de catre domeniile sitului de web atunci cand cautatorul (the crawler) incearca sa descopere toate trimiterile (the links) dintr-un sit anume. In timpul procesului de Reconstructie, toate Paginile de Asteptare ar trebui convertite in inregistrarile actuale sau inregistrarile de erori ascunse (cached error records). Daca un domeniu un numar de Pagini de Asteptare non-zero, atunci probabil ca nu a terminat procesul de reconstructie.</p><p>Actiunea <b>Indeparteaza Duplicatele</b> va cauta in index dupa intrari duplicate si le va indeparta.</p>
+in prezent folosind SQL pentru inmagazinarea datelor. Comanda Indeparteaza Duplicatele merge doar cu domeniile bazate pe fisiere
+Indepartata intrare duplicat pentru '$s1'.
+Terminat indepartat duplicate (indepartat $s1).
+Reinoieste inregistrari existente.
+Reinoire numarare pagini pentru domeniul '$s1' pana la $s2.
+creata configuratie noua baza de date
+incapabil sa creeze configuratia bazei de date
+Corectand eroare: fisierul de asteptare listeaza URL '$s1', dar nu este prezent in index.
+exista intrari duplicate in index
+Te rog ruleaza comanda Indeparteaza Duplicate.
+Gasite urmatoarele pagini in indexul tau:
+reinoit mod inmagazinare jurnal in '$s1'
+reinoit mod inmagazinare date in '$s1'
+Pentru rezultate mai bune, reconstruieste indexurile acum.
+Migrare Date
+Terminat migrare datele Domeniu din tabelul SQL '$s1' catre fisierul text 'search.realms.txt'.
+Terminat migrare datele Domeniu dinfisierul text 'search.realms.txt' catre tabelul SQL '$s1'.
+Pasind printre URLuri dupa domeniul '$s1', mergand de la $s2 pana la $s3.
+inregistrare invalida
+Terminat migrare date pagina de web pentru domeniul '$s1'.
+Poti acum selecta o noua modalitate de inmagazinare a datelor
+incheiata migrarea tuturror datelor
+<p><b>Nota:</b> Ultima Indexare si Ultima Modificare a apginilor pot fi salvate in SQL dar nu in fisiere text, datorita unei scheme un pic diferite dintre acele sisteme.</p><p>Cu toate aceastea, cand se face trecerea de la fisiere text la SQL, asa cum am facut noi, prcesul de trecere foloseste timpul curent pentru a popula campurile Ultima Indexare si Ultima Modificare.</p><p>Pentru rezultate mai bune, reconstruieste indexul odata ce ai selectat o noua metoda de salvare a datelor. Acest lucru va asigura ca toate campurile au fost populate cu date valide.</p>
+Curata Cache Erori
+Administreaza Fisierul de Asteptare
+cauta dupa inregistrari legate de domenii de cand au fost sterse - va indeparta pe cele gasite.
+indeparteaza toate inregistrarile paginilor de web ce nu au putut fi extrase
+Poate Perl interactiona cu bazele de date?
+in prezent $s1 module instalate - versiunea $s2
+Administreaza Setarile Bazei de Date
+Trebuiesc rezolvate erorile precedente mai intai.
+Verifica Configuratie Baza de Date
+necesar de definit variabilele:
+baza de date '$s1' este configurata corespunzator. Contine $s2 pagini de web in $s3 domenii
+Conectare SQL
+Nume Tabele
+Pastreaza setarile initiale doar daca nu rulezi instante multiple paralele ale FDSE din aceasi baza de date.
+Pentru a crea noi tabele, $s1. Aceasta va incerca sa creeze sau recreeze tabelele pentru mentinea domeniilor si indexurilor in baza de date '$s2'. Orice date existente vor fi pierdute.
+Pentru a crea un nou tabel de jurnal, $s1. Aceasta va incerca sa creeze sau recreeze tabelul SQL '$s2' pentru inregistrarea cautarilor. Orice date existente vor fi pierdute.
+Nu a terminat de creat tabelul de inregistrare (log) - necesar de definit variabila 'sql: table name: logs' de deasupra.
+Migrare din SQL catre Fisiere
+Migrare din Fisiere catre SQL
+La inceput, toate datele din sistemul de fisiere vor fi sterse. Apoi, informatii despre domeniile tale vor fi citite din tabelul SQL de domenii si scrise in fisierul "search.realms.txt". Apoi, toate inregistrarile paginilor de web in tabelul SQL de adrese vor fi scrise in fisiere text in directorul searchdata, un singur fisier pe domeniu. Migrarea datelor poate dura cateva minute, timp in care acest script se poate auto-stimula(auto-refresh). Odata migrarea incheiata, vei avea date identice in sistemul de fisiere si in SQL. In acel punct, poti seta Metoda Inmagazinare Date catre Sistem Fisiere si toate cautarile vor incepe a fi facute impotriva sistemuli de fisiere. Deasemenea, toate actiunile administratorului precum crearea domeniilor sau indexarea paginilor de web va fi facuta impotriva datelor fiserelor text.
+La inceput, toate datele din baza de date SQL vor fi sterse. Apoi, informatia despre domeniile tale va fi citita din "search.realms.txt" si scrisa in baza de date SQL. Apoi, toate inregistrarile din fisierele tale index vor fi incarcate in baza de date SQL. Migrarea datelor poate dura cateva minute, timp in care acest script se poate auto-stimula(auto-refresh). Odata migrarea incheiata, vei avea date identice in sistemul de fisiere si in SQL. In acel punct, poti seta Metoda Inmagazinare Date, si cautarile vor incepe a fi facute impotriva bazei de date. Deasemenea, toate actiunile administratorului, precum crearea de domenii sau indexarea siturilor de web vor fi facute impotriva datelor SQL.
+Selecteaza Mod Inmagazinare Date
+Actualmente folosind:
+Sugestie: exista erori validand baza de date, iar acest script este configurat sa foloseasca baza de date pentru inmagazinare, Daca nu poti remedia aceasta problema imediat, ar trebui sa selectezi Sistem Fisiere ca metoda de inmagazinare a datelor.
+Foloseste sistemul fisiere
+Foloeste baza de date SQL
+Selecteaza Mod Jurnal Inmagazinare
+adresa de email nu poate fi goala
+adresa de email '$s1' nu este sub forma 'text@text'
+Afiseaza reclama doar daca exista o potrivire cu un cuvant cheie.
+Salveaza Date
+Pozitii Permise
+Reclama Noua
+Domenii Website - Descoperire Tarator (Crawler Discovery)
+Domenii Website - Descoperire Sistem Fisiere
+Selecteaza tip domeniu si furnizeaza informatie specifica-tip:
+Editeaza Domeniu
+Nume Fisier
+Afiseaza reclama tuturor vizitatorilor, cu latimea aditionala daca exista o potrivire cu un cuvant cheie.
+Vezi $s1 pentru a adauga, sterge sau edita domeniile tale.
+Creat domeniu nou '$s1'
+Gasite $s1 pagini deja existente in fisierul index '$s2'.
+Indexare Linkuri Bifate
+Restaureaza Setari Initiale
+adresa web '$s1' este in afara scopului acestei cautari adanci (crawl). Adresele trebuie sa se potriveasca cu '$s2'
+Domenii Disponibile
+tipul-continut returnat a fost '$s1'; doar tipurile de 'text' primare sunt permise
+serverul a raspuns cu '$s1 $s2' in loc de '200 OK'
+prea multe redirectionari. Nu mai mult de $s1 redirectionari sunt permise
+This submission was processed automatically; no administrator approval is required.
+Sterge Fisierul Index
+fisier sters '$s1'
+scriere expirata in socket
+anticipati $s1 byti de trimis dar trimisi doar $s2 - $s3
+Cheie de inregistrare - necesara doar pentru modul "Shareware Inregistrat":
+Crescand dimensiunea grupului(batch) de la $s1 la $s2.
+Reducand coada de lucru (work queue) de la $s1 la $s2.
+Indepartand URL '$s1' din coada de lucru (work queue).
+script restartat, probabil datorita unei expirari. Se iau masuri de reducere a solicitarii
+Construind fisierul index pentru domeniul '$s1'.
+Logic(boolean) - 0 or 1
+Intreg - precum 14 sau 19
+Intreg Captiv - nu poate depasi max sau min
+Nummar real - 3.14 sau 2.78
+Sir caractere - precum "foo" sau "bar"
+debifeaza toate
+bifeaza toate
+Director
+400-anchor
+Aceasta nu este valoarea initiala. Pentru a restaura valoarea initiala, $s1.
+Activeaza / Nume
+Toate datele vor fi salvate ca un singur sir de caractere, fara linii intrerupte. Intreruperile existente vor fi convertite in spatii.
+seteaza '$s1' la '$s2'
+Minimum:
+Maximum:
+Creaza inregistrare noua.
+Intrare existenta stearsa.
+inregistrarea nu se potriveste cu expresia
+Acest fisier din baza de date a depasit marimea maxima de $s1 byti. Daca fisierul index "$s2" ar fi crescut pana la $s3 byti ar fi completat acest proces cu succes.</p><p>Pentru a permite aceste pagini de web in index, mergi in pagina de administrare, alege Setari Generale si Editeaza setarea "Marime Maxima Fisier Index"; sau, sterge niste pagini din baza de date pentru a reduce marimea.</p><p>Intraga operatiune a fost anulata - ignora orice mesaj de succes sau esuare de mai jos si ignora numararea adresei.
+Editeaza
+Creaza sau Reactualizeaza Regula
+Sterge Regula
+stearsa regula '$s1'
+Respinge paginile ce depasesc maxim
+Necesita aprobare pentru paginile de depasesc maxim
+Pentru fiecare categorie, selecteaza nivelul maxim tolerat. Numerele mai mici sunt mai restrictive si vor afecta mai multe documente.
+Nici o actiune intreprinsa.
+subscris de la gazda '$s1'
+Nu exista pagini in asteptarea aprobarii
+Pagini ce asteapta Aprobare
+Vizitatorii ce au subscris URLul nu sunt notificati de actiunea intreprinsa de tine. Trebuie sa le trimiti email direct pentru a-i anunta.
+daca acest URL exista in index, va fi indepartat
+acest URL va fi adaugat in index. va reinoi orice inregistrare existenta
+nici o actiune intreprinsa; acest URL va raman in coada (queue)
+Asteapta
+Aproba
+Nume
+Indexeaza Intreg Situl
+Sterge
+Domenii Deschise
+Ajutor
+Pagina Cautare
+Deconectare
+aceasta functionalitate nu este disponibila in demoul online. Poti folosi aceasta doar cand motorul de cautare este instalat in propiul tau sit
+incapabil sa rezolve numegazda '$s1' adresei de IP - $s2 - $s3
+incapabil sa creeze socket - $s1 - $s2
+incapabil sa se conecteze la gazda '$s1' pe portul $s2 - $s3 - $s4
+incapabil sa seteze mod binar asupra socket - $s1 - $s2
+incapabil sa deschida teava (pipe) '$s1' - $s2
+numele domeniu '$s1' este rezervat
+Tarare
+Adauga Pagini
+Tarare (crawl)
+incapabil sa trimita mail - nu a fost configurata nici un mod de transport pentru mail
+<p>Multumita suportului puternic acordat de catre comunitatea noastra de utilizatori, Fluid Dynamics Search Engine este capabil sa furnizeze servicii de cautare rapide, de incredere, precise pentru mii de situri si milioane de vizitatori. FDSE demonstreaza ca softul de calitate este important comunitatii noastre de web designeri si administratori. Daca gasesti acest soft util sitului tau, atunci esti rugat sa-ti aduci aportul pentru a-l sustine.</p><p>Suportul tau va fi imediat investitin produs sub forma erpararii defectelor si adaugarii de caracteristici. Cumparand o licenta, vei putea folosi toate lansarile viitoare de intretine gratuit. Pentru a cumpara o cheie de inregistrare, viziteaza <a href="http://www.xav.com/scripts/search/purchase.pl">www.xav.com/scripts/search</a>.</p><p><br /></p><p>* Daca ai cumparat o licenta oricand in trecut, dar nu ai o cheie de inregistrare, esti rugat sa ne contactezi la  <a href="mailto:scripts@nickname.net">scripts@nickname.net</a>. Urmeaza sa luam urma comenzii tale precum si trimiterea unei chei de inregistrare.</p>
+Caracteristici
+Serverul SMTP '$s1' nu raspunde corect la comanda '$s2'; primeste raspuns de la server care nu incepe cu numar de 3-digit; text intreg: '$s3'
+Serverul SMTP '$s1' nu raspunde corect la comanda '$s2'; raspuns asteptat '$s3', primit '$s4'; text intreg: '$s5'
+eroare in timpul citirii datelor in retea - $s1
+operatiune expirata
+eroare in timpul trimiterii datelor prin retea - $s1
+trimisi doar $s1 byti din $s2 in total
+codul de inregistrare nu este valid - te rog contacteaza xav.com
+nu se poate permite modul 'Shareware Inregistrat' fara o cheie de inregistrare valida
+nu se poate permite modul Freeware deoarece mai mult de un domeniu exista; mai intai sterge extra domeniile
+domeniul '$s1' este un Domeniu Deschis; doar domeniile website si fisier-hranite pot exista in modul Freeware
+Mod Licenta
+Functionalitate primara - permite trierea si filtrarea de baza a unui singur sit de web sau unui domeniu hranit-fisier.
+Caracteristica extinsa pentru o perioada de incercare rezonabila. Permite nenumarate Domenii, statistici de folosire extinse, Reguli Filtrare nelimitate.
+Shareware Inregistrat
+Shareware de Proba
+Versiune Modgratuit
+salvata Regula Filtrare '$s1'
+Regula Filtrare redenumita'$s1' in '$s2'
+URLul '$s1' a fost adaugat in regula de filtrare 'Situri Interzise'
+Reinoieste Licenta
+Toate caracteristicile, permanente. Primesti dreptul de a indeparta nota publica de copyright.
+scris in fisier '$s1'
+Cauta dupa:
+Aceste domenii contin toate paginile de web dintr-un sit anume. Configuratia recomandata este de a avea domeniu separat pentru siecare sit pe care il indexezi.
+directorul search data nu este inscriptibil - $s1. Seteaza manual permisiunea in directorul de date
+Setari Conversie Caracter
+Domenii Website
+Aceste domenii contin toate paginile de web de oriunde din Internet. Nu sunt legate de nici un URL de baza anume. Configuratia recomandata este de a acea un Domeniu Deschis si numai unul.
+Nici o Reactualizare sau Redirectionare
+Promoveaza
+Necesita Aprobare
+Permite intotdeauna
+nu se pot auto-crea domenii in modul Freeware; vezi "Reinoieste Licenta"
+Setare
+Aceste conversii de caractere sunt aplicate atat textului ce este cautat cat si termenilor de cautare. Dupa reinoirea setarilor de conversie a caracterelor, toate fisierele index trebuiesc reconstruite. Altfel, multe cautari vor esua in a afisa rezultate.
+Next, all characters are converted to a corresponding value from the four right columns below, based on the two character conversion settings above. A blank space in the right hand columns means that the character will be ignored.
+La inceput, toate entitatile HTML sunt convertite in caracterul lor echivalent byte-singur.
+Aceste setari controleaza modul in care caracterele accentuate si caracterele mari sunt manipulate.
+Vezi si
+Incluzand doar fisierele cu aceste extensii: $s1 (<a href="$s2">Editeaza</a>)
+Versiunea Perl este $s1 ($s2).<br />Sistemul de operare al serverului de web este $s3.<br /> Softul serverului de web este $s4.
+Domenii Fisier-Hranite
+aceasta pagina redirectioneaza eventual catre URL '$s1'. Acest cautator (crawler) nu este capabil sa parcurga protocolul $s2
+The Perl modules required for SQL are not available on this web server. SQL database support in FDSE is experimental; the lack of these modules just means that you won't be able to experiment with data storage using databases. All normal features are still available using the traditional data storage in text files.
+Valoare
+Review <a href="$s1./1002.html">this help topic</a> for instructions on how to reset or recover lost passwords.
+System Information
+Environment Variables
+View all system information
+anticipate zero inregistrari in tabelul '$s1' dupa creare; returnat $s2
+Necesita Aprobare
+incheiata revizuirea fisierului de asteptare
+500-anchor
+Setarea ta este in prezent la valoarea initiala recomandata.
+<P ALIGN=center><FONT SIZE=-2>Translation provided by Marius HEREA</FONT></p>
+Install Language Pack
+language folder name '$s1' is invalid - contains non-alphanumeric characters
+unable to create folder '$s1' - $s2
+<b>Status:</b> $s1.
+attempting to download language package '$s1' for script version $s2
+You may have to install this language package manually. Visit <a href="$s1">$s1</a> and download all of the files found there. Transfer them to this server and put them in the folder '$s2'.
+file '$s1' already exists; preserving existing copy
+installed language package '$s1'
+detected incorrect version $s1
+install
+Domenii Runtime
+Index, Nofollow
+Follow, Noindex
+Always delete associated index files when deleting realm.
+Click to <a href="$s1">rebuild</a> the index file for this realm.
+The system settings change that was just made <b>requires</b> that you rebuild all realms.
+You may want to rebuild all realms so that the changes you've just made can take affect.
+Administreaza Domeniile
+Domeniile sunt un mod de organizare logica a paginilor de web ce vor fi cautate de catre acest motor de cautare.
+Edit Record
+List Custom Records
+<p><b>Note:</b> when you delete the persistent custom metadata, the records themselves remain intact with their current customized values. The only effect of deleting the custom data is that the record will once again have its title, description, and keywords parsed directly from the document when the record is re-indexed.</p><p>Note that using persistent custom metadata may significantly slow down the indexing process for all records. It is best to minimize the set of customized records, and to delete custom entries for any URL's which are no longer in the index.</p>
+Delete Checked Items
+server responded with '$s1 $s2' instead of '200 OK'. See <a href="$s3" target="_blank">this help file</a> for information on crawling password-protected pages
+These realms contain pages from anywhere on the Internet. When these realms are rebuilt, they will automatically try to follow every link they encounter. The only restrictions on their indexing come from whatever custom Filter Rules have been set up.
+Verbose
+realm '$s1' is a Filtered Realm; only website and file-fed realms may exist in Freeware mode
+Delete All Log Entries
+Check here to confirm that you want to delete your search log.
+Your log file is currently $s1 bytes. You may clear the log to delete all of its contents.
+deleted all entries in the search log

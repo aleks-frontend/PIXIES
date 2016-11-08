@@ -1,0 +1,38 @@
+p            { font-size: 10pt; font-family: Verdana; font-weight: normal; font-style: normal; 
+               color: #0000A0; text-decoration: none; margin-top: 0; 
+               margin-bottom: 0 }
+.menu        { text-align: Center; background-color: #FFCC00; border: #000000 solid; border-color: 1 solid #000000}
+h2           { font-family: Tahoma; font-size: 18pt; color: #000080; text-align: Left; 
+               font-style: italic; font-weight: bold; background-color: 
+               #FFFF00; margin-top: 0; margin-bottom: 0 }
+h1           { font-family: tahoma; font-size: 14pt; text-align: Left; color: #000080; font-weight: normal; margin-top: 0; 
+               margin-bottom: 0 ; font-style: normal; text-decoration: none}
+a            { font-size: 10pt; font-family: Verdana; font-weight: normal; font-style: normal; 
+               color: maroon; text-decoration: none; margin-top: 0; 
+               margin-bottom: 0 }
+a:visited    { color: maroon; font-family: Verdana; font-size: 10pt; text-transform: none; 
+               font-weight: normal; font-style: normal; margin-top: 0; 
+               margin-bottom: 0 }
+a:active     { text-decoration: none; text-transform: none; font-family: Verdana; 
+               font-weight: normal; font-style: normal; color: maroon; 
+               font-size: 10pt; margin-top: 0; margin-bottom: 0 }
+a:hover      { font-size: 10pt; font-family: Verdana; color: #FF0000; text-decoration: 
+               underline; text-transform: none; font-weight: normal; 
+               margin-top: 0; margin-bottom: 0 }
+a.menu       { color: #000000; text-decoration: none; font-family: Verdana; font-size: 
+               x-small; text-align: Center ; font-weight: bold}
+a.menu:visited { color: #000000; text-decoration: none; font-family: Verdana; text-align: 
+               Center ; font-weight: bold}
+a.menu:active { color: #000000; text-decoration: none; font-family: Verdana; text-align: 
+               Center; font-weight: bold }
+a.menu:hover { color: #FFFFFF; text-decoration: none; font-family: Verdana; text-align: 
+               Center ; font-weight: bold}
+a.side       { color: #000080; text-decoration: none; font-family: verdana; font-size: 10pt; 
+               text-align: Left; margin-top: 0; margin-bottom: 0 ; font-weight: normal}
+a.side:visited { color: #000080; text-decoration: none; font-family: verdana; text-align: Left; 
+               font-size: 10pt; margin-top: 0; margin-bottom: 0 ; font-weight: normal}
+a.side:active { color: #000080; text-decoration: none; font-family: verdana; text-align: Left; 
+               font-size: 10pt; margin-top: 0; margin-bottom: 0 ; font-weight: normal}
+a.side:hover { color: #808080; font-family: verdana; text-align: Left; font-size: 10pt; 
+               text-decoration: none; margin-top: 0; margin-bottom: 0 ; font-weight: normal}
+h3 { font-family: Tahoma; font-size: 18pt; color: #000080; text-align: center; font-style: normal; font-weight: normal; margin-top: 0; margin-bottom: 0 }

@@ -1,0 +1,14 @@
+<p>Bienvenido a la pagina de recepción administrativa de su motor de búsqueda.</p>
+<p>Necesitara su clave para obtener acceso a esta pagina.  Teclee su clave, y pulse el botón de someter:</p>
+<blockquote>
+	<table border="0">
+		<tr>
+			<td><b>Clave:</b></td>
+			<td><input type="password" name="Password" value="%pass_value%" /></td>
+		</tr><tr>
+			<td><br /></td>
+			<td><input type="submit" class="submit" value="Login" /></td>
+		</tr>
+	</table>
+</blockquote>
+%html_status_msg%

@@ -1,0 +1,176 @@
+	<table border="1" cellpadding="4" cellspacing="1">
+	<tr>
+		<th colspan="2">Criar ou actualizar uma regra</th>
+	</tr>
+	<tr class="fdtan">
+		<td align="right" valign="top"><b>Nome:</b></td>
+		<td valign="top">%HTML_BLOCK_1%</td>
+	</tr><tr class="fdtan">
+		<td align="right" valign="top"><b>Permitido:</b></td>
+		<td valign="top"><input type="checkbox" name="enabled" value="1" /></td>
+	</tr><tr class="fdtan">
+		<td align="right" valign="top"><b>Acção:</b></td>
+		<td valign="top" nowrap="nowrap">
+[ <a href="%help_file%1127.html" target="_blank">Ajuda</a> ] <input type="radio" name="fr_action" value="0" /> Permita sempre<br />
+[ <a href="%help_file%1128.html" target="_blank">Ajuda</a> ] <input type="radio" name="fr_action" value="1" /> Negar<br />
+[ <a href="%help_file%1129.html" target="_blank">Ajuda</a> ] <input type="radio" name="fr_action" value="2" /> Requere a aprovação<br />
+[ <a href="%help_file%1098.html" target="_blank">Ajuda</a> ] <input type="radio" name="fr_action" value="3" /> Promovido por <input name="promote_val" size="2" maxlength="2" style="text-align:right" /> vezes<br />
+[ <a href="%help_file%1124.html" target="_blank">Ajuda</a> ] <input type="radio" name="fr_action" value="4" /> Não actualize o URL durante os reencaminhamentos<br />
+[ <a href="%help_file%1125.html" target="_blank">Ajuda</a> ] <input type="radio" name="fr_action" value="5" /> Indexar o documento, mas não seguir os links<br />
+[ <a href="%help_file%1126.html" target="_blank">Ajuda</a> ] <input type="radio" name="fr_action" value="6" /> Follow links, but do not index document</td>
+	</tr><tr class="fdtan">
+		<td align="right" valign="top"><b>Analisar:</b></td>
+		<td valign="top">
+			<input type="radio" name="fr_analyze" value="0" /> Nome do Host<br />
+			<input type="radio" name="fr_analyze" value="1" /> URL<br />
+			<input type="radio" name="fr_analyze" value="2" /> Texto no documento</td>
+	</tr><tr class="fdtan">
+		<td align="right" valign="top"><b>Ocorrências Mínimas:</b></td>
+		<td valign="top"><input name="occurrences" size="2" maxlength="2" style="text-align:right" /><br />
+O número das épocas as cordas ou os testes padrões deve parecer para que esta régua faça exame do efeito.</td>
+	</tr><tr class="fdtan">
+		<td colspan="2">
+			<input type="radio" name="fr_mode" value="0" /> Aplique a régua somente se o número requerido das cordas ou dos testes padrões está presente.<br />
+			<input type="radio" name="fr_mode" value="1" /> Aplique sempre a regra, a menos que o número requerido das cordas ou dos testes padrões estiver presente.
+		</td>
+	</tr><tr class="fdtan">
+		<td align="right" valign="top"><b>Cordas:</b></td>
+		<td valign="top"><textarea name="litsubstr" rows="3" cols="60" style="wrap:soft"></textarea></td>
+	</tr><tr class="fdtan">
+		<td align="right" valign="top"><b>Testes padrões*:</b></td>
+		<td valign="top"><textarea name="substr" rows="3" cols="60" style="wrap:soft"></textarea></td>
+	</tr><tr class="fdtan">
+		<td align="right" valign="top"><b>Espaço:</b></td>
+		<td valign="top">
+			<dl>
+				<dt><input type="radio" name="fr_apply_to" value="1" /> Aplique a todos os reinos</dt>
+				<dd></dd>
+				<dt><input type="radio" name="fr_apply_to" value="2" /> Aplique somente a estes tipos de reinos:</dt>
+				<dd>
+					<input type="checkbox" name="z1" value="1" /> Abrir reinos<br />
+					<input type="checkbox" name="z6" value="1" /> Filtered Realms<br />
+					<input type="checkbox" name="z2" value="1" /> Reinos De Arquivo-alimentado<br />
+					<input type="checkbox" name="z3" value="1" /> Reinos de websites - Descoberta Da Esteira rolante<br />
+					<input type="checkbox" name="z4" value="1" /> Reinos de Websites - Descoberta Do Sistema De Lima<br />
+					<input type="checkbox" name="z5" value="1" /> Reinos Runtime
+				</dd>
+				<dt><input type="radio" name="fr_apply_to" value="3" /> Aplique somente a estes reinos:</dt>
+				<dd>
+					%HTML_BLOCK_2%
+				</dd>
+			</dl>
+			</td>
+	</tr>
+	</table>
+
+		<p><input type="submit" class="submit" value="Salvar dados" /></p>
+
+		<p><br /></p>
+
+	<p><b>Definições / Ajuda</b></p>
+
+	<dl>
+
+		<dt><b>Cordas</b></dt>
+		<dd>
+			<p>As cordas são tratadas como substrings insensitive do caso. A corda " Foo " combinará " www.FOO.com".</p>
+		</dd>
+		<dt><b>Testes padrões</b></dt>
+		<dd>
+			<p>Os testes padrões são interpretados como expressões regulares do Perl.</p>
+			<p>Os testes padrões podem incluir HTML, pontuação, caráteres latin, e assim sobre. Todas as expressões regulares do Perl são suportadas à exceção das expressões do?{}-estilo. Está aqui uma guia rápida a usar o regex do Perl:</p>
+
+			<p>.* - Wildcards comuns são iguais a zero ou mais caracteres.</p>
+			<p>\s * - whitespace linear dos resultados zero ou muitas vezes (espaços e abas)</p>
+			<p>\s+ - whitespace linear dos resultados uma ou muita vez</p>
+			<p>\* - sequência de escape. Combina o asterisco literal *</p>
+			<p>\? - sequência de escape. Combina a marca de pergunta literal ?</p>
+
+			<p>A marca de pergunta? tem um significado especial em Perl. Se você quiser usar um literal ? em seu teste padrão, ponha um backslash antes dele.</p>
+			<p>Correcto: Os locais proibidos incluem " http://www.xav.com/notify/\?start"<br />
+			Incorrecto: Os locais proibidos incluem " http://www.xav.com/notify/?start"</p>
+
+			<p>O asterisco * tem um meaning especial no Perl. Se você quiser usar um wildcard em seu teste padrão, use ".*"</p>
+			<p>Correcto: Os locais proibidos incluem " leite.*biscoitos"<br />
+			Incorrecto: Os locais proibidos incluem "leite*biscoitos"</p>
+
+			<p>Se você quiser ter um resultado do teste padrão que meça linhas múltiplas, você deve tentar usar * o asterisco no lugar da nova linha..</p>
+
+		</dd>
+
+		<dt><b>Acção:</b> Permita sempre</dt>
+		<dd>
+
+			<p>Para aqueles sites pouco confiáveis que seriam de outra maneira excluídos pelas regras.</p>
+
+			<p>Por exemplo, se você quisesse limitar sites pornográficos, e você poderia colocar uma regra "Negue" na subcorrente " pornô ". Então um de seus clientes valiosos pode queixar-se que esta regra está obstruindo o acesso a seu legítimo website. Você não quer remover inteiramente sua régua do anti-pornô, e você quer favorecer seu cliente, e assim você cría uma regra para "Permitir Sempre" o URL do seu cliente.</p>
+
+			<p>"Permita sempre" tem mais prioridade do que "Negar" e " requere a aprovação".</p>
+
+		</dd>
+
+		<dt><b>Acção:</b> Negar</dt>
+		<dd>
+
+			<p>Impede que o original seja adicionado ao índice. Uma mensagem de erro será retornada preferivelmente.</p>
+
+			<p>Por exemplo, se você têm um site de comércio, você pode criar uma regra para negar a URL's de seus concorrentes.</p>
+
+			<p>"Negue " sobrepõe-se a "Requere a aprovação".</p>
+		</dd>
+
+		<dt><b>Acção:</b> Requere a aprovação</dt>
+		<dd>
+
+			<p>A página é posicionada, mas colocada em uma área prendendo. Esta página não virá ainda acima em buscas do visitante. O administrador é dado uma possibilidade rever a página e fazer então aproximadamente uma decisão se ou não a adicionar.</p>
+
+		</dd>
+
+		<dt><b>Acção:</b> Promover</dt>
+		<dd>
+
+			<p>A página afetada pela regra de Promoção receberá um ranking muito mais elevado nos resultados das buscas.</p>
+			<p>Este é um conceito separado de "Permita Sempre", "Negue", ou "Requere aprovação".</p>
+
+		</dd>
+
+		<dt><b>Acção:</b> Não actualize o URL durante os reencaminhamentos</dt>
+		<dd>
+			<p>Normalmente, FDSE seguirá todos os reencaminhamentos e gravará somente o URL e o texto do documento final. Isto faz ligações mais rápidas para visitantes subsequentes, e permite uma apresentação mais honesta de onde termina e o qu ele vera quando clicar um link nos resultados.</p>
+
+			<p>Sob algumas circunstâncias, particularmente com programas das vendas da filial, todos os visitantes devem experimentar o cheio dirigem de novo o trajeto melhor que shortcutting ao URL final. Quando esta ação é usada, FDSE registro imóvel o texto do original final, mas reterá o URL original para a apresentação aos visitantes na lista dos resultados da busca.</p>
+			<p>Este é um conceito separado de "Permita Sempre", "Negue", ou "Requere aprovação".</p>
+
+		</dd>
+
+		<dt><b>Analisar:</b> Nome do Host</dt>
+		<dd>
+			<p>O hostname é a parte de um URL que consulta ao computador que armazena os dados. Para o exemplo, o URL " http://www.xav.com/index.html " tem hostname " www.xav.com".</p>
+		</dd>
+
+		<dt><b>Analisar:</b> URL</dt>
+		<dd>
+			<p>O localizador de recurso uniforme do Web page. Os exemplos de URL's são " http://www.xav.com/index.html ", " ftp://brooks.af.mil/etc/passwd ", e " file://e:/resume.html".</p>
+		</dd>
+
+		<dt><b>Analisar:</b> Texto no documento</dt>
+		<dd>
+			<p>O texto cru do HTML da página será posicionado. As comparações são feitas em um caso insensitive, maneira do substring, assim que o substring " hi " combinará o " shin ", " HI ", e " elevado".</p>
+		</dd>
+
+	</dl>
+
+	<p><b>Exemplo - Bob</b></p>
+
+	<p>Vamos dizer que Bob quer posicionar seu próprio website (xav.com) e seu website da mãe (foo.net). Quer também páginas das pessoas para estar em seu deslocamento predeterminado, mas somente se lhe ligam. Seu website da mão é coxo e é muito self-concious-concious sobre seus níveis do tráfego, e assim que quer promover seu local. Bob cría as seguintes réguas:</p>
+
+	<ul>
+		<li>Regra "Minhas páginas " permite sempre as páginas cujo o hostname contem ao menos "xav.com" ou "foo.net".</li>
+		<li>A regra "Link para mim " nega as páginas cujo o conteudo não contem ao menos "http://www.xav.com"</li>
+		<li>A regra "Promover" promove - por um acrescimo de 5x - as páginas cujo o hostname contem ao menos "foo.net".</li>
+	</ul>
+
+	<p>Sob este sistema, todas as páginas em xav.com e foo.net são adicionados automaticamente. Todas as outras páginas são adicionadas somente se contem  "http://www.xav.com". Na maioria dos casos, este será o pessoa que liga a xav.com de sentido único ou a outro, e este é suficiente para necessidades de Bob.</p>
+
+	<p>Depois que todo o registo é terminado, os visitantes começam a fazer buscas. Se qualquer página de foo.net for procurada, a sua relevância - que controla a ordem dos resultados- é multiplicada por 5.</p>
+

@@ -1,0 +1,176 @@
+	<table border="1" cellpadding="4" cellspacing="1">
+	<tr>
+		<th colspan="2">Crear o Actualizar Regla</th>
+	</tr>
+	<tr class="fdtan">
+		<td align="right" valign="top"><b>Nombre:</b></td>
+		<td valign="top">%HTML_BLOCK_1%</td>
+	</tr><tr class="fdtan">
+		<td align="right" valign="top"><b>Habilitado:</b></td>
+		<td valign="top"><input type="checkbox" name="enabled" value="1" /></td>
+	</tr><tr class="fdtan">
+		<td align="right" valign="top"><b>Acción:</b></td>
+		<td valign="top" nowrap="nowrap">
+[ <a href="%help_file%1127.html" target="_blank">Ayuda</a> ] <input type="radio" name="fr_action" value="0" /> Permitir Siempre<br />
+[ <a href="%help_file%1128.html" target="_blank">Ayuda</a> ] <input type="radio" name="fr_action" value="1" /> Negar<br />
+[ <a href="%help_file%1129.html" target="_blank">Ayuda</a> ] <input type="radio" name="fr_action" value="2" /> Requerir Aprobación<br />
+[ <a href="%help_file%1098.html" target="_blank">Ayuda</a> ] <input type="radio" name="fr_action" value="3" /> Promover al <input name="promote_val" size="2" maxlength="2" style="text-align:right" /> veces<br />
+[ <a href="%help_file%1124.html" target="_blank">Ayuda</a> ] <input type="radio" name="fr_action" value="4" /> No poner al día el URL durante la redirección<br />
+[ <a href="%help_file%1125.html" target="_blank">Ayuda</a> ] <input type="radio" name="fr_action" value="5" /> Indexar documento, pero no seguir vinculos<br />
+[ <a href="%help_file%1126.html" target="_blank">Ayuda</a> ] <input type="radio" name="fr_action" value="6" /> Seguir vinculos, pero no indexar el documento</td>
+	</tr><tr class="fdtan">
+		<td align="right" valign="top"><b>Analizar:</b></td>
+		<td valign="top">
+			<input type="radio" name="fr_analyze" value="0" /> Hostname<br />
+			<input type="radio" name="fr_analyze" value="1" /> URL<br />
+			<input type="radio" name="fr_analyze" value="2" /> Texto del Documento</td>
+	</tr><tr class="fdtan">
+		<td align="right" valign="top"><b>Ocurrencias Mínimas:</b></td>
+		<td valign="top"><input name="occurrences" size="2" maxlength="2" style="text-align:right" /><br />
+El número de veces que las cadenas o los modelos deben aparecer para que esta regla tome efecto.</td>
+	</tr><tr class="fdtan">
+		<td colspan="2">
+			<input type="radio" name="fr_mode" value="0" /> Aplicar la regla solamente si el número requerido de cadenas o de modelos están presente.<br />
+			<input type="radio" name="fr_mode" value="1" /> Siempre aplique la regla, a menos que el número requerido de cadenas o los modelos estén presentes.
+		</td>
+	</tr><tr class="fdtan">
+		<td align="right" valign="top"><b>Cadenas:</b></td>
+		<td valign="top"><textarea name="litsubstr" rows="3" cols="60" style="wrap:soft"></textarea></td>
+	</tr><tr class="fdtan">
+		<td align="right" valign="top"><b>Modelos*:</b></td>
+		<td valign="top"><textarea name="substr" rows="3" cols="60" style="wrap:soft"></textarea></td>
+	</tr><tr class="fdtan">
+		<td align="right" valign="top"><b>Alcance:</b></td>
+		<td valign="top">
+			<dl>
+				<dt><input type="radio" name="fr_apply_to" value="1" /> Aplicar a todos los Reinos</dt>
+				<dd></dd>
+				<dt><input type="radio" name="fr_apply_to" value="2" /> Aplicar solamente a estos tipos de reinos:</dt>
+				<dd>
+					<input type="checkbox" name="z1" value="1" /> Abrir Reinos<br />
+					<input type="checkbox" name="z6" value="1" /> Filtered Realms<br />
+					<input type="checkbox" name="z2" value="1" /> Reinos Alimentado por el Fichero<br />
+					<input type="checkbox" name="z3" value="1" /> Reinos De Website – Rastreador Discovery<br />
+					<input type="checkbox" name="z4" value="1" /> Reinos de Website - Sistema de fichero Discovery<br />
+					<input type="checkbox" name="z5" value="1" /> Reinos Runtime
+				</dd>
+				<dt><input type="radio" name="fr_apply_to" value="3" /> Aplicar solamente a estos reinos específicos:</dt>
+				<dd>
+					%HTML_BLOCK_2%
+				</dd>
+			</dl>
+			</td>
+	</tr>
+	</table>
+
+		<p><input type="submit" class="submit" value="Guardar Datos" /></p>
+
+		<p><br /></p>
+
+	<p><b>Definiciones / Ayuda</b></p>
+
+	<dl>
+
+		<dt><b>Cadenas</b></dt>
+		<dd>
+			<p>Las cadenas se tratan como subcadenas insensibles al caso. La cadena " Foo " corresponderá con " www.FOO.com".</p>
+		</dd>
+		<dt><b>Modelos</b></dt>
+		<dd>
+			<p>Los modelos se interpretan como expresiones regulares de Perl.</p>
+			<p>Los modelos pueden incluir HTML, puntuación, caracteres hispanos, etcétera. Todas las expresiones regulares de Perl son utilizadas con la excepción de las expresiones de estilo ? { }. Aquí tiene una guía rápida para usar el regex de Perl:</p>
+
+			<p>.* - caracteres comodín estándares, empareja o muchos caracteres.</p>
+			<p>\s* - empareja espacios blancos linear cero o muchas veces (espacios y tabulaciones)</p>
+			<p>\s+ - empareja espacios blancos linear cero o muchas veces</p>
+			<p>\* - secuencia de escape. Corresponde literalmente con el asterisco *</p>
+			<p>\? - secuencia de escape. Corresponde literalmente con el signo de interrogación ?</p>
+
+			<p>El signo de interrogación ? tiene un significado especial en Perl. Si usted desea utilizar literalmente un ? en su modelo, utilice un backslash (/)antes de él.</p>
+			<p>Correcto:  Los sitios prohibidos incluyen "http://www.xav.com/notify/\?start"<br />
+			Incorrecto:  Los sitios prohibidos incluyen"http://www.xav.com/notify/?start"</p>
+
+			<p>El asterisco * tiene un significado especial en Perl. Si usted desea utilizar un comodín en su modelo, utilice ".*"</p>
+			<p>Correcto: Sitios prohibidos incluyen "galletitas.*avena"<br />
+			Incorrecto:  Los sitios prohibidos incluyen "galletitas*avena"</p>
+
+			<p>Si usted desea tener un emparejamiento de modelo que atraviese líneas múltiples, usted debe tratar de utilizar * el comodín en lugar de la nueva linea. Los caracteres de la nueva linea se representan con diversos caracteres subyacentes en diversos sistemas operativos, así que es mucho más seguro utilizar comodines.</p>
+
+		</dd>
+
+		<dt><b>Acción:</b> Permitir Siempre</dt>
+		<dd>
+
+			<p>Para esos pocos sitios de confianza que de otra manera serían excluidos por las reglas.</p>
+
+			<p>Por ejemplo, si usted desea limitar los sitios pornográficos (porn), usted puede colocar una regla " Negar " en la subcadena " porn ". Esto puede causar que uno de sus clientes valorados se queje que esta regla está bloqueando el acceso a su website político  legítimo. Usted no desea quitar su regla del anti-porn completamente, y usted desea complacer a su cliente, así que usted crea la regla " Permitir Siempre " para el URL de su cliente.</p>
+
+			<p>"Permitir Siempre" reemplaza "Negar" y "Requerir Aprobación".</p>
+
+		</dd>
+
+		<dt><b>Acción:</b> Negar</dt>
+		<dd>
+
+			<p>Evita que el documento sea agregado al índice. Un mensaje de error será visualizado en vez.</p>
+
+			<p>Por ejemplo, si usted ejecuta un sitio de comercio, usted puede crear una regla para negar el URL de su competidor.</p>
+
+			<p>"Negar" reemplaza "Requerir Aprobación".</p>
+		</dd>
+
+		<dt><b>Acción:</b> Requerir Aprobación</dt>
+		<dd>
+
+			<p>La pagina es puesta en un índice, pero se coloca en un área de espera. Esta pagina no saldrá todavía en las búsquedas de los visitantes. Esto le permite al administrador el tiempo de repasar la pagina y de tomar una decisión si será agregada o no.</p>
+
+		</dd>
+
+		<dt><b>Acción:</b> Promover</dt>
+		<dd>
+
+			<p>La pagina afectada por una regla de promoción recibirá una graduación multiplicada más alta en los resultado del Motor de Búsqueda.</p>
+			<p>Este es un concepto separado al de "Aceptar Siempre", "Negar", o "Requerir Aprobación".</p>
+
+		</dd>
+
+		<dt><b>Acción:</b> No poner al día el URL durante la redirección</dt>
+		<dd>
+			<p>Normalmente, FDSE seguirá todas las redirecciones y registrará solamente el URL y texto del documento final. Esto hace el seguir las conexiones más rápido para los visitantes subsecuentes, y permite una presentación más honesta de donde terminarán y de lo que verán cuando sigan una conexión en los resultados de la búsqueda.</p>
+
+			<p>Bajo algunas circunstancias, especialmente con programas de ventas de afiliados, todos los visitantes deben experimentar el camino de la redireccion en vez de atajar al URL final. Cuando se utiliza esta acción, FDSE continua grabando  el texto del documento final, pero conservará el URL original para presentación a los visitantes en la lista de los resultados de la búsqueda.</p>
+			<p>Este es un concepto separado al de "Aceptar Siempre", "Negar", o "Requerir Aprobación".</p>
+
+		</dd>
+
+		<dt><b>Analizar:</b> Hostname</dt>
+		<dd>
+			<p>El hostname es la parte de un URL que se refiere a la computadora que guarda los datos. Por ejemplo, el URL " http://www.xav.com/index.html " tiene hostname " www.xav.com".</p>
+		</dd>
+
+		<dt><b>Analizar:</b> URL</dt>
+		<dd>
+			<p>El Localizador de Recurso Uniforme de la pagina Web.  Ejemplos de URL son " http://www.xav.com/index.html ", " ftp://brooks.af.mil/etc/passwd ", y " file://e:/resume.html".</p>
+		</dd>
+
+		<dt><b>Analizar:</b> Texto del Documento</dt>
+		<dd>
+			<p>El texto sin procesar de HTML de la pagina será puesto en un índice. Las comparaciones se hacen en un caso insensible, de manera subcadena, así que al someter la subcadena "hi" corresponderá con "shin", y con "HI".</p>
+		</dd>
+
+	</dl>
+
+	<p><b>Ejemplo - Roberto</b></p>
+
+	<p>Digamos que Roberto desea poner en un índice su propio sitio (xav.com) y el sitio de su mama (foo.net). Él también quisiera que las paginas de otras personas estén en su índice, pero solamente si se conectan a la de él. El sitio de su mama no es popular y ella esta muy consiente del nivel de trafico, así que él desea promover el sitio de ella. Roberto entonces crea las siguientes reglas:</p>
+
+	<ul>
+		<li>Regla "Mis Paginas" siempre permitir paginas que  contienen por lo menos "xav.com" o "foo.net".</li>
+		<li>Regla "Conexión a Mi" negar las paginas que no contengan en el texto del documento por lo menos " http://www.xav.com"</li>
+		<li>Regla "Promover a Mama " promueve - por un factor de 5x - las paginas que contienen por lo menos uno de " foo.net".</li>
+	</ul>
+
+	<p>Bajo este sistema, todas las paginas en xav.com y foo.net se agregan automáticamente. Todas las demás paginas son agregadas solamente si su texto del HTML contiene la subcadena "http://www.xav.com". En la mayoría de los casos, ésta será la gente que conecta a xav.com de una manera u otra, y esto es suficiente para cumplir con los requisitos de Roberto.</p>
+
+	<p>Después de que toda la indexación de direcciones sea dicha y hecha, los visitantes al sitio de Bob comenzaron a hacer búsquedas. Si cualquier pagina de foo.net sale en una búsqueda, su importancia – cual controla su cercanía a la parte superior de los resultados de la búsqueda - son multiplicados por 5.</p>
+

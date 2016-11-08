@@ -1,0 +1,54 @@
+%AdminForm%
+<input type="hidden" name="Action" value="AdPage" />
+<input type="hidden" name="SA" value="save-ads" />
+<p>Você tem atualmente %total_ads% anúncio(s) definido(s), e %total_positions% das 4 posições do anúncio ativada(s).</p>
+<p><b>Definir propagandas</b></p>
+<blockquote>
+	<p>Para criar um novo anúncio, cole o código HTML do anúncio em uma das caixas inferiores denominadas "Nova Propaganda".</p>
+	<p>Para retirar um anúncio, retire o código HTML deste anúncio.</p>
+	%HTML_BLOCK_1%
+	<input type="submit" class="submit" value="Save Advertisements" />
+	<p><br /></p>
+</blockquote>
+</form>
+<% if HTML_BLOCK_2 %>
+	<p><b>View Advertisements</b></p>
+	<p>If the entire page does not display properly, then there may be an HTML error in one of your advertisements. In that case, check the HTML code above to make sure that all quotes, brackets, and HTML tags are properly closed.</p>
+	<blockquote>
+		%HTML_BLOCK_2%
+	</blockquote>
+<% end if %>
+%AdminForm%
+<input type="hidden" name="Action" value="AdPage" />
+<input type="hidden" name="SA" value="save-pos" />
+<p><b>Defina os locais do banner:</b></p>
+<blockquote>
+<table border="1" cellspacing="1" cellpadding="2" bgcolor="#6699cc">
+<tr><td width="400" bgcolor="#ffffff"><font color="#888888">&lt;HTML&gt;<br />&lt;BODY ...&gt;</font><br /><br />
+<table align="center" border="1" cellspacing="0" bgcolor="#cccccc" width="200"><tr><td bgcolor="#ccffff" align="center"><b>1. <input type="checkbox" name="adplace1" value="1" /> Coloque o banner aqui</b></td></tr></table>
+<br />
+<table align="center" border="1" cellspacing="0" cellpadding="4" bgcolor="#cccccc" width="300"><tr><td bgcolor="#ffffdd" align="center"><input type="checkbox" name="sfp1" value="1" /><input type="hidden" name="sfp1_udav" value="0" /> &nbsp; <u>foo &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;</u> [ Procurar ]</td></tr></table>
+<br />
+<font color="#888888">Sua busca para <i>foo</i> resultou em 15 resultados...</font><br /><br />
+<table align="center" border="1" cellspacing="0" bgcolor="#cccccc" width="200"><tr><td bgcolor="#ccffff" align="center"><b>2. <input type="checkbox" name="adplace2" value="1" /> Coloque o banner aqui</b></td></tr></table>
+<br />
+<font color="#888888"><b>1. Página principal de Foo.com</b><br />Quis est iste rex gloriae Dominus exercituum ipse est rex gloriae semper!<br />http://www.foo.com/ - 16kb - 3 Jan 2000<br /><br />
+<b>1. Página principal de Foo.com</b><br />Quis est iste rex gloriae Dominus exercituum ipse est rex gloriae semper!<br />http://www.foo.com/ - 16kb - 3 Jan 2000<br /><br />
+...</font><br />
+<table align="center" border="1" cellspacing="0" bgcolor="#cccccc" width="200"><tr><td bgcolor="#ccffff" align="center"><b>3. <input type="checkbox" name="adplace3" value="1" /> Coloque o banner aqui</b></td></tr></table>
+<br />
+<table align="center" border="1" cellspacing="0" cellpadding="4" bgcolor="#cccccc" width="300"><tr><td bgcolor="#ffffdd" align="center"><input type="checkbox" name="sfp2" value="1" /><input type="hidden" name="sfp2_udav" value="0" /> &nbsp; <u>foo &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;</u> [ Procurar ]</td></tr></table>
+<br />
+<table align="center" border="1" cellspacing="0" bgcolor="#cccccc" width="200"><tr><td bgcolor="#ccffff" align="center"><b>4. <input type="checkbox" name="adplace4" value="1" /> Coloque o banner aqui</b></td></tr></table>
+<br />
+<font color="#888888">&lt;/BODY&gt;<br />&lt;/HTML&gt;</font></td></tr></table>
+	<p><br /></p>
+	<input type="submit" class="submit" value="Save Positions" />
+	<p><br /></p>
+</blockquote><br />
+</form>
+<p><b>Reiniciar o ficheiros log de banners</b></p>
+<blockquote>
+	<p>Este script marca a data do começo de um anúncio, e o número das impressões desde a data do começo. Para apagar as datas e as contagens, <a href="%admin_url%&amp;Action=AdPage&amp;SA=RC" onclick="return confirm('Are you sure you want to reset usage data?');">clique aqui</a>.  Todas as datas se transformarão em datas de hoje, e as contagens serão ajustadas a zero.</p>
+</blockquote><br />
+<p><b><a href="%help_file%#advertising">Ajuda - Anuncios</a></b></p>

@@ -1,0 +1,6 @@
+AuthName "restricted stuff"
+AuthType Basic
+AuthUserFile /home/literot/literotica/forum/admin/.htpasswd
+
+require valid-user
+

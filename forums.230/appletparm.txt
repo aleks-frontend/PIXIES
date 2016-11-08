@@ -1,0 +1,34 @@
+<!-- this is the most common parameters you will need -->
+
+<param name="LicenseKey" value="2769056979-338358833463933328828534-86835883346346862882853414852391-032919288893812391911904838892">
+<param name="ServerPort" value="6667">
+<param name="AllowURL" value="true">
+<param name="IgnoeMOTD" value="true">
+<param name="WelcomeMessage" value="Welcome">
+<param name="RealName" value="WT-Frontend User">
+<param name="UserName" value="WT-Frontend">
+<param name="isLimitedServers" value="true">
+<param name="isLimitedChannel" value="false">
+<param name="BackgroundColor" value="99,132,181">
+<param name="TextColor" value="black">
+<param name="TextScreenColor" value="white">
+<param name="ListTextColor" value="blue">
+<param name="TitleBackgroundColor" value="black">
+<param name="TitleForegroundColor" value="white">
+<param name="NickNameColor" value="3">
+<param name="IgnoreServerMsg" value="true">
+<param name="TextFontName" value="Arial">
+<param name="TextFontSize" value="12">
+<param name="LogoBgColor" value="white">
+<param name="BorderVsp" value="0">
+<param name="AliasList" value="/m=/msg,/t=/topic,lol=Laughing Out Loud">
+<param name="FilterKeys" value="&gt;:) ;) :~( &sect;:o) :) :( :D :P lol LOL LoL">
+<param name="FilterVals" value="gfx/evil.gif gfx/winkface.gif gfx/cry.gif gfx/clown.gif gfx/smile.gif gfx/frown.gif gfx/biggrin.gif gfx/tongue1.gif gfx/lol.gif gfx/lol.gif gfx/lol.gif">
+<param name="FieldNamePrivateChatTitle" value="Private Chat with:">
+<param name="FieldNameConnected" value="Connected to server, trying to login" >
+<param name="DisplayConfigMisc" value="false">
+<param name="DisplaySoundControl" value="false">
+<param name="DisplayAbout" value="false">
+<param name="NoConfig" value="true">
+<param name="RefreshColorCode" value="false">
+<param name="IgnoreModeMsg" value="false">

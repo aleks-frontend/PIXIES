@@ -1,0 +1,196 @@
+<HEAD>
+<TITLE>Pixies Free Erotic Stories - sexy story archive</TITLE>
+<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1">
+
+<script language="JavaScript1.1">
+<!--
+
+scrollID=0;
+vPos=0;
+function onWard() {
+ vPos+=0.6;
+ window.scroll(0,vPos);
+ vPos%=2400;
+ scrollID=setTimeout("onWard()",80);
+ }
+//-->
+</SCRIPT>
+<SCRIPT LANGUAGE="JavaScript">
+function replace(string,text,by) {
+	var strLength = string.length, txtLength = text.length;
+	if ((strLength == 0) || (txtLength == 0)) return string;
+	var i = string.indexOf(text);
+	if ((!i) && (text != string.substring(0,txtLength))) return string;
+	if (i == -1) return string;
+	var newstr = string.substring(0,i) + by;
+	if (i+txtLength < strLength) {
+		newstr += replace(string.substring(i+txtLength,strLength),text,by);
+		return newstr;
+	}
+}
+function chatnow(form) {
+	URL = "http://www.pixies-place.com/forums/chat/chat.php";
+	nickname = form.nickname.value;
+opcontrol = "show";
+	if (nickname != '') {
+		password = form.nickpass.value;
+		opcontrol = form.opcontrol.value;
+		channel = form.channel.value;
+		channel = replace(channel,'#','');
+		if (password != "") {
+			URL = URL+'?nickname='+nickname+'&nickpass='+password+'&opcontrol='+opcontrol+'&channel='+channel+'';
+		}
+		 else {
+			URL = URL+'?nickname='+nickname+'&opcontrol='+opcontrol+'&channel='+channel+'';
+
+		}
+		window.open(URL, '', 'width=550, height=400, scrollbars=auto, resizable=yes');	
+	}
+	else { alert('Please enter a nickname'); }
+}
+</script>
+<SCRIPT language=JavaScript1.2>
+var bookmarkurl="http://www.pixies-place.com/"
+var bookmarktitle="Pixies Free Erotic Stories"
+function bookmark()
+{ window.external.AddFavorite(bookmarkurl,bookmarktitle)}
+</SCRIPT>
+
+<link rel="stylesheet" href="../sheet.css"></HEAD>
+<BODY bgcolor="#FFFFFF" background="../images/back.gif" leftmargin="0" topmargin="0" marginwidth="0" marginheight="0">
+<table width="750" border="0" cellpadding="0" cellspacing="0" bgcolor="#FFFFFF">
+  <tr>
+    <td><form name="login" action="http://www.pixies-place.com/forums/chat/chat.php">
+  <table width="750" border="0" cellpadding="0" cellspacing="0" background="images/frontpage/newforumstop_02.jpg">
+    <tr> 
+      <td><img src="../images/frontpage/newforumstop_01.jpg" width="230" height="27"></td>
+      <td width="60%" valign="middle" background="../images/frontpage/newforumstop_02.jpg"><table width="200" border="0" align="right" cellpadding="0" cellspacing="0" bordercolor="#333333" bgcolor="#FFFFFF">
+          <tr bgcolor="ffcc00"> 
+            <td width="200" align="center"><table border="0" cellpadding="0" cellspacing="0" width="100%">
+                <tr> 
+                  <td align="center"> <p><font size="2"><strong><font size="1" face="Arial, Helvetica, sans-serif">Live 
+                      Chat</font></strong><b> </b></font> 
+                      <input name="nickname" type="text" class="small" value="Enter Nick" size="10">
+                      <input type="hidden" name="nickpass">
+                      <input type="hidden" name="channel" value="#pixies-place">
+                      <input type="hidden" name="opcontrol" value="show">
+                      <input name="chat" type="button" class="small" onClick="javascript:chatnow(this.form);" value="Chat" size="10">
+                  </td>
+              </table></td>
+        </table></td>
+      <td><div align="right"><img src="../images/frontpage/newforumstop_04.jpg" width="109" height="27"></div></td>
+    </tr>
+    <tr> 
+      <td colspan="3"><table width="100%" height="12" border="0" cellpadding="0" cellspacing="0" background="../images/forums/newforumstop_04.jpg">
+          <tr> 
+            <td width="99%" background="../images/frontpage/newforumstop_06.jpg"></td>
+            <td width="619" background="../images/forums/newforumstop_06.jpg"><div align="right"><img src="../images/frontpage/newforumstop_07.jpg" width="619" height="13"></div></td>
+          </tr>
+        </table></td>
+    </tr>
+  </table>
+</form>
+<div align="left">
+  <table width="750" border="0" cellspacing="0" cellpadding="2">
+    <tr> 
+      <td><img src="../images/stories.gif" width="254" height="30"></td>
+      <td valign="baseline"><font color="#666699" size="3" face="Arial, Helvetica, sans-serif">&nbsp;</font></td>
+    </tr>
+  </table>
+        <table width="100%" border="0" cellspacing="0" cellpadding="0">
+          <tr> 
+            <td width="145"> <div align="left"><font face="Arial, Helvetica, sans-serif" size="1" color="#666666"> 
+                </font></div></td>
+            <td width="418"><font face="Arial, Helvetica, sans-serif" size="1" color="#666666">Control 
+              Panel ---&gt;</font></td>
+            <td width="187"> <div align="right"><a href="../cgi-bin/recommend.cgi"> 
+                <img src="../images/email.gif" border="0" width="22" height="14" alt="Email this page to a Friend"></a> 
+                <a href="http://www.pixies-place.com/erotic.shtml"><img src="../images/home.GIF" width="14" height="14" border="0" alt="Home"></a> 
+                <a href="javascript:print()"><img src="../images/print.GIF" width="16" height="14" border="0" alt="Print this Story"></a> 
+                <a href="javascript:bookmark()"><img src="../images/favorites.GIF" width="15" height="13" border="0" alt="Add to Favorites"> 
+                </a><a href="javascript:if(window.scroll)onWard()"><img src="../images/autoscroll.gif" border="0" alt="AutoScroll This Story"></a><a href="javascript(fav)"> 
+                </a> </div></td>
+          </tr>
+        </table>
+        <table width="750" border="0" cellpadding="0" cellspacing="0">
+    <tr> 
+      <td valign="top" bgcolor="#FFFFFF"><table width="750" border="0" cellspacing="0" cellpadding="4">
+          <tr> 
+                <td width="137" valign="top" bgcolor="f1f1f1">
+                  <MM:BeginLock translatorClass="MM_SSI" type="ssi_include" depFiles="Y:\WEBSHARE\WWWROOT\pixiesplace\includes\lmen.html" orig="%3C!--#include virtual=%22/includes/lmen.html%22 --%3E" >
+<table width="100%" border="0" cellspacing="0" cellpadding="0" bgcolor="#333333">
+  <tr> 
+    <td> 
+      <table width="100%" border="0" cellspacing="1" cellpadding="2" bordercolor="#000000" bgcolor="#333333">
+        <tr> 
+          <td bgcolor="#445566"> 
+            <div align="center"><b><font face="Verdana, Arial, Helvetica, sans-serif" class="small" color="#FFFFFF">Menu</font></b></div>
+          </td>
+        </tr>
+        <tr> 
+          <td bgcolor="#FFcc00"> 
+            <div align="center"><font face="Verdana, Arial, Helvetica, sans-serif" size="2" class="small"><b>Navigation...</b></font></div>
+          </td>
+        </tr>
+        <tr bgcolor="#FFDA46"> 
+          <td onClick="location.href='erotic.shtml'" 
+          onMouseOut="style.backgroundColor='#ffda46';" 
+          onMouseOver="style.backgroundColor='#ffcc00'; style.cursor='hand'" bgcolor="#FFDA46"> 
+            <a href="/erotic.php" class="small"><img src="/images/tri.gif" width="6" height="6" border="0">Erotic 
+            Stories</a></td>
+        </tr>
+        <tr bgcolor="#FFDA46"> 
+          <td onClick="location.href='erotic.shtml'" 
+          onMouseOut="style.backgroundColor='#ffda46';" 
+          onMouseOver="style.backgroundColor='#ffcc00'; style.cursor='hand'" bgcolor="#FFDA46" height="16"><a href="http://pixiescams.com/" class="small"><img src="/images/tri.gif" width="6" height="6" border="0">Webcam 
+            Chat </a></td>
+        </tr>
+        <tr bgcolor="#FFDA46"> 
+          <td onClick="location.href='erotic.shtml'" 
+          onMouseOut="style.backgroundColor='#ffda46';" 
+          onMouseOver="style.backgroundColor='#ffcc00'; style.cursor='hand'" bgcolor="#FFDA46" height="16"><a href="http://ww2.sextoysex.com/sex/start/sex.html?a=pixiesplace" class="small"><img src="/images/tri.gif" width="6" height="6" border="0">Adult 
+            Toys </a></td>
+        </tr>
+        <tr bgcolor="#FFDA46"> 
+          <td onClick="location.href='gallery.shtml'" 
+          onMouseOut="style.backgroundColor='#ffda46';" 
+          onMouseOver="style.backgroundColor='#ffcc00'; style.cursor='hand'" height="16"><a href="/gallery.shtml" class="small"><img src="/images/tri.gif" width="6" height="6" border="0">Free 
+            Pictures</a></td>
+        </tr>
+        <tr bgcolor="#FFDA46"> 
+          <td onClick="location.href='forums'" 
+          onMouseOut="style.backgroundColor='#ffda46';" 
+          onMouseOver="style.backgroundColor='#ffcc00'; style.cursor='hand'" ><a href="/forums/" class="small"><img src="/images/tri.gif" width="6" height="6" border="0">Sex 
+            Board</a></td>
+        </tr>
+        <tr bgcolor="#FFDA46"> 
+          <td onClick="location.href='links.htm'" 
+          onMouseOut="style.backgroundColor='#ffda46';" 
+          onMouseOver="style.backgroundColor='#ffcc00'; style.cursor='hand'"><a href="/links.shtml" class="small"><img src="/images/tri.gif" width="6" height="6" border="0">Links</a></td>
+        </tr>
+        <tr bgcolor="#FFDA46"> 
+          <td onClick="location.href='guide.shtml'" 
+          onMouseOut="style.backgroundColor='#ffda46';" 
+          onMouseOver="style.backgroundColor='#ffcc00'; style.cursor='hand'"><a href="/guide.shtml" class="small"><img src="/images/tri.gif" width="6" height="6" border="0">Guide 
+            to Sex</a><a href="/discus" class="small"></a></td>
+        </tr>
+        <tr bgcolor="#FFDA46"> 
+          <td onClick="location.href='jokes.shtml'" 
+          onMouseOut="style.backgroundColor='#ffda46';" 
+          onMouseOver="style.backgroundColor='#ffcc00'; style.cursor='hand'"><a href="/jokes.shtml" class="small"><img src="/images/tri.gif" width="6" height="6" border="0">Sex 
+            Jokes</a><a href="/discus" class="small"></a></td>
+        </tr>
+        <tr bgcolor="#FFDA46"> 
+          <td onClick="location.href='chat.htm'" 
+          onMouseOut="style.backgroundColor='#ffda46';" 
+          onMouseOver="style.backgroundColor='#ffcc00'; style.cursor='hand'" height="16"><span class="side (unavailable)"><a href="/chat.htm" class="small"><img src="/images/tri.gif" width="6" height="6" border="0">Chat 
+            Room</a></span><font color="black">&nbsp;</font></td>
+        </tr>
+        <tr bgcolor="#FFDA46"> 
+          <td  height="7" bgcolor="#445566"></td>
+        </tr>
+      </table>
+    </td>
+</table><MM:EndLock>
+                </td>
+                  <td width="597" valign="top">

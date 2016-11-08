@@ -1,0 +1,1 @@
+<?$perpage =    15;$rafraichissement =     0;$un_color_chat = "#000055";$deux_color_chat = "#550000";$me_color_chat = "#990099";$date_color_chat = "#555555";$fondchatbox = "#ffffff";?>

@@ -1,0 +1,4 @@
+Readers Submissions 1|index_file_6.txt|/home/pixies-place/public_html/sub|http://www.pixies-place.com/sub||331|0|
+Readers Submissions 2|index_file_1.txt|/home/pixies-place/public_html/sub500-1000|http://www.pixies-place.com/sub500-1000||254|0|
+Pixies Place Stories|index_file_2.txt|/home/pixies-place/public_html/stories2|http://www.pixies-place.com/stories2||304|0|
+Stories with Pictures|index_file_5.txt|/home/pixies-place/public_html/storys_images|http://www.pixies-place.com/storys_images||21|0|

@@ -1,0 +1,16 @@
+<HTML>
+<!--#include virtual="../header.txt"-->
+      <table width="580" bgcolor="#FFFFFF" align="center">
+        <center>
+          <tr align="left" valign="top"> 
+            <td colspan="2" width="100%" height="2"> 
+              <h2><!-- #BeginEditable "title" -->{title}<!-- #EndEditable --></h2>
+            </td>
+          </tr>
+          <tr align="left" valign="top"> 
+            <td colspan="2" width="100%"> <!-- #BeginEditable "story" -->{story}<b><font face="Arial" size="2" color="#FFFFFF"> 
+              </font> </b><!-- #EndEditable --></td>
+          </tr>
+        </center>
+      </table><BR><div align="center"><!--#include virtual="../php-bin/ads/ad.php"--></div>
+           <!--#include virtual="../footer.txt"-->

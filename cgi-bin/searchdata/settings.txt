@@ -1,0 +1,3 @@
+see settings.pl
+
+Do not alter or delete this file.  It is used as a pointer to the settings file.

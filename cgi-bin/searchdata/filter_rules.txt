@@ -1,0 +1,9 @@
+0____Spider 3 Levels Deep____1____5____1____1____1____^http://[^/]+(/[^/]*){0,3}$________1____{END}
+0____Spider 2 Levels Deep____1____5____1____1____1____^http://[^/]+(/[^/]*){0,2}$________1____{END}
+0____Spider 1 Level Deep____1____5____1____1____1____^http://[^/]+(/[^/]*){0,1}$________1____{END}
+0____Adult Strings____2____5____2____0____1____sextracker~~~~adultcheck~~~~>Enter</A>.*?>Exit</A>________1____{END}
+1____Affiliates____4____5____0____0____1________linksynergy.com~~~~amazon.com____1____{END}
+0____Adult Addresses____1____5____1____0____1________babes~~~~porn~~~~teen~~~~sex~~~~xxx~~~~amateur~~~~hardcore~~~~softcore~~~~pussy~~~~girls~~~~bitch~~~~whore~~~~escort____1____{END}
+0____Apache Directory Lists____1____5____1____0____1____/\?(N|M|S|D)=(A|D)$________1____{END}
+0____Possible Adult Content____2____5____2____0____6________babes~~~~porn~~~~teen~~~~sex~~~~xxx~~~~amateur~~~~hardcore~~~~softcore~~~~pussy~~~~girls~~~~bitch~~~~whore~~~~escort____1____{END}
+0____Skip Default Docs____1____5____1____0____1________index.cgi~~~~index.html~~~~default.htm~~~~default.asp____1____{END}

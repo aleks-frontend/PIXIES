@@ -1,0 +1,5 @@
+RewriteEngine on
+RewriteCond %{HTTP_HOST} ^(.*)(:80|[^0-9])$
+RewriteCond %{HTTP_HOST} ^(.*)(:80|)$
+RewriteRule (.*) http://%1:81%{REQUEST_URI} [R,L]
+

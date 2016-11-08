@@ -1,0 +1,286 @@
+chatbox|||<!-- chatbox -->
+<center><iframe name="chatbox" noresize width="650" src="chatbox.php" scrolling="no" height="130" style="border: 2px outset"></iframe></center>
+<br>
+<!-- /chatbox -->|||chatbox_bit|||<smallfont color="$date_color_chat">$date</smallfont> <smallfont color="$colorirc"><b>&lt;$name&gt;</b> $comment
+</smallfont>|||chatbox_bit_me|||<smallfont color="$date_color_chat">$date</smallfont> <smallfont color="$me_color_chat"><b>* $name</b> $comment </smallfont>|||chatbox_bit_vide|||<center><b><normalfont>There are no chats yet.</normalfont></b></center>|||chatbox_chat|||{htmldoctype}
+<html>
+<head>
+$headinclude
+$refresh
+</head>
+<body bgcolor="$fondchatbox">
+$chatbit
+</body>
+</html>|||chatbox_fermee|||<br>
+<center>
+<table cellpadding="{tableouterborderwidth}" cellspacing="0" border="0" bgcolor="{tablebordercolor}" {tableouterextra} width="650" align="center">
+	<tr>
+		<td><table cellpadding="4" cellspacing="{tableinnerborderwidth}" border="0" {tableinnerextra} width="650">
+			<tr id="cat">
+				<td bgcolor="{categorybackcolor}" align="center"><a href="?chatbox=open&s=$session[sessionhash]" title="Open the chatbox"><normalfont color="{categoryfontcolor}"><b>chatbox by p0s3id0n</b></normalfont></a></td>
+			</tr>
+			<tr>
+<td bgcolor="{firstaltcolor}">$chatbit</td>
+			</tr>
+		</table></td>
+	</tr>
+</table>
+</center>
+<br><br>|||chatbox_frame|||<html>
+<frameset rows="25,*" framespacing="0" frameborder="0" border="0">
+	<frame name="entree" id="entree" src="chatbox.php?page_chat=saisie" scrolling="No" marginwidth="0" marginheight="0" noresize frameborder="0">
+	<frame name="chat" id="chat" src="chatbox.php?page_chat=chat&setting=$setting&comment=$comment" scrolling="auto" marginwidth="5" marginheight="5" noresize frameborder="0">
+</frameset>	
+</html>|||chatbox_popup_smilbox|||<html>
+<head>
+<title>chatbox</title>
+$headinclude
+<script language="JavaScript">
+function smilie(smilietext){
+	window.opener.document.bouate.message.value = window.opener.document.bouate.message.value + smilietext+" ";
+}
+</script>
+</head>
+<body>
+<table cellpadding="3" cellspacing="1" border="0" width="100%" bgcolor="{tablebordercolor}">
+	<tr>
+		<td colspan="4" bgcolor="{pagebgcolor}" align="center"><normalfont><b>Smiley's list</b></normalfont><br /><smallfont>Clique sur un smilie pour l'ajouter dans ton message.</smallfont></td>
+	</tr>
+$popup_smiliesbits
+	<tr>
+		<td colspan="4" bgcolor="{pagebgcolor}" align="center"><smallfont>[<a href="javascript:self.close()">Fermer cette fenêtre</a>]</smallfont></td>
+	</tr>
+</table>
+</body>
+</html>|||chatbox_popup_smilboxbits|||		<td bgcolor="$backcolor" align="center"><img src="$smilie[path]" alt="$smilie[title]" border="0" onmouseover="this.style.cursor='hand';" onclick="smilie('$smilie[text]');"></td>
+		<td bgcolor="$backcolor" align="center"><normalfont>$smilie[text]</normalfont></td>|||chatbox_saisie|||{htmldoctype}
+<html>
+<head>
+$headinclude
+<script language="javascript">
+var winsmilies, winvb;
+
+function raz(){
+	bouate.message.value="";
+}
+
+function ouvresmil(){
+	var NewFen = true;
+	if(winsmilies != null)if(!winsmilies.closed)NewFen = false; 
+	if (NewFen)winsmilies = window.open("chatbox.php?page_chat=popupsmil&s=","Smilies","left=600,top=0,width=400,height=550,scrollbars=yes,status=no,directories=no,toolbar=no,location=no,resizable=yes,menuBar=no");
+	else{
+		winsmilies.window.resizeTo(400,550);
+		winsmilies.window.moveTo(600,0);
+		winsmilies.window.location.replace("chatbox.php?page_chat=popupsmil&s=");
+	}
+	winsmilies.focus();
+}
+
+function ouvrevb(){
+	var NewFen = true;
+	if(winvb != null)if(!winvb.closed)NewFen = false; 
+	if(NewFen)winvb = window.open("chatbox.php?page_chat=popupvb&s=","vBcodes","left=120,top=450,width=600,height=70,scrollbars=no,status=no,directories=no,toolbar=no,location=no,resizable=no,menuBar=no");
+	winvb.focus();
+}
+</script>
+</head>
+<body bgcolor="$fondchatbox">
+<form name="bouate" action="chatbox.php" method="post" target="chat" onsubmit="setTimeout('raz()',100)">
+	<input type="hidden" name="setting" value="save">
+	<input type="hidden" name="page_chat" value="chat">
+	&nbsp;<input type="text" name="message" size="80" maxlength="255"> <input type="submit" value="go">
+	<a href="chatbox.php?page_chat=chat&s=$session[sessionhash]" target="chat"><img src="images/chatbox_icons/refresh.gif" border="0" alt="Refresh" align="absmiddle"></a>
+	<a href="javascript:ouvresmil();"><img src="images/chatbox_icons/question.gif" border="0" alt="Smileys" align="absmiddle"></a>
+	<a href="javascript:ouvrevb();"><img src="images/chatbox_icons/vbcodes.gif" border="0" alt="vBcodes" align="absmiddle"></a>&nbsp;&nbsp;
+	<a href="index.php?chatbox=close&s=$session[sessionhash]" target="_top"><img name="reduc" src="images/chatbox_icons/reduc.gif" alt="Reduce the chatbox" border="0" align="absmiddle"></a>
+</form>
+</body>
+</html>|||chatbox_vbcodes|||<html>
+<head>
+<title>chatbox</title>
+$headinclude
+<script language="Javascript">
+tags = new Array();
+
+function getarraysize(thearray){
+	for(i = 0; i < thearray.length; i++){
+		if((thearray[i] == "undefined") || (thearray[i] == "") || (thearray[i] == null))return i;
+	}
+	return thearray.length;
+}
+
+function arraypush(thearray,value){
+	thearraysize = getarraysize(thearray);
+	thearray[thearraysize] = value;
+}
+
+function arraypop(thearray){
+	thearraysize = getarraysize(thearray);
+	retval = thearray[thearraysize - 1];
+	delete thearray[thearraysize - 1];
+	return retval;
+}
+
+function setmode(modevalue){
+	document.cookie = "vbcodemode="+modevalue+"; path=/; expires=Wed, 1 Jan 2020 00:00:00 GMT;";
+}
+
+function normalmode(theform){
+	if(document.vbform.mode[0].checked)return true;
+	else return false;
+}
+
+function stat(thevalue){
+	document.vbform.status.value = eval(thevalue+"_text");
+}
+
+function closetag(theform){
+	if(normalmode(theform))stat('enhanced_only');
+	else if(tags[0]){
+		theform.message.value += "[/"+ arraypop(tags) +"]";
+	}else{
+		stat('no_tags');
+	}
+	if(normalmode(theform))theform.message.focus();
+}
+
+function closeall(theform){
+	if(normalmode(theform))stat('enhanced_only');
+	else{
+		if(tags[0]){
+			while(tags[0]){
+				theform.message.value += "[/"+ arraypop(tags) +"]";
+			}
+			theform.message.value += " ";
+		}else{
+			stat('no_tags');
+		}
+	}
+	theform.message.focus();
+}
+
+function vbcode(theform,vbcode,prompttext) {
+	if((normalmode(theform)) || (vbcode=="IMG")){
+		inserttext = prompt(tag_prompt+"\n["+vbcode+"]xxx[/"+vbcode+"]",prompttext);
+		if((inserttext != null) && (inserttext != ""))theform.message.value += "["+vbcode+"]"+inserttext+"[/"+vbcode+"] ";
+	}else{
+		donotinsert = false;
+		for(i = 0; i < tags.length; i++){
+			if(tags[i] == vbcode)donotinsert = true;
+		}
+		if(donotinsert)stat("already_open");
+		else{
+			theform.message.value += "["+vbcode+"]";
+			arraypush(tags,vbcode);
+		}
+	}
+	if(normalmode(theform))theform.message.focus();
+}
+
+function fontformat(theform,thevalue,thetype) {
+	if(normalmode(theform)){
+		if(thevalue != 0){
+			inserttext = prompt(font_formatter_prompt+" "+thetype,"");
+			if((inserttext != null) && (inserttext != ""))theform.message.value += "["+thetype+"="+thevalue+"]"+inserttext+"[/"+thetype+"] ";
+		}
+	}else{
+		theform.message.value += "["+thetype+"="+thevalue+"]";
+		arraypush(tags,thetype);
+	}
+	document.vbform.sizeselect.selectedIndex = 0;
+	document.vbform.fontselect.selectedIndex = 0;
+	document.vbform.colorselect.selectedIndex = 0;
+	if(normalmode(theform))theform.message.focus();
+}
+
+function namedlink(theform,thetype) {
+	linktext = prompt(link_text_prompt,"");
+	var prompttext;
+	if(thetype == "URL"){
+		prompt_text = link_url_prompt;
+		prompt_contents = "http://";
+	}else{
+		prompt_text = link_email_prompt;
+		prompt_contents = "";
+	}
+	linkurl = prompt(prompt_text,prompt_contents);
+	if((linkurl != null) && (linkurl != "")){
+		if((linktext != null) && (linktext != ""))theform.message.value += "["+thetype+"="+linkurl+"]"+linktext+"[/"+thetype+"] ";
+		else theform.message.value += "["+thetype+"]"+linkurl+"[/"+thetype+"] ";
+	}
+	theform.message.focus();
+}
+
+function dolist(theform) {
+	listtype = prompt(list_type_prompt, "");
+	if((listtype == "a") || (listtype == "1")){
+		thelist = "[list="+listtype+"]\n";
+		listend = "[/list="+listtype+"] ";
+	}else{
+		thelist = "[list]\n";
+		listend = "[/list] ";
+	}
+	listentry = "initial";
+	while((listentry != "") && (listentry != null)){
+		listentry = prompt(list_item_prompt, "");
+		if((listentry != "") && (listentry != null))thelist = thelist+"[*]"+listentry+"\n";
+	}
+	theform.message.value += thelist+listend;
+	theform.message.focus();
+}
+</script>
+<script language="Javascript" src="vbcode_language.js"></script>
+<style>
+#codebuttons input { font-family: verdana, arial, helvetica; font-size: 11px; }
+#codebuttons select { font-family: verdana, arial, helvetica; font-size: 11px; }
+.smilieTable { border-width: 2px; border-style: outset; }
+</style>
+</head>
+<body>
+<div style="position:absolute; top:0; left:0; width:600; height:70; overflow:hidden"><form name="vbform"><table cellpadding="3" cellspacing="1" border="0" width="100%" bgcolor="{tablebordercolor}">
+	<tr id="codebuttons">
+		<td bgcolor="{secondaltcolor}" valign="top"><normalfont>
+			<b>vB Code</b></normalfont><smallfont> [<a href="misc.php?action=bbcode#buttons" target="_blank">help</a>]<br>
+			<input type="radio" name="mode" value="0" title="Normal Mode: (alt+n)" accesskey="n" onclick="setmode(this.value)" onmouseover="stat('norm')" $modechecked[0]> Normal Mode<br>
+			<input type="radio" name="mode" value="1" title="Enhanced Mode: (alt+e)" accesskey="e" onclick="setmode(this.value)" onmouseover="stat('enha')" $modechecked[1]> Enhanced Mode
+		</smallfont></td>
+		<td bgcolor="{secondaltcolor}"><table cellpadding="0" cellspacing="0" border="0">
+			<tr>
+				<td nowrap><smallfont>
+					<input type="button" class="bginput" value=" B " onclick="vbcode(window.opener.document.bouate,'B','')" onmouseover="stat('b')" title="BOLD (alt+b)" accesskey="b">
+					<input type="button" class="bginput" value=" I " onclick="vbcode(window.opener.document.bouate,'I','')" onmouseover="stat('i')" title="ITALIC (alt+i)" accesskey="i">
+					<input type="button" class="bginput" value=" U " onclick="vbcode(window.opener.document.bouate,'U','')" onmouseover="stat('u')" title="UNDERLINE (alt+u)" accesskey="u">&nbsp;
+					<select id="sizeselect" onchange="fontformat(window.opener.document.bouate,this.options[this.selectedIndex].value,'SIZE')" onmouseover="stat('size')">
+						<option value="0">SIZE</option>
+						$vbcode_sizebits
+					</select>
+					<select id="fontselect" onchange="fontformat(window.opener.document.bouate,this.options[this.selectedIndex].value,'FONT')" onmouseover="stat('font')">
+						<option value="0">FONT</option>
+						$vbcode_fontbits
+					</select>
+					<select id="colorselect" onchange="fontformat(window.opener.document.bouate,this.options[this.selectedIndex].value,'COLOR')" onmouseover="stat('color')">
+						<option value="0">COLOR</option>
+						$vbcode_colorbits
+					</select><br>
+					<input type="button" class="bginput" value="http://" title="Insert Hyperlink" onclick="namedlink(window.opener.document.bouate,'URL')" onmouseover="stat('url')">
+					<input type="button" class="bginput" value=" @ " title="Insert Email Address" onclick="namedlink(window.opener.document.bouate,'EMAIL')" onmouseover="stat('email')">
+					<input type="button" class="bginput" value="IMG" title="Insert Image" onclick="vbcode(window.opener.document.bouate,'IMG','http://')" onmouseover="stat('img')">&nbsp;
+					<input type="button" class="bginput" value=" # " title="CODE" onclick="vbcode(window.opener.document.bouate,'CODE','')" onmouseover="stat('code')">
+					<input type="button" class="bginput" value="PHP" title="PHP CODE" onclick="vbcode(window.opener.document.bouate,'PHP','')" onmouseover="stat('php')">
+					<input type="button" class="bginput" value="List" title="Ordered List" accesskey="l" onclick="dolist(window.opener.document.bouate)" onmouseover="stat('list')">
+					<input type="button" class="bginput" value="Quote" title="Insert Quote" onclick="vbcode(window.opener.document.bouate,'QUOTE','')" onmouseover="stat('quote')"><br>
+					<input type="text" class="bginput" name="status" style="font-size:7pt" size="50" value="Use these controls to insert vBcode">
+				</smallfont></td>
+				<td>&nbsp;</td>
+				<td><smallfont>
+					<input type="button" class="bginput" value=" x " accesskey="c" title="Close Current Tag (alt+c)" style="color:red; font-weight:bold" onclick="closetag(window.opener.document.bouate)" onmouseover="stat('closecurrent')">
+					Close Current Tag<br>
+					<input type="button" class="bginput" value=" x " accesskey="x" title="Close All Open Tags (alt+x)" style="color:red; font-weight:bold" onclick="closeall(window.opener.document.bouate)" onmouseover="stat('closeall')">
+					Close All Tags
+				</smallfont></td>
+			</tr>
+		</table></td>
+	</tr>
+</table></form></div>
+</body>
+</html>|||

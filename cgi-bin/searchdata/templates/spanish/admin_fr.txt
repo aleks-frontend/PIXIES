@@ -1,0 +1,76 @@
+<p><b>Usando Reglas para Manejar el Contenido</b></p>
+<p>Hay muchas paginas en el Web y no todas son  útiles o apropiada para su audiencia. Las reglas de administración ayudan a controlar la calidad de la información en su fichero del índice.</p>
+<p>El Motor de Búsqueda Fluid Dynamics provee las siguientes herramientas para manejar el contenido:</p>
+<ol>
+	<li><p>Usted puede prohibir que sus visitantes anónimos agreguen su propio URL. La mayoría de las sumisiones consideradas " basura " originan de los visitantes.</p></li>
+	<li><p>Si se le permite a los visitantes agregar un URL, usted puede requerir que todas sus adiciones sean aprobadas por usted primero.</p></li>
+	<li><p>Para todas las paginas - sometidas por los visitantes y los administradores - usted puede buscar  ciertas cadenas en el hostname, el URL, o el documento. De acuerdo con estas búsquedas, usted puede negar el documento, permitirlo, o aceptarlo para la revisión y la aprobación del administrador más adelante. Vea la sección de las Reglas de Filtro.</p></li>
+	<li><p>Usted puede analizar las paginas por las etiquetas que describen su nivel de contenido de la orientacion-adulta, y tomar acción basada en el nivel encontrado. Vea la sección de PICS.</p></li>
+</ol>
+<p><br /></p>
+<p><b>Configuraciones Generales</b></p>
+<blockquote>
+	<table border="0">
+	<tr>
+		<td><input type="checkbox" name="allowanonadd" value="1" /></td>
+		<td>Permita que los visitantes agreguen paginas nuevas al índice (debe tener por lo menos un reino abierto) [<a href="%help_file%1072.html">Ayuda</a>]</td>
+	</tr>
+	<tr>
+		<td><input type="radio" name="require anon approval" value="1" /></td>
+		<td>Requiera la aprobación del administrador por cada pagina Web agregada por un visitante.</td>
+	</tr>
+	<tr>
+		<td><input type="radio" name="require anon approval" value="0" /></td>
+		<td>Requiera la aprobación del administrador solamente para esos sitios señalados "Requiere Aprobación" Reglas de Filtros (definidos aquí debajo).</td>
+	</tr>
+	<tr>
+		<td><input type="checkbox" name="allowanonadd: notify admin" value="1" /></td>
+		<td>Envíe email al administrador siempre que alguien agregue un URL (debe proveer configuraciones del email en la pagina de Configuraciones Personal)</td>
+	</tr>
+	<tr>
+		<td><input type="checkbox" name="allowanonadd: require user email" value="1" /></td>
+		<td>Requiera que los usuarios incluyan una dirección de  email valida al someter un URL nuevo.</td>
+	</tr>
+	<tr>
+		<td><input type="checkbox" name="allowanonadd: log" value="1" /></td>
+		<td>Save a copy of all visitor-added web pages (and visitor email addresses) to submissions.csv</td>
+	</tr>
+	</table>
+	<p><input type="submit" class="submit" value="Guardar Datos" /></p>
+</blockquote>
+<p><br /></p>
+<p><b>Reglas de Filtro</b> - <a href="%admin_url%&amp;Action=FilterRules&amp;subaction=create_edit_rule">Crear Regla Nueva</a></p>
+<table border="1" cellpadding="4" cellspacing="1">
+<tr>
+	<th align="left" colspan="2">Permita / Nombre</th>
+	<th colspan="2">Acciones</th>
+	<th>Acción</th>
+</tr>
+%HTML_BLOCK_1%
+</table>
+<blockquote>
+	<p><input type="submit" class="submit" value="Guardar Datos" /></p>
+</blockquote>
+<p><br /></p>
+<p><b>Filtración basada en la Plataforma de la Selección del Contenido Internet (PICS)</b></p>
+<p>El buscar etiquetas de PICS es una herramienta provechosa en la filtración de paginas de contenido de adultos, porque muchos sitios de adultos voluntariamente han marcado su contenido con etiquetas. Esto no es una garantía, ya que los spammers de un índice pueden quitar fácilmente sus etiquetas de PICS para ser permitidos a incorporarse.</p>
+<p>Existen muchas opciones relacionadas con PICS. Utilice un cajita de marcar para permitir una de las implementaciones, y las opciones serán visualizadas.</p>
+<p><input type="checkbox" name="pics_rasci_enable" value="1" /> <b>Internet Content Rating Association (RASCi)</b> implementación (utilice la cajita de marcar para habilitar / deshabilitar)</p>
+<blockquote>%HTML_BLOCK_2%<br /></blockquote>
+<p><input type="checkbox" name="pics_ss_enable" value="1" /> <b>Safe Surf</b> implementación (utilice la cajita de marcar para habilitar / deshabilitar)</p>
+<blockquote>%HTML_BLOCK_3%<br /></blockquote>
+<blockquote>
+	<p><input type="submit" class="submit" value="Guardar Datos" /></p>
+</blockquote>
+<p><br /></p>
+<p>Fluid Dynamics no esta afiliada con W3, RASCI, o SafeSurf.com. Más información está disponible en sus sitios:</p>
+<ul>
+	<li><a href="http://www.w3.org/PICS/" target="_top">Plataforma para la Selección del Contenido Internet</a> (PICS)</li>
+	<li><a href="http://www.icra.org/" target="_top">Internet Content Rating Association</a> (RASCi)</li>
+	<li><a href="http://www.safesurf.com/" target="_top">SafeSurf.com</a></li>
+</ul>
+<p>Las descripciones del texto de cada nivel de filtración fueron tomadas de los sitios respectivos en Octubre del 2000.</p>
+
+<p><br /></p>
+<p><b>URL Rewrite Rules</b> - <a href="%admin_url%&amp;Action=Rewrite">Editar</a></p>
+

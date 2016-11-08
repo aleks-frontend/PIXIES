@@ -1,0 +1,866 @@
+<HTML>
+<!-- #BeginTemplate "/Templates/story2.dwt" -->
+<!--#include virtual="../header.txt"-->
+<table width="580" bgcolor="#FFFFFF" align="center">
+  <center>
+    <tr align="left" valign="top"> 
+            <td colspan="2" width="100%" height="2"> 
+              <h2><!-- #BeginEditable "title" -->THE SNIFFER<!-- #EndEditable --></h2>
+      </td>
+    </tr>
+    <tr align="left" valign="top"> 
+            <td colspan="2" width="100%"> <!-- #BeginEditable "story" --> 
+              <p>(M/F: blackmail; illustrated) </p>
+              <p> My co-blackmailers call me the sniffer. They say it with a lot of 
+          respect because I do them a lot of good turns, just as they do me some. 
+          What I am basically is a hacker, though not an especially skillful one. 
+          What makes me important is because I work in a big company with a big 
+          intranet to connect everybody's computers up. What nobody there has 
+          ever suspected is that I've got some specially written packet sniffing 
+          software installed in my PC and a second ethernet card on the network 
+          set up in promiscuous mode. 
+        <p> Promiscuous mode! Ha, I like that -- being promiscuous is what it's 
+          all about. That and being very, very careful. The allies would have 
+          rather lost a battle in the war than let the Germans know that their 
+          Enigma codes had been broken. I work on the same principle. 
+        <p> The trick is the background software which looks at all the data packages 
+          and only pulls out the IP sources and destination addresses that I supply. 
+          And all that I'm interested in are certain e-mail addresses. 
+        <p> Like I said, I work in a big building for a big company, and there 
+          are over three hundred people using e-mail every day. Not only on the 
+          intranet, but also out into the internet as well. I've long since acquired 
+          all sorts of details about a certain type of e-mail user. 
+        <p> What sort? The female sort, particularly the ones who been married 
+          for a good while and who outwardly look to be the most respectable women 
+          around. I download as many of their e-mail messages as I can find each 
+          day. Then, before I go home, I run them all through a little search 
+          program I've written. All it does it seek out a few key words:<i> 'meeting'; 
+          'what time'; 'usual place'; 'after work'; 'bar'; 'husband'; 'wife'; 
+          'excuse'; 'love you'. </i>Those are just a few of my favourite text 
+          recaptures. I also have quite a few crude words in the program as well. 
+        <p> Yes, you've surely guessed it. I'm always on the lookout for those 
+          naughty ladies having a bit of fun on the side with gentleman they are 
+          not supposed to be having an intimate relationship with. 
+        <p> Now you might think that in this technological age anybody with enough 
+          brains to be allowed to sit behind a computer in an office would know 
+          that e-mail and mobile phones are both about as private ways of communicating 
+          as sending up smoke signals. Well, you might think that, but in most 
+          cases you'd be totally wrong. Men and women alike seem blissfully unaware 
+          of how total insecure telecommunications are at all levels. Still, I'm 
+          not complaining, where would snoops like me be if the world wasn't chock 
+          full of fools? 
+        <p> For a while, back when I was a kid, I thought a lot about becoming 
+          a priest. The attraction was the idea of being able to go into a confession 
+          box and listen to everybody telling me all their darkest and dirtiest 
+          secrets. I had to give up on that idea eventually but being an e-mail 
+          eavesdropper is probably even more fun because those gals just let it 
+          all hang out. <i> 'When a woman thinks, she must post'. </i>That's what 
+          Shakespeare wrote, or at least it's what he'd write now if he could 
+          see what I turn up. 
+        <p> Generally I have at least a dozen on-going targets provoking my interest. 
+          But I'm never in any great rush. I want to know something about each 
+          of them, apart from what I routinely hack out of their personal records 
+          files. Basically, I want to know why a woman is having an extra-marital 
+          affair. Is it because she's totally sick of her married life or is it 
+          because it she's just become so mind numbingly bored that she has to 
+          have a little fling now and then to keep her self respect? 
+        <p> It's not that I've got any interest at all in being a marriage guidance 
+          counsellor. What I want are the targets which are vulnerable to pressure. 
+          The women who still value their marriage, just as long as they can escape 
+          from it now and then. 
+        <p> I usually get an understanding pretty soon of where a girl is coming 
+          from. The more concerned she is to keep everything secret, the more 
+          she obviously thinks she has to lose. The more self excuses there are 
+          in the posts to her lover, the better. A guilty conscience is pricking 
+          her, though probably not as much as he is. 
+        <p> OK, so by the time I've sorted through the target e-mail files I can 
+          generally count on having four or five women at any one time which look 
+          pretty good. I mean they look pretty good as far as their correspondence 
+          goes. 
+        <p> The next thing I want to know is what they look like. I stay as much 
+          as possible in my own small office and socialise as little as possible 
+          with as few people as possible. That's my nature, I'm just not very 
+          good at meatworld interaction. Nobody worries about it because I'm a 
+          well known computer nerd. So I have to go out and do a quick reality 
+          check on each target before I can grade them for their sexiness. But 
+          I don't even bother to look at them unless they come to work in their 
+          own car. 
+        <p> Almost always they do because the company offices are out of town 
+          and driving is much the most convenient way of commuting to work. So 
+          what goes at the top of the list is a good looking lady driving her 
+          own car and having an affair she really wants to keep a secret. 
+        <p> What I do next is keep a close watch on her e-mail to find out when 
+          the next assignation is going to take place. That part is easy, it's 
+          the where which isn't. Sometimes a place will be mentioned, a bar or 
+          an hotel, but more often than not its just <i>'your place',</i> or <i> 
+          'the usual place'.</i> 
+        <p> Once upon a time the only way to solve that part of the puzzle would 
+          have been to put on a trench coat and a trilby hat and trail the beauty 
+          to her den of vice. What I do nowadays is to pull her auto licence number 
+          off the company's personal records. Then, on the morning of the day 
+          the meeting is due, I stop by the vehicle in the company car park and 
+          slip a small magnetic box under the fender. Inside is a GPS receiver 
+          and a data collection chip. The next day I collect the GPS, download 
+          it and plot the co-ordinates on the local map. It takes me about two 
+          minutes to determine exactly where the car was parked at the time of 
+          the rendezvous. Then I put a fresh roll of film in my camera and wait 
+          for the next time the happy couple arrange a date 
+        <p> When I first started thinking about all this I had some pretty wild 
+          ideas of stalking each target and photographing them kissing their boyfriends 
+          wildly on the doorstep. Real private eye work, hey, and maybe putting 
+          bugging devices on the apartment windows and all that stuff. But why 
+          bother? You go to the area, find the auto and then take a photograph 
+          of it, a long shot with some other cars in the scene.Then you go away 
+          for half an hour, come back and find some of the other cars have left 
+          and other ones have arrived. So you take another shot, and maybe another 
+          one when the target's getting in her car and leaving. 
+        <p> If it's parked out in the street, some sunshine is handy, so the shadows 
+          show the passage of time. Maybe it starts out sunny and then starts 
+          raining. Again, the shots prove where her car has been parked, and that 
+          it was parked there for some time. And I'll usually go through the same 
+          procedure two or three times with each target before I've got the dossier 
+          I want. The place, how often she's been there, the time she spent there 
+          on each visit, and the photos of the car in identifiable surroundings 
+          and obviously parked up there a lot of times. 
+        <p> To round things off though it's nice to know exactly who it is she's 
+          seeing. Which is where my little gang of buddies come in. Sooner or 
+          later I'll have one of them waiting in the area when she's organised 
+          a meeting. Almost before she's parked up he'll be on her case and ready 
+          to follow her to where she's going. It wouldn't do for me to try that, 
+          naturally. I might be spotted and recognised from work. 
+        <p> Once I've got the dossier together, I send it to the lady in question, 
+          with the photos and the address she's been visiting so much and for 
+          so long, and a suggestion that we have a talk about things. 
+        <p> Of course I pass all this on by snail mail. The last thing I want 
+          to do is to have any of these women realise that they were betrayed 
+          by their own e-mail. All they're told in the letter is that they were 
+          seen leaving their car in an areas where they don't live and the person 
+          who spotted them was curious enough to find out what was happening. 
+          As a committed Christian he's wondering whether he should pass on this 
+          information to her husband. Having looked through the dossier, maybe 
+          she'd like to meet him and discuss what should happen next. 
+        <p> So what does happen next? Here's a woman who knows she's in deep shit, 
+          who knows her secret is already known to somebody who knows her, and 
+          she doesn't have much choice but to go to the meeting she's been told 
+          to. I usually arrange it at a McDonalds, which is a tad reassuring for 
+          her. After all, nothing dramatic could ever happen at a McDonalds. 
+        <p> When she gets there she's met by my friend Chris. Chris is a smoothtalking, 
+          hard looking guy with a shaven head who comes on with all the self confidence 
+          of a born gangster. 
+        <p> So Chris greets the target, sits down beside her, starts talking whilst 
+          she's still trying to figure out what's going on. Sure, he says, he 
+          knows about what she's been doing because he was told by somebody who 
+          works at her company. The same guy who just happened to spot her sliding 
+          off for a little taste of fun on the side and wrote her to come in today. 
+          Whoever it was told Chris as a favor to him and now Chris wants to do 
+          a deal with her. 
+        <p> Of course this throws the target. She thought she was going to meet 
+          somebody she knew, not a total stranger. She certainly didn't expect 
+          anybody like Chris. So what sort of a deal is he talking about and what's 
+          in it for him? 
+        <p> What sort of deal? Chris laughs and just then another of his friends 
+          joins him at the table, another husky guy, introduced as Ed. Well, says 
+          Chris, this has happened before. The deep throat at her workplace has 
+          already put the finger on another lady that was having a fling on the 
+          side. And since she was was sinning already everybody figured a little 
+          extra sin wouldn't make much difference. Even she decided that way eventually. 
+          Does the name Maria Vincetti sound familiar? 
+        <p> OK, that's the general way it works. Let me tell you about an actual 
+          example that happened a couple of weeks ago. 
+        <p> I'm in the McDonalds as well but way back, almost out of sight, and 
+          the woman who's just walked in looking very nervous is called Sue Salterly. 
+          Now this Sue is a target I've been tracking for a long time, a thirty 
+          something year old blue eyed blonde with legs guaranted to get a second 
+          look from every guy who sees them. 
+        <p> At work she looks as innocent as a Sunday school teacher, let alone 
+          the respectable married woman that she's supposed to be. Yet I know 
+          she's having a steaming hot affair with a guy over on the other side 
+          of town, chasing over to his pad at least twice a week to top up her 
+          tank with some high octane gas after years of getting by on regular 
+          unleaded. And I didn't say that, she said it herself in her own e-mail 
+          to her boyfriend. 
+        <p> But now she's worried, really worried, because it looks as if the 
+          nice tidy pattern of her life is going to become really unravelled. 
+          Shame and scandal and a big glass window looming over her career path 
+          - a glass window smeared with dirt. She's staring at Chris and Ed, and 
+          she hasn't got the slightest interest in the glasses wearing geek taking 
+          an occasional peek over a computer magazine at the other end of the 
+          restaurant. Hell, I could lay my anorak over a puddle for her to step 
+          on and she wouldn't remember me from work. 
+        <p> Still, we've got to the interesting bit now. Does she know Mrs Vincetti? 
+          I know that's the point in the spiel Chris has reached and I can see 
+          that Sue is nodding ... Sure, she knows Senior Office Manager Vincetti. 
+          Everybody at the company is afraid of the bossy bitch. Chris grins and 
+          lays down a big glossy pix as if he was Wild Bill playing an ace in 
+          Dodge City. 
+        <p> I see Sue's face suddenly tighten in surprise as she looks at it. 
+          Ms Vincetti, on her hands and knees in a darkened room with a flashlight 
+          shining on her from a few feet away. Ms Vincetti, as ever is, wearing 
+          nothing but a silk scarf tied around her wrists, with her large tits 
+          getting a double handed mauling from either side. Apart from the udder 
+          pullers another athletic male body also looms against her from out of 
+          the shadows, thrusting forward as he takes her from behind. The manager's 
+          hair is a mess, her mouth is hanging open and despite her executive 
+          position she looks as if she's getting quite a thrill out of her present 
+          position. 
+        <p> Which, incidentally, is quite true. When she got the treatment she 
+          went into convulsions at the first touch. By the time her saddle had 
+          been filled and emptied four or five times she was virtually off the 
+          planet. But that was then, this is now. Ms Salterly has taken a few 
+          seconds checking out the scene on the print and a few more looking up 
+          at the guys and already she knows exactly what's in the deal for Chris 
+          and Ed -- she is. She can also see at a glance that they're serious, 
+          they've pulled this blackmail stunt before and they've obviously been 
+          successful with it. Astonishingly successful, to get a strong willed 
+          bitch like Maria Vincetti to go along with them. 
+        <p> So while Sue is still staring at them with bulging eyes Chris is quietly 
+          and conscisely explaining exactly where things stand. If Sue wants her 
+          husband left in happy ignorance then she's going to have to put out 
+          like Laura Vincetti has done -- but nobody is telling any stories in 
+          the offices about Ms Vincetti, are they? And the reason for that is 
+          because Chris and Ed are very, very discreet. Maria turned up when she 
+          was told told to and did as she was told to, so Mr Vincetti never got 
+          to hear about her original indiscretion and nobody at the company knows 
+          anything about this little bit of fun. Chris taps the photograph again 
+          to make his point. 
+        <p> In the seven times we've played this scenario out we've had one outright 
+          refusal, just one woman who threw the picture down and walked, defying 
+          us to do our worse. I promptly sent her a letter asssuring her she was 
+          quite safe and that nobody was going to tell on her secret. The last 
+          thing I wanted was to have her feel she needed any help from anybody. 
+          A month later the same woman saw Chris in the street by pure accident 
+          and she virtually begged him to start blackmailing her again. Once she 
+          stopped being nervous she was as willing a screw as any of the sluts 
+          we've ever slung up by their heels. 
+        <p> Just now though Ms Salterly is still playing at being embarrassed, 
+          blushing and trying to give the photo back to Chris. But then yet another 
+          young guy comes along and joins the group, another hunk. Chris introduces 
+          him as Don. Just as sure as if I was at their table I know that Don 
+          is asking her if she likes the snapshot of Maria. I see Sue twitch like 
+          a hooked fish. She hasn't been involved in this scene for five minutes 
+          and already there are three guys sitting around her who all know what's 
+          going down and seem ready to share out the action. Her rather pretty 
+          face is looking totally stunned and her bright blue eyes are now trying 
+          to avoid all those male eyes staring at her jaunty little tits. Ms Salterly 
+          looks to me like a young lady who has suddenly realised that three into 
+          one will go and that she's going to be the one. Or maybe she's just 
+          wondering to herself if the gang's all here yet. 
+        <p> I see Chris lean forward and put another pix in front of her. Another 
+          of the girls from the office -- it doesn't matter which one, they're 
+          all on the same theme, some intimate hetrosexual activities by a multi-partnered 
+          lady. Sue seems absolutely knocked out now -- not so much by what's 
+          going on in the picture as by the revelation that behind the respectable 
+          facade of the company she works for there seems to be all kinds of secret 
+          vice going on. God, but I enjoy all this. Eventually I'm going to have 
+          to organise some kind of a meeting place where I can vidotape the target's 
+          faces as they get the good word from Chris and the gang. 
+        <p> Chris waits until the first shock has subsided and then points out 
+          to Sue that this girl also had the same problem that Ms Vincetti had 
+          and solved it the same way. Would Sue prefer to go down the same path 
+          herself, or would she rather her husband saw the dossier and the photos? 
+        <p> Maybe this is the best bit of all, seeing the shaken expression on 
+          Ms Salterly's previously snooty features as she tries to figure out 
+          what to do. She's had her guilty little secret found out by somebody, 
+          she still doesn't know who. Now she's sitting here in a hamburger joint 
+          being shown photographs of supposedly respectable female co-workers 
+          whoring like harem girls getting their yearly sheikup. It's also being 
+          made clear to Ms Salterly that the guys responsible for taking these 
+          photos now have another little project in mind. They've picked out another 
+          lady to be hog tied and fulsomely worked up and over by one and all. 
+          And guess who's just gotten her draft notice? 
+        <p> She sits and stares at Chris now, her mouth agape as he explains the 
+          rules. About how she has to go where and when she's told, in her sexiest 
+          gear, on the clear understanding that when she gets there all the guys 
+          can do whatever they like with her. She gasps and almost spills her 
+          coke. I can feel the adrenalin pumping into my blood as I wonder if 
+          the little blonde will finally give in and agree to become another of 
+          Chris's gang-bang groupies? 
+        <p> It's soon clear that she's not getting up and walking. One of the 
+          guys gets another round of cokes and Ms Salterly is still sitting with 
+          the guys when he comes back, sometimes looking out of the window, but 
+          more often blushing and staring around the nearby tables to make sure 
+          nobody else is hearing what's being said to her. I'll hear it soon enough 
+          though because Chris is wearing a wire and he just loves teasing each 
+          of the girls at this stage of the game. Usually by showing off two or 
+          three pictures of ladies with their mouths full and asking if she thinks 
+          she's got as good a technique as any of them? 
+        <p> Ah, ah! Now Sue's stopped looking so embarrassed. She's not staring 
+          out of the window now, not pretending to show some grace under pressure 
+          but looking at the pictures with real interest and almost on the verge 
+          of giggles as she shows a lot of interest in what some of the good old 
+          girls can do when they try. Especially Senior Manager Vincetti. 
+        <p> I'm sure the guys are telling Sue about old vacuum mouth Vincetti 
+          and how she could probably swallow a python while it was still wriggling 
+          if she was turned on enough. And they've got the snapshots to prove 
+          it. Ms Salterly stares at the pictures now without any false embarrassment 
+          and doesn't even realise she's moving around so much on her seat. Then 
+          Chris really gets her attention as he gives her a piece of paper with 
+          the address of the apartment she has to go to and the time she has to 
+          be there. 
+        <p> Sue picks up the note and then walks out without taking a second glance 
+          back at Chris and the other studs. Me, I'm looking at those really sexy 
+          legs underneath that tight skirt as I swirl around the last few pieces 
+          of almost melted ice in the bottom of my coke container. I'm happy because 
+          I know that the next time I see Sue Salterly's legs they'll be stretched 
+          wide open and the set of nerve endings between them is all that she'll 
+          be caring about by then. I'm happy because I've broken her code. Hers 
+          and quite a few others. All that has to happen now is for the guys to 
+          put her through her paces and bring me back the shots. 
+        <p> Chris barely pauses by my table on the way out: "This time again next 
+          week. Should have some nice video for you to admire, Jennifer." 
+        <p> "Fine." 
+        <p> The guys just grin at me and move on. They still can't get used to 
+          the idea of it being a girl who organises these treats for them, especially 
+          when I refuse to take part. Still, I don't care what they think and 
+          I feel like a goddess when I look at some of the sluts in my company 
+          and wonder what they'd say if they knew of the footage I have of them 
+          performing on the wild side. And I'm especially looking forward to seeing 
+          the tape of Sue Salterly's initiation. Ed always does a hell of a job 
+          with the camera and there are extra mikes around the room to pick up 
+          every sound 
+        <p> When I get the tapes I'll pick out the best vidcaps and transcribe 
+          the audio track for everything that was said. It's like lingering over 
+          every morsel of a long, delicious meal ... 
+        <p> <a href="Sniffer/Snifimages/ffk6b.jpg"> 
+        <img align="left" hspace="10"  border="0" WIDTH = "100" HEIGHT = "133" src="Sniffer/thumbs/ffk6b_small.jpg" xthumbnail-orig-image="Sniffer/Snifimages/ffk6b.jpg"></a> 
+        <p> Chris:<i> "OK, Sue, just sit on the table and hold the rope, then 
+          look at us."</i> 
+        <p> Ed:<i> "Looking good."</i> 
+        <p> Chris: <i>"That's great, Sue. Gee, you sure are a sexy looking girl. 
+          Isn't that right, guys?"</i> 
+        <p> Ed: <i>"You bet."</i> 
+        <p> Don: <i>"She looks beautiful -- like a model."</i> 
+        <p> Chris: <i>"Yeah -- have you ever done any modelling work, Sue?"</i> 
+        <p> Sue: <i>"No".</i> 
+        <p> Chris: <i>"You'd be great. You've got a lovely face and a figure that 
+          has me panting."</i> 
+        <p> Don: <i>"Me too."</i> 
+        <p> Ed: <i>"Can we unwrap the package a little here, Chris?"</i> 
+        <p> Don: <i>"Yeah, let's give the camera a treat, hey, Sue?</i> 
+        <p> <a href="Sniffer/Snifimages/gmnsb.jpg"> 
+        <img align="right" hspace="10"  border="0" WIDTH = "100" HEIGHT = "75" src="Sniffer/thumbs/gmnsb_small.jpg" xthumbnail-orig-image="Sniffer/Snifimages/gmnsb.jpg"></a> 
+        <p> Chris: <i>"That'd be cool. Sue, could you maybe bare one shoulder 
+          and lift you skirt up higher. With your legs on the table top, please."</i> 
+        <p> Chris: <i>"Mmmmm, yes, that's great. Keep hold of the rope, and that's 
+          fine, hey, Ed?"</i> 
+        <p> Ed: <i>"Hey, Chris, I guess I can see how come she's got a husband 
+          and a boyfriend both happy to look after her. Lucky guys, I guess."</i> 
+        <p> Don: <i>"Yeah, but it's our turn to get lucky today. That's right, 
+          hey, Sue?"</i> 
+        <p> Chris: <i>"Cat got your tongue, Sue?"</i> 
+        <p> Sue: <i>"No -- no. I'm very spooked by all this."</i> 
+        <p> Chris: <i>"By all what, Sue?"</i> 
+        <p> <a href="Sniffer/Snifimages/kt97b.jpg"> 
+        <img align="left" hspace="10"  border="0" WIDTH = "100" HEIGHT = "75" src="Sniffer/thumbs/kt97b_small.jpg" xthumbnail-orig-image="Sniffer/Snifimages/kt97b.jpg"></a> 
+        <p> Sue: <i>"You guys, and the camera -- and these ropes."</i> 
+        <p> Chris: <i>"They're just everyday ropes. I'll show you."</i> 
+        <p> Ed: <i>"Look up, Sue. Look up at where the ropes are tied. Like maybe 
+          you're thinking about what's going to happen with the ropes pretty soon."</i> 
+        <p> Don: <i>"We can tell you if you're still not sure."</i> 
+        <p> Chris: <i>"Don't take any notice of him, Sue, he's always cheeky. 
+          You can trust me to look after you. All you've got to tell us is if 
+          you've ever played around in front of a camera before."</i> 
+        <p> Sue: <i>"No."</i> 
+        <p> Chris: <i>"No? How about in front of spectators then? Ever been tied 
+          up by a bunch of guys?"</i> 
+        <p> Sue: <i>"God, no!"</i> 
+        <p> Don: (laughs) <i>"Don't worry about it, we've had a few shy girls 
+          in here before, but they weren't shy about anything when they left."</i> 
+        <p> Sue: <i>"Please, put the camera away, please."</i> 
+        <p> Chris: <i>"Now, we already explained all that to you, Sue. The guy 
+          who caught you having your little fling on the side wants to make sure 
+          you've been made to atone for your sins, and we have to show him the 
+          proof. He's one of those religious dudes who believes in an eye for 
+          an eye and a tooth for a tooth. And maybe getting his rocks off on the 
+          side as well. So the camera stays on."</i> 
+        <p> Sue: <i>"But who is the son of a bitch?"</i> 
+        <p> Chris: <i>"That's for us and him to know but not you, Sue. So forget 
+          about him and cuddle up to me so I can take your mind off things."</i> 
+        <p> Sound of laughter 
+        <p> <a href="Sniffer/Snifimages/je21b.jpg"> 
+        <img align="right" hspace="10"  border="0" WIDTH = "100" HEIGHT = "75" src="Sniffer/thumbs/je21b_small.jpg" xthumbnail-orig-image="Sniffer/Snifimages/je21b.jpg"></a> 
+        <p> Chris: <i>"See, nothing to worry about. Not for a great big girl like 
+          you."</i> 
+        <p> More laughter 
+        <p> Ed: <i>"God, look at those legs, will ya!"</i> 
+        <p> Don: <i>"Tell me about them, tell me about them. And it looks like 
+          Chris is copping a nice feel there."</i> 
+        <p> Chris: <i>"No need to get jealous, Don, it's only my way of saying 
+          hi to Sue."</i> 
+        <p> Don: <i>"Yeah? I'll bet you're going to say hi from me and Ed as well, 
+          hey?"</i> 
+        <p> Chris: <i>"Why not? Tell you what, how about I kiss her for you guys 
+          as well?"</i> 
+        <p> Ed: <i>"I can hardly wait. Do me a favor and let me know if I enjoy 
+          it."</i> 
+        <p> Chris: <i>"OK. Here I come, Sue, ready or not."</i> 
+        <p> <a href="Sniffer/Snifimages/ewtqb.jpg"> 
+        <img align="left" hspace="10"  border="0"  WIDTH = "100" HEIGHT = "75"  src="Sniffer/thumbs/ewtqb_small.jpg" xthumbnail-orig-image="Sniffer/Snifimages/ewtqb.jpg"></a> 
+        <p> Don: <i>"Man, that's the hottest looking chick we've had on that table 
+          for a while."</i> 
+        <p> Ed: <i>"You think Chris is getting some french off her yet?"</i> 
+        <p> Don: <i>"It looks that way. I told you, she's as hot as chili peppers. 
+          All she needs is shaking up some."</i> 
+        <p> Ed: <i>"She's sure going to get that. Maybe her husband couldn't keep 
+          her happy but we will. Hey, Chris, how about a little hands-on action?"</i> 
+        <p> Don: <i>"Yeah, because I can see something stirring out in front there 
+          that looks real perky."</i> 
+        <p> Ed: <i> "Don's right, Chris. It looks as if the lady needs her buttons 
+          pressed."</i> 
+        <p> <a href="Sniffer/Snifimages/fl62b.jpg"> 
+        <img align="right" hspace="10"  border="0"  WIDTH = "100" HEIGHT = "75" src="Sniffer/thumbs/fl62b_small.jpg" xthumbnail-orig-image="Sniffer/Snifimages/fl62b.jpg"></a> 
+        <p> Don: <i>"It's the ropes. They never fail. You show a chick that you're 
+          going to tie her up and screw her and you've got instant hot pussy. 
+          Isn't that right, Sue?"</i> 
+        <p> Ed: <i>"I think you got her attention there, good buddy."</i> 
+        <p> Don: <i>"She's panting for it. Show us her tit, Chris, and we'll see 
+          how shy she really is."</i> 
+        <p> Ed: <i>"Yeah, all shocked about a camera and an audience but as soon 
+          as her old man's back is turned she's got another guy's prick in her 
+          as fast as an addict picking up a free snort. Show her off, Chris."</i> 
+        <p> <a href="Sniffer/Snifimages/jkt9b.jpg"> 
+        <img align="left" hspace="10"  border="0"  WIDTH = "100" HEIGHT = "75" src="Sniffer/thumbs/jkt9b_small.jpg" xthumbnail-orig-image="Sniffer/Snifimages/jkt9b.jpg"></a> 
+        <p> Chris: <i>"No problem. There you are guys, one sexually excited lady 
+          with no place to go but down."</i> 
+        <p> Laughter 
+        <p> Ed: <i>"Was she tonguing you, Chris?"</i> 
+        <p> Chris: <i>"Had her throat down to my tonsils straight away. Hell, 
+          she can't wait for things to start happening."</i> 
+        <p> Don: <i>"Is that right, Sue? You want to start strutting your stuff 
+          for us? You want Chris to show us both of your tits?"</i> 
+        <p> Sue: <i>"If you like."</i> 
+        <p> Ed: <i>"Oh, we'd like it, we'd like it."</i> 
+        <p> <a href="Sniffer/Snifimages/e345b.jpg"> 
+        <img align="right" hspace="10"  border="0"  WIDTH = "100" HEIGHT = "75" src="Sniffer/thumbs/e345b_small.jpg" xthumbnail-orig-image="Sniffer/Snifimages/e345b.jpg"></a> 
+        <p> Chris: <i>"OK, here they are. Small but growing as hard as they can."</i> 
+        <p> Ed: <i>"It's no use trying to hide your face, Sue. You've got to come 
+          out from behind Chris sooner or later, no matter how much you're blushing." 
+          </i> 
+        <p> Sue: <i>"God!"</i> 
+        <p> Ed: <i>"Why don't you put your hand down the front of her pants, Chris 
+          and see if she's still shy about the camera?"</i> 
+        <p> Chris: <i>"I guess she just might like that, especially in front of 
+          the camera. How about it, Sue, you want to start losing your video virginity?"</i> 
+        <p> Gasp 
+        <p> Don: <i>"Was that a yes or a no?"</i> 
+        <p> Chris: <i>"Let's make it an easy question, Sue. If you want me to 
+          start fingering you, say so. Otherwise -- well, otherwise isn't smart." 
+          </i> 
+        <p> Pause 
+        <p> Sue:<i>"Yes."</i> 
+        <p> Don: <i>"Sue, didn't you hear the question or are you playing at being 
+          stupid?" </i> 
+        <p> Sue: <i>"Yes -- I want Chris to finger me."</i> 
+        <P> Chris: <i>"Now we're getting somewhere. Sue, would you like these 
+          guys to look the other way while I'm fingering you or do you want them 
+          to watch me diddling you?"</i> 
+        <p> Sue: <i>"Oh -- I don't care."</i> 
+        <p> Chris: <i>"Never mind the crap. Yes or no?"</i> 
+        <p> <a href="Sniffer/Snifimages/zacab.jpg"> 
+        <img align="left" hspace="10"  border="0"  WIDTH = "100" HEIGHT = "133" src="Sniffer/thumbs/zacab_small.jpg" xthumbnail-orig-image="Sniffer/Snifimages/zacab.jpg"></a> 
+        <p> Sue: <i>"Yes -- yes. I want them to watch everything."</i> 
+        <p> Laughter 
+        <p> Ed: <i>"Guys, I think we're starting to break through the shyness 
+          barriers here. Go ahead, Chris, take a lucky dip for the camera."</i> 
+        <p> Chris: <i>"OK. Fast, or nice and slow?"</i> 
+        <p> Don: <i>"Nice and slow -- I want to enjoy this."</i> 
+        <p> Chris: <i>"I guess I shouldn't be doing this but naughty young wives 
+          who go around with other guys ... well, they have to be taught a lesson."</i> 
+        <p> Sue: <i>"Oh God -- God!"</i> 
+        <p> Ed: <i> "Yep, that's teaching her, Chris. I can see how she's suffering 
+          for her sins, right there."</i> 
+        <p> Don: <i>"Now that's a fine display of lap dancing. But I think it'd 
+          be even better if she had her panties taken off before the next session."</i> 
+        <p> Chris: <i>"OK, suppose I bend her over the end of the table? Would 
+          one of you two gentlemen help her off with them and leave her butt naked 
+          in front of the video? Or would that be too much of a chore?"</i> 
+        <p> Don: <i>"No problem at all, Chris. Guess I'd be happy to help out."</i> 
+        <p> Chris: <i>"OK, Sue, you heard him. Adopt the position and hold tight."</i> 
+        <p> Slapping noise 
+        <p> Sue: <i>"Oh!"</i> 
+        <p> Don: <i>"Knees together, honey. That's the way. OK, lift your right 
+          foot -- now the left. And, lady, if nobody else has ever told you, you've 
+          got an ass to die for."</i> 
+        <p> Chris: <i>"I'm feeling thirsty. How about getting some beers out of 
+          the icebox while we study Sue's position here for a while?"</i> 
+        <p> Don: <i>"Suits me. Here you are, gal, here's something you can get 
+          hold onto for us until we're ready to use it where it'll be appreciated."</i> 
+        <P> Ed: <i>"I'll have one as well. Hey, what do you think her old man 
+          would say if he walked in here now and saw his little darling like this?"</i> 
+        <p> Don: <i>"I'd tell the fucker to pull up a chair and after the preview's 
+          over we'll get down to the real action. We should send him a few pics 
+          of that if we really want to get his attention."</i> 
+        <p> Sue: <i>"No, please. You said you wouldn't!"</i> 
+        <p> Chris: <i>"Relax. There's no percentage for us in that, not as long 
+          as you're a good girl. And the better you are the more often you'll 
+          get invited back for another fuck show."</i> 
+        <p> Moan 
+        <p> Don: <i>"Hey, guys, did you see her ass twitch then? What that gal 
+          needs is a pat on her cheeks."</i> 
+        <p> Chris: <i>"A man's gotta do what a man's gotta do. Let's have a little 
+          friendly grabass here."</i> 
+        <p> Sue: <i>"God, no!"</i> 
+        <p> Don: <i>"Does that feel good, Chris?"</i> 
+        <p> Chris: <i>"Feels fine, my man, just fine. But I wish I was the guy 
+          at her office who's got her on a string. I'd put her over her own desk 
+          and do this with her."</i> 
+        <p> Ed: <i>"Now that would be a fine way of getting rid of some personal 
+          tension during the coffee breaks."</i> 
+        <p> Chris: <i>"Sure would. But if you do it another way you can put some 
+          tension into Sue's life. Like this."</i> 
+        <p> <a href="Sniffer/Snifimages/4542b.jpg"> 
+        <img align="right" hspace="10"  border="0"  WIDTH = "100" HEIGHT = "75"  src="Sniffer/thumbs/4542b_small.jpg" xthumbnail-orig-image="Sniffer/Snifimages/4542b.jpg"></a> 
+        <p> Sue: <i>"Ah -- ah!"</i> 
+        <p> Gasping noise, followed by laughter 
+        <p> Ed: <i>"That's the way, gal, lots of grunt and groan. We want you 
+          nicely warmed up ready for the main event. Those ropes are still waiting 
+          for you and when you're tied up in them we're going to give you a fucking 
+          you'll never forget."</i> 
+        <p> Sue: <i>"Why isn't he here -- the animal who told on me?"</i> 
+        <p> Chris: <i>"Maybe he's got his reasons. Think about it while I play 
+          with your tight little cunt."</i> 
+        <p> Sue: <i>"Reasons? What reasons? Who is he? -- oh!"</i> 
+        <p> Chris: <i>"Well, Sue, maybe he'll stop by later, when you've been 
+          fucked so many times another cock in you won't make any difference. 
+          That's why you've got to put a blindfold on you when you get trussed 
+          up for the turkey trot."</i> 
+        <p> Sue: <i>"You're going to blindfold me?"</i> 
+        <p> Chris:<i> "Believe me, you wouldn't want it any other way after you've 
+          tried it."</i> 
+        <p> Laughter 
+        <p> <a href="Sniffer/Snifimages/koywb.jpg"> 
+        <img align="left" hspace="10"  border="0"  WIDTH = "100" HEIGHT = "75" src="Sniffer/thumbs/koywb_small.jpg" xthumbnail-orig-image="Sniffer/Snifimages/koywb.jpg"></a> 
+        <p> Chris: <i>"Right, be a good girl and lie down on top of the table 
+          and maybe I can drop you a hint about who dropped you into our hands."</i> 
+        <p> Sounds of movement 
+        <p> Chris: <i>"Fine. So, Sue, how do you know it wasn't your boyfriend 
+          who snitched on you to us for some fun? Maybe he gets his thrills from 
+          watching his girl being tied down and fucked over big time?"</i> 
+        <P> Don: <i>"Or maybe your old man found out what you'd been up too and 
+          decided to get his own back this way? Wouldn't that be a joke, you doing 
+          this to keep it all a secret from him and him knowing all the time? 
+          Jesus, I bet you'd like to know who's going to get this tape, wouldn't 
+          you, you slut?"</i> 
+        <p> Sue: <i>"I've got a right to know."</i> 
+        <p> Chris: <i>"The only right you've got in here, sweetie, is the right 
+          to a real good fucking. So let's get started. Don, pass that dildo over 
+          here."</i> 
+        <P> Don: <i>"There you go, good buddy. All nicely warmed and everything."</i> 
+        <p> <a href="Sniffer/Snifimages/lljsb.jpg"> 
+        <img align="right" hspace="10"  border="0"  WIDTH = "100" HEIGHT = "75" src="Sniffer/thumbs/lljsb_small.jpg" xthumbnail-orig-image="Sniffer/Snifimages/lljsb.jpg"></a> 
+        <p> Chris: <i>"OK, class, everybody paying attention? I'm going to make 
+          the first insertion here. The nurse will be around soon to mop your 
+          sweat off."</i> 
+        <p> Ed: <i>"Hey, that's cool, Sue. You keep on rubbing your tit like that." 
+          </i> 
+        <p> Chris: <i>"Yeah, get yourself in the mood. This is the big scene where 
+          the handsome villain is going to ravish you in front of everybody. We 
+          don't want a dry seat in the house, just lots and lots of sticky ones."</i> 
+        <p> Sue: <i>"Jesus -- are you guys really going to tie me up?"</i> 
+        <p> Don: <i>"Like I said, like a turkey. We're going to tie your ankles 
+          up and hang them up high and wide so Ed can get some real wide angle 
+          shots. Just like the tape he's getting now of your snatch being pulled 
+          wide open and shown off to anybody who wants to watch."</i> 
+        <p> Sue: <i>"Oh God! And I can't do anything about it, can I? It's too 
+          late. Or can I change my mind still?"</i> 
+        <p> <b> Laughter </b> 
+        <p> Don: <i>"You haven't been able to change your mind since you walked 
+          in the door. You're our meat now and we're going to serve you up any 
+          way we like for just as long as we like. You're here to get fucked, 
+          slut, and that's exactly what you're going to get."</i> 
+        <p> <a href="Sniffer/Snifimages/dbtkb.jpg"> 
+        <img align="left" hspace="10"  border="0"  WIDTH = "100" HEIGHT = "75"  src="Sniffer/thumbs/dbtkb_small.jpg" xthumbnail-orig-image="Sniffer/Snifimages/dbtkb.jpg"></a> 
+        <p> Sue: <i> "Do it then, you blackmailing bastards, do it! Take those 
+          ropes and tie me up and do whatever you want!"</i> 
+        <p> Laughter 
+        <p> Chris: <i>"Honey, you settle down. We've hardly gotten you to a canter 
+          yet, let alone a gallop. You've got a deal of begging to do yet before 
+          you get it all. We're the experts here, and you're here to learn the 
+          ropes."</i> 
+        <p> Laughter 
+        <p> Chris: <i>"So do you think you've still got any choice about what's 
+          going to happen to you?"</i> 
+        <p> Sue: <i>"No -- not now. No choice at all."</i> 
+        <p> Chris: <i>"Are you going to give us anything we want?"</i> 
+        <p> Sue: <i>"Yes. Everything you want, you creeps."</i> 
+        <p> Chris:<i>"That's not a nice thing to say, Sue. No treats for you until 
+          you give all of us a big smile -- isn't that right, guys?"</i> 
+        <p> Ed:<i> "For sure. We don't shaft any girls that aren't smiling and 
+          we always put them in the mood one way or another, hey, Don?"</i> 
+        <p> Don: <i>"Never failed yet and I'm sure smiling about little Mrs Salterly 
+          giving her ass away to her co-workers. Tell us how many times you've 
+          been fucked on the sly, honeybunch."</i> 
+        <p> <a href="Sniffer/Snifimages/382qb.jpg"> 
+        <img align="right" hspace="10"  border="0"  WIDTH = "100" HEIGHT = "75"  src="Sniffer/thumbs/382qb_small.jpg" xthumbnail-orig-image="Sniffer/Snifimages/382qb.jpg"></a> 
+        <p> Ed: <i>"Yeah and by how many different guys? Was this one the first 
+          cab off the rank? Or have you been giving it away to anybody who put 
+          the hard word on you?"</i> 
+        <p> Sue: <i>"No ... no! "</i> 
+        <p> Chris: <i>"Shame on you, Ed. Just because you see a girl on her back 
+          with her legs wide open and clutching her tits as a dildo is rammed 
+          up her, it doesn't necessarily mean she's a fuck happy slut."</i> 
+        <p> Don: <i>"Although that's the way to bet."</i> 
+        <p> Chris: <i>"Yeah, although that's the way to bet."</i> 
+        <p> Ed: <i>"So come on, Sue, how many guys have had you since you got 
+          married? Husbands not included, of course."</i> 
+        <p> Sue: <i>"Only Paul, that's all!"</i> 
+        <p> Ed: <i>"So what was so good about him that you went running over to 
+          his apartment every week like a bitch on heat?"</i> 
+        <p> Sue: <i>"Because he's a good tipper and a great licker!"</i> 
+        <p> Laughter 
+        <p> <a href="Sniffer/Snifimages/rn77b.jpg"> 
+        <img align="left" hspace="10"  border="0"  WIDTH = "100" HEIGHT = "75"  src="Sniffer/thumbs/rn77b_small.jpg" xthumbnail-orig-image="Sniffer/Snifimages/rn77b.jpg"></a> 
+        <p> Chris: <i>"OK, guys, now I know the way to make Sue smile. We do it 
+          this way."</i> 
+        <p> Sue: <i>"Ohhh ... "</i> 
+        <p> Ed: <i>"Yeah, Chris, I think we saw a little grin right there."</i> 
+        <p> Don: <i>"Sic her, boy, sic her."</i> 
+        <p> Ed: <i>"Christ, I'm ready to shoot my load just watching this. Ain't 
+          she a lovely little bitch?"</i> 
+        <p> Don: <i>"Yeah, she's grade A cock wrapping material. And listen to 
+          her panting -- this little whore could take on an entire football team 
+          and still leave room for the coaches. We've gotta organize a real party 
+          for her later on."</i> 
+        <p> Sue: <i>"A party? What party?"</i> 
+        <p> Don: <i>"A party where you get to hang out on those ropes with all 
+          the guys."</i> 
+        <p> Cries (approval?) 
+        <p> <a href="Sniffer/Snifimages/65npb.jpg"> 
+        <img align="right" hspace="10"  border="0" WIDTH = "100" HEIGHT = "75"  src="Sniffer/thumbs/65npb_small.jpg" xthumbnail-orig-image="Sniffer/Snifimages/65npb.jpg"></a> 
+        <p> Ed: <i>"Yeah, and then you get to play suck the cocks."</i> 
+        <p> Chris: <i>"And if you've truly never done that it in front of an audience 
+          before you can start auditioning right here and now."</i> 
+        <p> Laughter 
+        <p> Sue: <i>"You're really enjoying this, aren't you? Making me do whatever 
+          you want?"</i> 
+        <p> Chris: <i>"Look at this and tell me how happy I am. Then show me how 
+          happy you can make me."</i> 
+        <p> Sue: <i>"You want me to start blowing you now?" </i> 
+        <p> Laughter 
+        <p> Don: <i>"Sounds like a fucking good idea to me."</i> 
+        <p> Ed: <i>"Make it look good for the camera, gal. Build the scene up 
+          slowly. Crawl over there on your knees and lick Chris's belly before 
+          you go down on him."</i> 
+        <p> <a href="Sniffer/Snifimages/pourb.jpg"> 
+        <img align="left" hspace="10"  border="0" WIDTH = "100" HEIGHT = "75"   src="Sniffer/thumbs/pourb_small.jpg" xthumbnail-orig-image="Sniffer/Snifimages/pourb.jpg"></a> 
+        <p> Don: <i>"That's the way, girl, that's it."</i> 
+        <p> Ed: <i>"Look sideways at me, Sue -- that's great! Now tickle his balls." 
+          </i> 
+        <p> Don: <i>"Obedient little slut isn't she, guys?"</i> 
+        <p> Chis: <i>"By the time I've finished with her she'll crawl up her own 
+          ass when I tell her to." </i> 
+        <p> Don: <i>"It sure looks like a good place to visit, although I wouldn't 
+          want to live there."</i> 
+        <p> Ed: <i>"OK, Sue, let's get that tongue down lower where Chris can 
+          really feel it working."</i> 
+        <p> Don: <i>"Maybe Chris is a bit tired: maybe he'd like a stand in for 
+          the hard parts?"</i> 
+        <p> Chris: <i>"Go and fuck yourself, Don -- please."</i> 
+        <p> Ed: <i>"OK, Sue, let's do this right. Over and around the top first, 
+          small licks. I want everything step by step." </i> 
+        <p> Chris: <i>"I'd prefer inch by inch."</i> 
+        <p> Don: <i>"Hey, I've been waiting to see this wench munch on a cheeseburger 
+          ever since we met her at the restaurant."</i> 
+        <p> Chris: <i>"That's fine, but I'm having trouble holding the mayo."</i> 
+        <p> Laughter 
+        <p> Don: <i>"How's it taste, honeybunch? You ready to get some real flavor 
+          down your throat?"</i> 
+        <p> Sue: <i>"Yes."</i> 
+        <p> <a href="Sniffer/Snifimages/r92sb.jpg"> 
+        <img align="right" hspace="10"  border="0" WIDTH = "100" HEIGHT = "75"  src="Sniffer/thumbs/r92sb_small.jpg" xthumbnail-orig-image="Sniffer/Snifimages/r92sb.jpg"></a> 
+        <p> Ed: <i>"I want some more close ups first. Keep rimming him."</i> 
+        <p> Chris: <i>"Ever been in the bondage scene before, Sue?"</i> 
+        <p> Sue: <i>"No."</i> 
+        <p> Don: <i>"Never had a guy tie your wrists to the bed end before he 
+          fucked you?"</i> 
+        <p> Sue: <i>"No -- nothing like that."</i> 
+        <p> Chris: <i>"Did you ever wonder what it would feel like to be butt 
+          naked and having some guys truss you up real tight?"</i> 
+        <p> Sue: <i>"Sometimes."</i> 
+        <p> Chris: <i>"So how do you feel now that it's going to happen?"</i> 
+        <p> Sue: <i>"I'm feeling scared."</i> 
+        <p> Chris: <i>"OK, give me some serious pumping down there and you won't 
+          have anything to be frightened about."</i> 
+        <p> <a href="Sniffer/Snifimages/33x2b.jpg"> 
+        <img align="left" hspace="10"  border="0" WIDTH = "100" HEIGHT = "75"   src="Sniffer/thumbs/33x2b_small.jpg" xthumbnail-orig-image="Sniffer/Snifimages/33x2b.jpg"></a> 
+        <p> Ed: <i>"Man, look at her go for it." </i> 
+        <p> Don: <i>"Best I've seen straight off since we did big tits Vincetti. 
+          We'll have to get them together soon for a cock racing contest -- first 
+          come, first served."</i> 
+        <p> Ed: <i>"I'll bet on Sue winning by a short head."</i> 
+        <p> Chris: <i>"God, she's good at it. Then again, she has to be unless 
+          she wants a bald patch on her scalp."</i> 
+        <p> Chris: <i>"Well, Sue, it looks like the audience is ready for the 
+          big gig and some serious ropework. Break a leg, kid, it's show time."</i> 
+        <p> Movements: table creaks: laughter 
+        <p> Sue: <i>"This can't be happening -- God, it can't be!"</i> 
+        <p> Ed: <i>"It's a once in a lifetime thing, Sue. Like Woodstock. Don't 
+          worry though, you'll always have the pictures to keep the memory alive."</i> 
+        <p> Don: <i>"Starting on Monday morning, when a whole bundle of them'll 
+          be waiting in your in tray for you with the compliments of your friendly 
+          workplace whistle blower."</i> 
+        <p> Sue: <i>"Please, don't give them to him!"</i> 
+        <P> Ed: <i>"Put that rope in her mouth and let's see if she can chew through 
+          it with that big mouth."</i> 
+        <p> Sue cries out, then grunts several times. 
+        <p> Chris: <i>"OK, here comes the blindfold, Sue. Now you'll have to work 
+          out what's happening by touch. But if you're not sure about something 
+          just ask -- oh, sorry, I forgot, you can't right now, can you?"</i> 
+        <p> Don: <i>"This is the best deal I've ever had in all my life. We're 
+          getting more free screws than a firm of Mexican divorce lawyers. How 
+          many more of these part time whores do you think we'll catch with their 
+          panties down?"</i> 
+        <p> Ed: <i>"I don't know but we've sure saved some marriages by not passing 
+          on what we've been told. The way I see it we're only getting what we 
+          deserve for being such good guys."</i> 
+        <p> Don: <i>"Makes sense to me! Is the focus OK on that camera?"</i> 
+        <p> Ed:<i> "It's cool."</i> 
+        <p> Chris: <i>"OK, Sue, you've done well so far, but now comes the part 
+          where you don't get a chance to talk for a while. You girls always find 
+          it hard to keep quiet, don't you? Especially if somebody does something 
+          like this to you."</i> 
+        <P> <a href="Sniffer/Snifimages/t448b.jpg"> 
+        <img align="right" hspace="10"  border="0" WIDTH = "100" HEIGHT = "75" src="Sniffer/thumbs/t448b_small.jpg" xthumbnail-orig-image="Sniffer/Snifimages/t448b.jpg"></a> 
+        <p> Muffled squeal then laughter 
+        <p> Ed: <i>"Chris, I gotta tell you, I think Sue is going to have a problem 
+          with going home and telling her partner that's she's been held been 
+          working back late at the office. She'll surely blush with embarrassment 
+          so much he'll guess straightaway something real heavy's been going down."</i> 
+        <p> Chris: <i>"She never had any trouble in not telling him about her 
+          little affair on the side, did she? All she has to say is that's she 
+          late home because she got tied up somewhere. And that's not even a lie, 
+          is it, Sue? Twitch one tit for yes and both for no."</i> 
+        <p> Unidentified noise 
+        <p> Ed:<i> "What did she say?"</i> 
+        <p> Chris: <i>"I'm pretty sure it was no."</i> 
+        <p> Don: <i>"Fuck, it's no lie. Especially if she's got the rope marks 
+          to prove it."</i> 
+        <p> Ed: <i>"Well, if she doesn't want any marks she'd better keep lying 
+          quietly."</i> 
+        <p> Unidentified noise 
+        <p> Chris: <i>"Say that again, Sue -- only don't mumble this time."</i> 
+        <p> Sue: <i>"W - a - t - e - r!"</i> 
+        <p> Chris: <i>"Thirsty, hey? No problem."</i> 
+        <p> <a href="Sniffer/Snifimages/89qzb.jpg"> 
+        <img align="left" hspace="10"  border="0" WIDTH = "100" HEIGHT = "75" src="Sniffer/thumbs/89qzb_small.jpg" xthumbnail-orig-image="Sniffer/Snifimages/89qzb.jpg"></a> 
+        <p> Chris: <i>"There you go, a few sips and some ice to lick on. That 
+          better?"</i> 
+        <p> Unidentified noise 
+        <p> Chris: <i>"Good. So maybe we can find something else to do with this 
+          ice before it melts. I'd ask the guys if they've got any ideas but I 
+          think theirs are the same as mine. And listen for this sound as well 
+          ... you know what that is, don't you, Sue?"</i> 
+        <p> Buzzing noise 
+        <p> Don: <i>"Yeah, the bitch knows what it is and what it's for."</i> 
+        <p> Ed: <i>"OK, so on this table the order is two blue nipples and one 
+          orgasm on ice, right?"</i> 
+        <p> <a href="Sniffer/Snifimages/ue2eb.jpg"> 
+        <img align="right" hspace="10"  border="0" WIDTH = "100" HEIGHT = "75" src="Sniffer/thumbs/ue2eb_small.jpg" xthumbnail-orig-image="Sniffer/Snifimages/ue2eb.jpg"></a> 
+        <p> Chris: <i>"Coming right up. There you are, madam, how does that feel?"</i> 
+        <p> Moans 
+        <p> Ed: <i>"Shit, she's loving it. The more we do to her, the more she 
+          likes it. Hell, she's a sexy little piece."</I> 
+        <p> Gasping noises 
+        <p> Ed: <i>"What's her problem now?"</i> 
+        <p> Chris: <i>"I think she wants to know when the fucking starts. It seems 
+          as if she's in the mood right now."</i> 
+        <p> Don: <i>"I've told you, we should make her wait a while yet for it. 
+          The longer you let the meal simmer, the better it tastes."</i> 
+        <p> <a href="Sniffer/Snifimages/59xab.jpg"> 
+        <img align="left" hspace="10"  border="0" WIDTH = "100" HEIGHT = "75" src="Sniffer/thumbs/59xab_small.jpg" xthumbnail-orig-image="Sniffer/Snifimages/59xab.jpg"></a> 
+        <p> Chris: <i>"OK then, while we're cooking, let's put a tingle back these 
+          neat little nips."</i> 
+        <p> Moans 
+        <p> Ed: <i>"Go with the flow, Sue, go with the flow. You're ours and we 
+          can do exactly what we want with you and how we want. The only thing 
+          you need to know is that whenever you get a cock in your cunt or in 
+          your mouth all the action is going to be taped for us to enjoy later."</i> 
+        <p> Don: <i>"Maybe she can't see anything but she can hear everything 
+          you're saying, can't you, Sue? You want to have that hot little slash 
+          of yours cooled down for you?"</i> 
+        <p> Chris: <i>"Yeah, how about it, lady, you feel like getting some ice 
+          slipped in your box?" </i> 
+        <p> Sue cries out 
+        <p> Chris: <i>"OK, here we go then. You getting all this, Ed?"</i> 
+        <p> Ed: <i>"Every mother loving thing. This is the best ice scene on film 
+          since 'The Titanic', believe me."</i> 
+        <p> Sue calls out again 
+        <p> Don: <i>"She's in the same situation as well: going noplace, sinking 
+          fast and blowing off steam."</i> 
+        <p> Ed: <i>"The poor slut is really hanging out for that vibrator to be 
+          pushed up her cunt."</i> 
+        <p> Chris: <i>"No harm in giving her some thrills before she gives us 
+          some. Hands up those that want to see some heavy duty traffic in the 
+          tunnel of love. Sue, you can vote yes by wriggling your feet."</i> 
+        <p> Chris: <i>"OK, the ayes and toes have it. The chair recognises Ms 
+          Salterly and moves accordingly"</i> 
+        <p> <b>Buzzing noise, a muffled scream and laughter</b> 
+        <p> Ed: <i>"Christ, it's amazing what happens with a bit of energy applied 
+          in the right place. There's enough there to kick start her motor anyway."</i> 
+        <p> Ed: <i>"It's time she got the real thing, Chris, before she starts 
+          climbing up those ropes."</i> 
+        <p> Don: <i>"Fucking right! Let's have her now!"</i> 
+        <p> <i>
+        "Oh no. She has to beg for it first. Take that rope out of her mouth and 
+        pass me that cream."
+        <p> <a href="Sniffer/Snifimages/a2e9b.jpg"> 
+        <img align="right" hspace="10"  border="0" WIDTH = "100" HEIGHT = "75" src="Sniffer/thumbs/a2e9b_small.jpg" xthumbnail-orig-image="Sniffer/Snifimages/a2e9b.jpg"></a> 
+        <p> Sue: <i>"You bastard -- Oh God, I'm going crazy here!</i> 
+        <p> Don: <i>"Hey, bitch, you sound like you're on the launch pad and ready 
+          to blast off. Real keen to get fucked, aren't you?"</i> 
+        <p> Sue: <i>"Yes! "</i> 
+        <p> Ed: <i>"How about some manners, Ms Salterly? How about saying 'please'?"</i> 
+        <p> Sue: <i>"God, please, please, rub my cunt!"</i> 
+        <p> Don: <i>"I told you, it's those ropes. Ropes and lots of knots and 
+          every bitch we'd had here has gone off like a firecracker." </i> 
+        <p> Ed: <i>"A firecracker? This one is hotter than a Russian reactor."</i> 
+        <p> Don: <i>"Maybe this would be a good time to stop and have another 
+          beer. How about it, guys? We could watch the game on the TV and come 
+          back later. This slut will still be here for us."</i> 
+        <p> Sue: <i>"No!"</i> 
+        <p> Chris: <i>"Yeah, maybe. Listen, I'll just give this slit a few rubs 
+          first so it knows what it's going to be waiting for. Make sure you get 
+          all this, Ed."</i> 
+        <p> Sue: <i>"God! Please don't leave me, Chris, please! Not now! I need 
+          it!"</i> 
+        <p> Don: <i>"To hell with her, the Rams are playing. We can do the sex 
+          thing later. She'll be even more grateful then."</i> 
+        <p> Chris:<i>"Maybe. How about it, Sue, is this what you want?"</i> 
+        <p> <a href="Sniffer/Snifimages/upvzb.jpg"> 
+        <img align="left" hspace="10"  border="0" WIDTH = "100" HEIGHT = "75" src="Sniffer/thumbs/upvzb_small.jpg" xthumbnail-orig-image="Sniffer/Snifimages/upvzb.jpg"></a> 
+        <p> Sue: <i>"Yes!"</i> 
+        <p> Ed: <i>"She's just a gal who can't say no."</i> 
+        <p> Chris: <i>"You want as much cock as you can get, right?"</i> 
+        <p> Sue: <i>"What I want is for you assholes to get the lead out and start 
+          fucking me every which way!"</i> 
+        <p> Don: <i>"See, I knew she was going to be the shy type."</i> 
+        <p> Laughter 
+        <p> Chris: <i>"OK then, Sue, how about I spread your legs so we can see 
+          if there are any gentlemen in the audience who'd like to stroke your 
+          pussy?"</i> 
+        <p> <a href="Sniffer/Snifimages/clapb.jpg"> 
+        <img align="right" hspace="10"  border="0" WIDTH = "100" HEIGHT = "97" src="Sniffer/thumbs/clapb_small.jpg" xthumbnail-orig-image="Sniffer/Snifimages/clapb.jpg"></a> 
+        <p> Sue: <i>"Yes, yes, yes!"</i> 
+        <p> Chris: <i>"OK then. Lot number one in today's auction, friends, the 
+          property of a lady. One well used vagina still in excellent condition 
+          with years of fucking left in it. Currently hot, twitching, empty and 
+          open to any reasonably sized offer. Would somebody like to start the 
+          bidding by jumping onboard and giving it a no obligation test ride?"</i> 
+        <p> Don: <i>"What about a few blow jobs on the side?"</i> 
+        <p> Chris: <i>"Sure. Anybody who'd like to test the mouth suction available 
+          on this model please step up and help yourself as well. Dig in, guys, 
+          it's all free, female and frantic. And when we've finished with her 
+          I know a private bikie club where they'll really dig her little act."</i> 
+        <P> Sue calls out loudly: words not identifiable. 
+        <p> THE END 
+        <!-- #EndEditable --><br>
+              <!-- #BeginEditable "link" --><!--#include virtual="../php-bin/discus.php?topic=The+Sniffer&forum=14"--><!-- #EndEditable --></td>
+    </tr>
+  </center>
+</table>
+<BR>
+<div align="center"> 
+  <!--#include virtual="../php-bin/ads/ad.php"-->
+</div>
+<!--#include virtual="../footer.txt"-->
+<!-- #EndTemplate -->

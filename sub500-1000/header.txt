@@ -1,0 +1,121 @@
+<HEAD>
+<TITLE>Pixies Free Erotic Stories - sexy story archive</TITLE>
+<meta http-equiv="Content-Type" content="text/html; charset=">
+
+<script language="JavaScript1.1">
+<!--
+
+scrollID=0;
+vPos=0;
+function onWard() {
+ vPos+=0.6;
+ window.scroll(0,vPos);
+ vPos%=2400;
+ scrollID=setTimeout("onWard()",80);
+ }
+//-->
+</SCRIPT>
+<SCRIPT language=JavaScript1.2>
+var bookmarkurl="http://www.pixies-place.com/"
+var bookmarktitle="Pixies Free Erotic Stories"
+function bookmark()
+{ window.external.AddFavorite(bookmarkurl,bookmarktitle)}
+</SCRIPT>
+
+<link rel="stylesheet" href="../sheet.css"></HEAD>
+<BODY bgcolor="#FFFFFF" background="../images/back.gif" leftmargin="0" topmargin="0" marginwidth="0" marginheight="0">
+<table width="750" border="0" cellpadding="0" cellspacing="0">
+  <tr> 
+    <td valign="top" width="1%"> <img src="../images/topleftlogo.jpg" width="120" height="137"><br>
+      <table width="120" border="0" cellspacing="0" cellpadding="0" bgcolor="#333333">
+        <tr> 
+          <td> 
+            <table width="120" border="0" cellspacing="1" cellpadding="2" bordercolor="#000000" bgcolor="#333333">
+              <tr> 
+                <td bgcolor="#445566"> 
+                  <div align="center"><b><font face="Verdana, Arial, Helvetica, sans-serif" class="small" color="#FFFFFF">Menu</font></b></div>
+                </td>
+              </tr>
+              <tr> 
+                <td bgcolor="#FFcc00"> 
+                  <div align="center"><font face="Verdana, Arial, Helvetica, sans-serif" size="2" class="small"><b>Navigation...</b></font></div>
+                </td>
+              </tr>
+              <tr bgcolor="#FFDA46"> 
+                <td onClick="location.href='../erotic.shtml'" 
+          onMouseOut="style.backgroundColor='#ffda46';" 
+          onMouseOver="style.backgroundColor='#ffcc00'; style.cursor='hand'" bgcolor="#FFDA46"> 
+                  <a href="../erotic.shtml" class="small"><img src="../images/tri.gif" width="6" height="6" border="0">Erotic 
+                  Stories</a></td>
+              </tr>
+              <tr bgcolor="#FFDA46"> 
+                <td onClick="location.href='../gallery.shtml'" 
+          onMouseOut="style.backgroundColor='#ffda46';" 
+          onMouseOver="style.backgroundColor='#ffcc00'; style.cursor='hand'"><a href="../gallery.shtml" class="small"><img src="../images/tri.gif" width="6" height="6" border="0">Free 
+                  Pictures</a></td>
+              </tr>
+              <tr bgcolor="#FFDA46"> 
+                <td onClick="location.href='../forums'" 
+          onMouseOut="style.backgroundColor='#ffda46';" 
+          onMouseOver="style.backgroundColor='#ffcc00'; style.cursor='hand'" ><a href="../forums" class="small"><img src="../images/tri.gif" width="6" height="6" border="0">Sex 
+                  Board</a><a href="chat.htm" class="small"></a><a href="gallery.shtml" class="small"></a></td>
+              </tr>
+              <tr bgcolor="#FFDA46"> 
+                <td onClick="location.href='../links.htm'" 
+          onMouseOut="style.backgroundColor='#ffda46';" 
+          onMouseOver="style.backgroundColor='#ffcc00'; style.cursor='hand'"><a href="../links.htm" class="small"><img src="../images/tri.gif" width="6" height="6" border="0">Links</a></td>
+              </tr>
+              <tr bgcolor="#FFDA46"> 
+                <td onClick="location.href='../guide.shtml'" 
+          onMouseOut="style.backgroundColor='#ffda46';" 
+          onMouseOver="style.backgroundColor='#ffcc00'; style.cursor='hand'"><a href="../guide.shtml" class="small"><img src="../images/tri.gif" width="6" height="6" border="0">Guide 
+                  to Sex</a><a href="discus" class="small"></a></td>
+              </tr>
+              <tr bgcolor="#FFDA46"> 
+                <td onClick="location.href='../jokes.shtml'" 
+          onMouseOut="style.backgroundColor='#ffda46';" 
+          onMouseOver="style.backgroundColor='#ffcc00'; style.cursor='hand'"><a href="../jokes.shtml" class="small"><img src="../images/tri.gif" width="6" height="6" border="0">Sex 
+                  Jokes</a><a href="discus" class="small"></a></td>
+              </tr>
+              <tr bgcolor="#FFDA46"> 
+                <td onClick="location.href='../chat.htm'" 
+          onMouseOut="style.backgroundColor='#ffda46';" 
+          onMouseOver="style.backgroundColor='#ffcc00'; style.cursor='hand'" height="17"><a href="../chat.htm" class="small"><img src="../images/tri.gif" width="6" height="6" border="0">Chat 
+                  Room</a></td>
+              </tr>
+              <tr bgcolor="#FFDA46"> 
+                <td  height="7" bgcolor="#445566"></td>
+              </tr>
+            </table>
+          </td>
+      </table>
+      <div align="left"><img src="../images/undermenu.gif" width="119" height="33"> 
+      </div>
+    </td>
+    <td colspan="2" valign="top" rowspan="2"> 
+      <table width="100%" border="0" cellspacing="0" cellpadding="0" height="78">
+        <tr valign="top"> 
+          <td colspan="2"> 
+            <div align="left"> <img src="../images/title.jpg" width="630" height="49">
+<table width="100%" border="0" cellspacing="0" cellpadding="0">
+                <tr> 
+                  <td> 
+                    <div align="left"><font face="Arial, Helvetica, sans-serif" size="1" color="#666666"> 
+                      Control Panel ---&gt;</font></div>
+                  </td>
+                  <td width="25%"> 
+                    <div align="right"><a href="../cgi-bin/recommend.cgi"> 
+                      <img src="../images/email.gif" border="0" width="22" height="14" alt="Email this page to a Friend"></a> 
+                      <a href="http://www.pixies-place.com/erotic.shtml"><img src="../images/home.GIF" width="14" height="14" border="0" alt="Home"></a> 
+                      <a href="javascript:print()"><img src="../images/print.GIF" width="16" height="14" border="0" alt="Print this Story"></a> 
+                      <a href="javascript:bookmark()"><img src="../images/favorites.GIF" width="15" height="13" border="0" alt="Add to Favorites"> 
+                      </a><a href="javascript:if(window.scroll)onWard()"><img src="../images/autoscroll.gif" border="0" alt="AutoScroll This Story"></a><a href="javascript(fav)"> 
+                      </a> </div>
+                  </td>
+                </tr>
+              </table>
+              
+            </div>
+          </td>
+        </tr>
+      </table>

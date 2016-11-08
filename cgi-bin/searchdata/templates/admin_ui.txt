@@ -1,0 +1,118 @@
+<P><BR></P>
+
+<P><B>Language and Locale Settings</B></P>
+<BLOCKQUOTE>
+
+	<P>These settings control the language for the both the admin page and the search page.</P>
+
+	<TABLE BORDER=1 CELLPADDING=4 CELLSPACING=1>
+	<TR>
+		<TH>Setting</TH>
+		<TH>Options</TH>
+	</TR>
+	<TR CLASS=fdtan VALIGN=top>
+		<TD ALIGN=right><B>Language:</B></TD>
+		<TD>%html_language_options%</TD>
+	</TR>
+	<TR CLASS=fdtan VALIGN=top>
+		<TD ALIGN=right><B>Number Format:</B></TD>
+		<TD>
+			<INPUT TYPE=radio NAME="ui: number format" VALUE="0"> 2,345,123.99 American<BR>
+			<INPUT TYPE=radio NAME="ui: number format" VALUE="1"> 2.345.123,99 European / other<BR>
+		</TD>
+	</TR>
+	<TR CLASS=fdtan VALIGN=top>
+		<TD ALIGN=right><B>Date Format:</B></TD>
+		<TD>
+			<INPUT TYPE=radio NAME="ui: date format" VALUE="0"> 01/11/2001 08:03:02 PM<BR>
+			<INPUT TYPE=radio NAME="ui: date format" VALUE="1"> Thursday, January 11, 2001<BR>
+			<INPUT TYPE=radio NAME="ui: date format" VALUE="2"> 01/11/2001<BR>
+			<INPUT TYPE=radio NAME="ui: date format" VALUE="10"> Thu 01/11/2001 08:03:02 PM<BR>
+			<INPUT TYPE=radio NAME="ui: date format" VALUE="11"> Thu, 11 Jan 2001 20:03:02 -0000<BR>
+			<INPUT TYPE=radio NAME="ui: date format" VALUE="12"> 2001-01-11 20:03:02<BR>
+			<INPUT TYPE=radio NAME="ui: date format" VALUE="13"> Thu Jan 11 20:03:02 2001<BR>
+			<INPUT TYPE=radio NAME="ui: date format" VALUE="14"> 01/11/2001 20:03<BR>
+		</TD>
+	</TR>
+	</TABLE>
+
+	<P><INPUT TYPE=submit CLASS=submit VALUE="Save Data"></P>
+
+	<P>See also: <A HREF="%admin_url%&Action=UserInterface&subaction=viewmap"><B>Character Conversion Settings</B></A></P>
+
+
+</BLOCKQUOTE>
+</FORM>
+
+<P><BR></P>
+
+<P><B>HTML Form for Searching - Advanced</B></P>
+<BLOCKQUOTE>
+
+	<P>Cut and paste this HTML code to create a search form on all your web pages.</P>
+
+	<P>(You may want to update the HTML whenever you create a new Realm.)</P>
+
+	<P><TT><TEXTAREA NAME="search_code" ROWS=10 COLS=90></TEXTAREA></TT></P>
+
+	<P><B>Example:</B></P>
+
+	%html_search_code%
+
+</BLOCKQUOTE>
+
+<P><BR></P>
+
+<P><B>HTML Form for Searching - Simple</B></P>
+<BLOCKQUOTE>
+
+	<P>Cut and paste this HTML code to create a simple search form. All searches will query all realms.</P>
+
+	<P><TT><TEXTAREA NAME="simple_code" ROWS=5 COLS=90></TEXTAREA></TT></P>
+
+	<P><B>Example:</B></P>
+
+	%html_simple_code%
+
+</BLOCKQUOTE>
+
+<P><BR></P>
+
+<P><B>Linking Directly to Search Results</B></P>
+<BLOCKQUOTE>
+
+	<P>To link to search results directly, use this syntax. Note that spaces are replaced with "%20" in the query string:</P>
+
+	<P><TT><TEXTAREA NAME="link_code" ROWS=2 COLS=90></TEXTAREA></TT></P>
+
+	<P><B>Example:</B></P>
+
+	%html_link_code%
+
+</BLOCKQUOTE>
+
+<P><BR></P>
+
+<P><B>Advanced: Edit Templates</B> (<A HREF="%help_file%#edit_html" TARGET=_blank>Help</A>)</P>
+
+<BLOCKQUOTE>
+
+	<P>The look and feel of this search engine is controlled mainly by HTML templates, which you can customize to your needs.</P>
+
+	<TABLE BORDER=1 CELLPADDING=4 CELLSPACING=1>
+	<TR>
+		<TH>Name</TH>
+		<TH>Language</TH>
+		<TH>Description</TH>
+	</TR>
+	%html_templates%
+	</TABLE>
+
+	<P>Click on the template name to edit.</P>
+
+	<P>The FDSE Help Page includes detailed information on editing tempates, including: how to restrict the search pages to a fixed-width table; how to use include files; and how to use replacement values like "admin_url".</P>
+
+</BLOCKQUOTE>
+
+<P><BR></P>
+

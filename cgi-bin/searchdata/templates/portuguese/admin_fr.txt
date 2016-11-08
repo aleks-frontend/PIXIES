@@ -1,0 +1,76 @@
+<p><b>Usando regras para Controlar o Conteúdo</b></p>
+<p>Existem muitas páginas ai pela web, e nem todas são úteis ou apropriados a sua audiência de alvo. A administração ajuda o controle da qualidade da informação em sua lima.</p>
+<p>O FDSE  fornece as seguintes ferramentas para controlar o índice:</p>
+<ol>
+	<li><p>Você pode proibir seus visitantes anônimos de adicionar seu próprio URL. A maioria do "lixo" vêm dos visitantes.</p></li>
+	<li><p>Se forem permitidos aos visitantes adicionar, você pode requerer que todas suas adições sejam aprovadas por você primeiramente.</p></li>
+	<li><p>Por todas as páginas - submetidas por visitantes e por administradores - você pode procurar por determinadas palavras no hostname, no URL, ou no documento. Baseado nestas buscas, você pode negar, permitir, ou excepcionar ele para a revisão e a aprovação pelo administrador mais tarde. Veja a secção de filtragem.</p></li>
+	<li><p>Você pode analisar gramaticalmente as páginas para os Tag que descrevem seu nível do índice adulto-adult-oriented, e faz exame da ação baseada no nível encontrado. Veja a seção do PICS.</p></li>
+</ol>
+<p><br /></p>
+<p><b>Ajustes gerais</b></p>
+<blockquote>
+	<table border="0">
+	<tr>
+		<td><input type="checkbox" name="allowanonadd" value="1" /></td>
+		<td>Permita aos visitantes registar páginas (deve ter ao menos um reino aberto) [<a href="%help_file%1072.html">Ajuda</a>]</td>
+	</tr>
+	<tr>
+		<td><input type="radio" name="require anon approval" value="1" /></td>
+		<td>Requerir a aprovação do administrador para cada visitante que registra um site.</td>
+	</tr>
+	<tr>
+		<td><input type="radio" name="require anon approval" value="0" /></td>
+		<td>Requerir a aprovação do administrador somente naquelas páginas coinscidem com o filtro "Requerer aprovação" (definido abaixo).</td>
+	</tr>
+	<tr>
+		<td><input type="checkbox" name="allowanonadd: notify admin" value="1" /></td>
+		<td>Emita um email ao administrador sempre que alguém adiciona um URL (deve fornecer ajustes do email na página pessoal dos ajustes)</td>
+	</tr>
+	<tr>
+		<td><input type="checkbox" name="allowanonadd: require user email" value="1" /></td>
+		<td>Requerer que os usuários incluem um endereço de email válido ao submeter um URL.</td>
+	</tr>
+	<tr>
+		<td><input type="checkbox" name="allowanonadd: log" value="1" /></td>
+		<td>Save a copy of all visitor-added web pages (and visitor email addresses) to submissions.csv</td>
+	</tr>
+	</table>
+	<p><input type="submit" class="submit" value="Salvar dados" /></p>
+</blockquote>
+<p><br /></p>
+<p><b>Filtros</b> - <a href="%admin_url%&amp;Action=FilterRules&amp;subaction=create_edit_rule">Criar nova regra</a></p>
+<table border="1" cellpadding="4" cellspacing="1">
+<tr>
+	<th align="left" colspan="2">Permitir / Nome</th>
+	<th colspan="2">Acções</th>
+	<th>Acção</th>
+</tr>
+%HTML_BLOCK_1%
+</table>
+<blockquote>
+	<p><input type="submit" class="submit" value="Salvar dados" /></p>
+</blockquote>
+<p><br /></p>
+<p><b>Filtros baseados na plataforma Internet content Selection (PICS)</b></p>
+<p>Usando o Tag PICS é muito bom para filtrar conteudo adulto, porque muitos sites adultos tem um Tag sobre eles.Isto não é perfeitamente eficiente, uma vez que se pode remover as Tags.</p>
+<p>Há muitas opções PICS. Use um checkbox permitir uma das execuções, e as opções serão indicadas.</p>
+<p><input type="checkbox" name="pics_rasci_enable" value="1" /> <b>Internet Content Rating Association (RASCi)</b> execução (checkbox do uso a enable/disable)</p>
+<blockquote>%HTML_BLOCK_2%<br /></blockquote>
+<p><input type="checkbox" name="pics_ss_enable" value="1" /> <b>Safe Surf</b> execução (checkbox do uso a enable/disable)</p>
+<blockquote>%HTML_BLOCK_3%<br /></blockquote>
+<blockquote>
+	<p><input type="submit" class="submit" value="Salvar dados" /></p>
+</blockquote>
+<p><br /></p>
+<p>Fluid Dynamics não tem nenhuma afiliação com o W3, o RASCI, ou o SafeSurf.com. Mais informação está disponível em seus sites:</p>
+<ul>
+	<li><a href="http://www.w3.org/PICS/" target="_top">Plataforma para Internet Content Selection</a> (PICS)</li>
+	<li><a href="http://www.icra.org/" target="_top">Internet Content Rating Association</a> (RASCi)</li>
+	<li><a href="http://www.safesurf.com/" target="_top">SafeSurf.com</a></li>
+</ul>
+<p>As descrições do texto para cada nível de filtração foram examinados nos websites respectivos em outubro, 2000.</p>
+
+<p><br /></p>
+<p><b>URL Rewrite Rules</b> - <a href="%admin_url%&amp;Action=Rewrite">Editar</a></p>
+

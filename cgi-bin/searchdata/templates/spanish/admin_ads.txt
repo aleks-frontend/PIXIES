@@ -1,0 +1,54 @@
+%AdminForm%
+<input type="hidden" name="Action" value="AdPage" />
+<input type="hidden" name="SA" value="save-ads" />
+<p>Usted tiene un total de %total_ads% anuncios definido, y %total_positions% de 4 posiciones activadas.</p>
+<p><b>Definir Anuncios</b></p>
+<blockquote>
+	<p>Para crear un nuevo anuncio, pegue el texto de HTML del anuncio en una de las áreas de texto aquí debajo marcada "Nuevo Anuncio".</p>
+	<p>Para anular un anuncio, borre el texto de HTML que le corresponde.</p>
+	%HTML_BLOCK_1%
+	<input type="submit" class="submit" value="Save Advertisements" />
+	<p><br /></p>
+</blockquote>
+</form>
+<% if HTML_BLOCK_2 %>
+	<p><b>View Advertisements</b></p>
+	<p>If the entire page does not display properly, then there may be an HTML error in one of your advertisements. In that case, check the HTML code above to make sure that all quotes, brackets, and HTML tags are properly closed.</p>
+	<blockquote>
+		%HTML_BLOCK_2%
+	</blockquote>
+<% end if %>
+%AdminForm%
+<input type="hidden" name="Action" value="AdPage" />
+<input type="hidden" name="SA" value="save-pos" />
+<p><b>Seleccione Posición del Anuncio</b></p>
+<blockquote>
+<table border="1" cellspacing="1" cellpadding="2" bgcolor="#6699cc">
+<tr><td width="400" bgcolor="#ffffff"><font color="#888888">&lt;HTML&gt;<br />&lt;BODY ...&gt;</font><br /><br />
+<table align="center" border="1" cellspacing="0" bgcolor="#cccccc" width="200"><tr><td bgcolor="#ccffff" align="center"><b>1. <input type="checkbox" name="adplace1" value="1" /> Coloque El Anuncio Aquí</b></td></tr></table>
+<br />
+<table align="center" border="1" cellspacing="0" cellpadding="4" bgcolor="#cccccc" width="300"><tr><td bgcolor="#ffffdd" align="center"><input type="checkbox" name="sfp1" value="1" /><input type="hidden" name="sfp1_udav" value="0" /> &nbsp; <u>foo &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;</u> [ Búsqueda ]</td></tr></table>
+<br />
+<font color="#888888">Su busqueda de <i>foo</i> resulto en 15 emparejamientos...</font><br /><br />
+<table align="center" border="1" cellspacing="0" bgcolor="#cccccc" width="200"><tr><td bgcolor="#ccffff" align="center"><b>2. <input type="checkbox" name="adplace2" value="1" /> Coloque El Anuncio Aquí</b></td></tr></table>
+<br />
+<font color="#888888"><b>1. Pagina Principal De Foo.com</b><br />Quis est iste rex gloriae Dominus exercituum ipse est rex gloriae semper!<br />http://www.foo.com/ - 16kb - 3 Jan 2000<br /><br />
+<b>1. Pagina Principal De Foo.com</b><br />Quis est iste rex gloriae Dominus exercituum ipse est rex gloriae semper!<br />http://www.foo.com/ - 16kb - 3 Jan 2000<br /><br />
+...</font><br />
+<table align="center" border="1" cellspacing="0" bgcolor="#cccccc" width="200"><tr><td bgcolor="#ccffff" align="center"><b>3. <input type="checkbox" name="adplace3" value="1" /> Coloque El Anuncio Aquí</b></td></tr></table>
+<br />
+<table align="center" border="1" cellspacing="0" cellpadding="4" bgcolor="#cccccc" width="300"><tr><td bgcolor="#ffffdd" align="center"><input type="checkbox" name="sfp2" value="1" /><input type="hidden" name="sfp2_udav" value="0" /> &nbsp; <u>foo &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;</u> [ Búsqueda ]</td></tr></table>
+<br />
+<table align="center" border="1" cellspacing="0" bgcolor="#cccccc" width="200"><tr><td bgcolor="#ccffff" align="center"><b>4. <input type="checkbox" name="adplace4" value="1" /> Coloque El Anuncio Aquí</b></td></tr></table>
+<br />
+<font color="#888888">&lt;/BODY&gt;<br />&lt;/HTML&gt;</font></td></tr></table>
+	<p><br /></p>
+	<input type="submit" class="submit" value="Save Positions" />
+	<p><br /></p>
+</blockquote><br />
+</form>
+<p><b>Reajuste el Registro de Publicidad</b></p>
+<blockquote>
+	<p>Este programa no pierde de vista la fecha del comienzo de un anuncio, y el número de impresiones desde la fecha del comienzo. Para reajustar las fechas y las cuentas, <a href="%admin_url%&amp;Action=AdPage&amp;SA=RC" onclick="return confirm('Are you sure you want to reset usage data?');">clic aquí</a>.  Todas las fechas de comienzo se convertirán en la fecha de hoy, y el conteo será fijado a cero.</p>
+</blockquote><br />
+<p><b><a href="%help_file%#advertising">Tópicos de Ayuda - Anuncios</a></b></p>

@@ -1,0 +1,23 @@
+php_flag log_errors on
+php_value error_log syslog
+php_value memory_limit 48M
+
+order allow,deny
+deny from 218.63.95
+deny from 64.113.64
+deny from 91.96.51
+deny from 91.96.47
+deny from 125.90.86.93
+deny from 65.31.63.141
+deny from 172.206.204.126
+deny from 87.240.66.50
+deny from 87.17.240.177
+allow from all
+
+#RewriteEngine on
+#RewriteCond %{SCRIPT_FILENAME} \.php$
+#RewriteCond %{HTTP_HOST} ^(.*)(:80|[^0-9])$
+#RewriteCond %{HTTP_HOST} ^(.*)(:80|)$
+#RewriteRule (.*) http://%1:81%{REQUEST_URI} [R,L]
+
+ErrorDocument 404 /404_error.html

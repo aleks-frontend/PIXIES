@@ -1,0 +1,119 @@
+<p><br /></p>
+
+<p><b>Lenguaje y configuraciones Local</b></p>
+<blockquote>
+
+	<p>Estas configuraciones controlan el lenguaje para la pagina de administración y la pagina de búsqueda.</p>
+
+	<table border="1" cellpadding="4" cellspacing="1">
+	<tr>
+		<th>Configuración</th>
+		<th>Opciones</th>
+	</tr>
+	<tr class="fdtan" valign="top">
+		<td align="right"><b>Lenguaje:</b></td>
+		<td>%html_language_options%</td>
+	</tr>
+	<tr class="fdtan" valign="top">
+		<td align="right"><b>Formato De Número:</b></td>
+		<td>
+			<input type="radio" name="ui: number format" value="0" /> 2.345.123,99 Americano<br />
+			<input type="radio" name="ui: number format" value="1" /> 2,345,123.99 Europeo / otro<br />
+		</td>
+	</tr>
+	<tr class="fdtan" valign="top">
+		<td align="right"><b>Formato De Fecha:</b></td>
+		<td>
+			<input type="radio" name="ui: date format" value="0" /> 01/11/2001 08:03:02 PM<br />
+			<input type="radio" name="ui: date format" value="1" /> Jueves, 11 de Enero del 2001<br />
+			<input type="radio" name="ui: date format" value="2" /> 01/11/2001<br />
+			<input type="radio" name="ui: date format" value="10" /> Jueves 11/01/2001 08:03:02 P.M.<br />
+			<input type="radio" name="ui: date format" value="11" /> Jueves 11 de Enero del 2001 20:03:02 -0000<br />
+			<input type="radio" name="ui: date format" value="12" /> 2001-01-11 20:03:02<br />
+			<input type="radio" name="ui: date format" value="13" /> Jueves 11 de Enero 11 del 2001 20:03:02<br />
+			<input type="radio" name="ui: date format" value="14" /> 01/11/2001 20:03<br />
+		</td>
+	</tr>
+	</table>
+
+	<p><input type="submit" class="submit" value="Guardar Datos" /></p>
+
+	<p>También Vea: <a href="%admin_url%&amp;Action=UserInterface&amp;subaction=viewmap"><b>Configuración de Conversion de Caracteres</b></a></p>
+
+
+</blockquote>
+</form>
+
+<p><br /></p>
+
+<p><b>Forma HTML para Buscar - Avanzado</b></p>
+<blockquote>
+
+	<p>Corte y pegue este código de HTML para crear una forma de búsqueda en todas sus paginas del Web.</p>
+
+	<p>(Usted puede desear poner al día el HTML siempre que usted cree un nuevo reino.)</p>
+
+	<p><tt><textarea name="search_code" rows="10" cols="90"></textarea></tt></p>
+
+	<p><b>Ejemplo:</b></p>
+
+	%html_search_code%
+
+</blockquote>
+
+<p><br /></p>
+
+<p><b>Forma HTML para Buscar - Simple</b></p>
+<blockquote>
+
+	<p>Corte y pegue este código de HTML para crear una forma simple de  búsqueda. Todas las búsquedas indagaran todos los reinos.</p>
+
+	<p><tt><textarea name="simple_code" rows="5" cols="90"></textarea></tt></p>
+
+	<p><b>Ejemplo:</b></p>
+
+	%html_simple_code%
+
+</blockquote>
+
+<p><br /></p>
+
+<p><b>Conectando Directamente a los Resultados de Búsqueda</b></p>
+<blockquote>
+
+	<p>Para ensartar los resultados directamente, utilice este sintaxis.  Note que los espacios son remplazados con "%20":</p>
+
+	<p><tt><textarea name="link_code" rows="2" cols="90"></textarea></tt></p>
+
+	<p><b>Ejemplo:</b></p>
+
+	%html_link_code%
+
+</blockquote>
+
+<p><br /></p>
+
+<p><b>Avanzado: Editar Modelos</b></p>
+
+<blockquote>
+
+	<p>La apariencia y el sentir de este Motor de Búsqueda es controlado principalmente por los modelos de HTML, que usted puede modificar según sus necesidades.</p>
+
+	<table border="1" cellpadding="4" cellspacing="1">
+	<tr>
+		<th>Nombre</th>
+		<th>Lenguaje</th>
+		<th>Descripción</th>
+	</tr>
+	%html_templates%
+	</table>
+
+	<p>Haga clic en el nombre del modelo para editarle.</p>
+
+	<p><b>Ayuda:</b> <a href="%help_file%1103.html" target="_blank">Lista de todos los variables disponibles</a></p>
+	<p><b>Ayuda:</b> <a href="%help_file%1096.html" target="_blank">Como utilizar declaraciones condicionales en los modelos</a></p>
+
+</blockquote>
+
+<p><br /></p>
+

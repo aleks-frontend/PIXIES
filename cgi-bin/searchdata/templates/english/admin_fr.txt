@@ -1,0 +1,76 @@
+<p><b>Using Rules to Manage Content</b></p>
+<p>There are many web pages out there, and not all are useful or appropriate to your target audience. Rules-based administration helps control the quality of information in your index file.</p>
+<p>The Fluid Dynamics Search Engine provides the following tools to manage content:</p>
+<ol>
+	<li><p>You may forbid your anonymous visitors from adding their own URL's. Most "garbage" submissions come from visitors.</p></li>
+	<li><p>If visitors are allowed to add, you can require that all their additions be approved by you first.</p></li>
+	<li><p>For all pages - submitted by visitors and administrators - you can search for certain strings in the hostname, URL, or document. Based on these searches, you can deny the document, allow it, or save it for administrator review and approval later. See the Filter Rules section.</p></li>
+	<li><p>You can parse the pages for tags that describe their level of adult-oriented content, and take action based on the level found. See the PICS section.</p></li>
+</ol>
+<p><br /></p>
+<p><b>General Settings</b></p>
+<blockquote>
+	<table border="0">
+	<tr>
+		<td><input type="checkbox" name="allowanonadd" value="1" /></td>
+		<td>Allow visitors to add web pages to the index (must have at least one Open Realm) [<a href="%help_file%1072.html">Help</a>]</td>
+	</tr>
+	<tr>
+		<td><input type="radio" name="require anon approval" value="1" /></td>
+		<td>Require administrator approval of every visitor-added web page.</td>
+	</tr>
+	<tr>
+		<td><input type="radio" name="require anon approval" value="0" /></td>
+		<td>Require administrator approval only of those pages singled out by "Require Approval" Filter Rules (defined below).</td>
+	</tr>
+	<tr>
+		<td><input type="checkbox" name="allowanonadd: notify admin" value="1" /></td>
+		<td>Send email to administrator whenever someone adds a URL (must supply email settings on Personal Settings page)</td>
+	</tr>
+	<tr>
+		<td><input type="checkbox" name="allowanonadd: require user email" value="1" /></td>
+		<td>Require that users include a valid email address when submitting a new URL.</td>
+	</tr>
+	<tr>
+		<td><input type="checkbox" name="allowanonadd: log" value="1" /></td>
+		<td>Save a copy of all visitor-added web pages (and visitor email addresses) to submissions.csv</td>
+	</tr>
+	</table>
+	<p><input type="submit" class="submit" value="Save Data" /></p>
+</blockquote>
+<p><br /></p>
+<p><b>Filter Rules</b> - <a href="%admin_url%&amp;Action=FilterRules&amp;subaction=create_edit_rule">Create New Rule</a></p>
+<table border="1" cellpadding="4" cellspacing="1">
+<tr>
+	<th align="left" colspan="2">Enable / Name</th>
+	<th colspan="2">Actions</th>
+	<th>Action</th>
+</tr>
+%HTML_BLOCK_1%
+</table>
+<blockquote>
+	<p><input type="submit" class="submit" value="Save Data" /></p>
+</blockquote>
+<p><br /></p>
+<p><b>Filtering based on the Platform for Internet Content Selection (PICS)</b></p>
+<p>Looking for PICS tags is a helpful tool in filtering out adult content, because many adult sites have voluntarily tagged their content. It is not foolproof, since index-spammers can easily remove their PICS tags to be allowed in.</p>
+<p>There are many PICS-related options. Use a checkbox to enable one of the implementations, and the options will be displayed.</p>
+<p><input type="checkbox" name="pics_rasci_enable" value="1" /> <b>Internet Content Rating Association (RASCi)</b> implementation (use checkbox to enable/disable)</p>
+<blockquote>%HTML_BLOCK_2%<br /></blockquote>
+<p><input type="checkbox" name="pics_ss_enable" value="1" /> <b>Safe Surf</b> implementation (use checkbox to enable/disable)</p>
+<blockquote>%HTML_BLOCK_3%<br /></blockquote>
+<blockquote>
+	<p><input type="submit" class="submit" value="Save Data" /></p>
+</blockquote>
+<p><br /></p>
+<p>Fluid Dynamics has no affilication with the W3, RASCI, or SafeSurf.com. More information is available on their sites:</p>
+<ul>
+	<li><a href="http://www.w3.org/PICS/" target="_top">Platform for Internet Content Selection</a> (PICS)</li>
+	<li><a href="http://www.icra.org/" target="_top">Internet Content Rating Association</a> (RASCi)</li>
+	<li><a href="http://www.safesurf.com/" target="_top">SafeSurf.com</a></li>
+</ul>
+<p>The text descriptions for each filtering level were taken from the respective websites in October, 2000.</p>
+
+<p><br /></p>
+<p><b>URL Rewrite Rules</b> - <a href="%admin_url%&amp;Action=Rewrite">Edit</a></p>
+
